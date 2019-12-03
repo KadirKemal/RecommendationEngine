@@ -1,0 +1,1001 @@
+no,id,listingType,type,parentType,price,currency,basePrice,baseCurrency,roomCount,livingRoomCount,roomSlug,size,cityId,cityName,countyId,countyName,districtId,districtName
+313000,1916893,Sale,Cafe / Restoran / Bar,İşyeri,775000,TRY,775000,TRY,,,,350,10423,Aydın,10909,Nazilli,10964,İsabeyli
+313001,2275807,Sale,Daire,Konut,139000,TRY,139000,TRY,2,1,2 + 1,95,1,İstanbul,229,Beylikdüzü,232,Cumhuriyet
+313002,1665451,Rent,Daire,Konut,1500,TRY,1500,TRY,2,1,2 + 1,90,1,İstanbul,703,Sarıyer,705,Tarabya
+313003,1785806,Sale,Müstakil Ev,Konut,3130000,TRY,3130000,TRY,9,5,9 + 5,450,32637,Muğla,32746,Fethiye,32753,Foça
+313004,1213354,Rent,Daire,Konut,1300,TRY,1300,TRY,3,1,3 + 1,135,1,İstanbul,78,Bağcılar,80,Mahmutbey
+313005,2198684,Sale,Daire,Konut,1100000,TRY,1100000,TRY,5,1,5 + 1,600,5092,Bursa,5776,Nilüfer,5832,Özlüce
+313006,1559175,Sale,Bahçe,Arsa,135000,TRY,135000,TRY,,,,550,35966,Sakarya,36472,Kaynarca,36499,Topçu
+313007,1128805,Sale,Daire,Konut,235000,TRY,235000,TRY,3,1,3 + 1,130,36701,Samsun,36803,Atakum,36826,Yenimahalle
+313008,1840875,Rent,Daire,Konut,1250,TRY,1250,TRY,3,1,3 + 1,115,2554,İzmir,3071,Gaziemir,3082,Irmak
+313009,1486570,Sale,Daire,Konut,230000,TRY,230000,TRY,2,1,2 + 1,92,32637,Muğla,32746,Fethiye,32754,Patlangıç
+313010,2275950,Sale,Daire,Konut,127000,TRY,127000,TRY,2,1,2 + 1,80,1,İstanbul,67,Avcılar,69,Cihangir
+313011,1995936,Rent,Daire,Konut,500,TRY,500,TRY,3,1,3 + 1,140,3960,Antalya,4684,Korkuteli,4694,Karşıyaka
+313012,1891423,Rent,Dükkan / Mağaza,İşyeri,1700,TRY,1700,TRY,1,1,1 + 1,60,1,İstanbul,580,Kartal,592,Cumhuriyet
+313013,1480371,Sale,Daire,Konut,150000,TRY,150000,TRY,3,1,3 + 1,118,6253,Kocaeli,6357,Gebze,6369,Kirazpınar
+313014,2121427,Sale,Daire,Konut,214000,TRY,214000,TRY,3,1,3 + 1,160,20173,Gaziantep,20627,Şahinbey,20811,Güneykent
+313015,2025513,Sale,Konut İmarlı,Arsa,190000,TRY,190000,TRY,,,,1750,6253,Kocaeli,6704,Kartepe,6765,Serinlik
+313016,1899010,Sale,Daire,Konut,95000,TRY,95000,TRY,3,1,3 + 1,125,8229,Afyonkarahisar,8669,Afyonkarahisar Merkez,72339,Kayadibi
+313017,1713111,Rent,Daire,Konut,1650,TRY,1650,TRY,2,1,2 + 1,80,1,İstanbul,963,Üsküdar,972,Ferah
+313018,805093,Sale,Dükkan / Mağaza,İşyeri,130000,TRY,130000,TRY,,,,40,1012,Ankara,2419,Sincan,2449,Tandoğan
+313019,2228232,Rent,Daire,Konut,1750,TRY,1750,TRY,3,1,3 + 1,120,2554,İzmir,3366,Konak,3450,Zafertepe
+313020,1465959,Sale,Villa,Konut,1250000,TRY,1250000,TRY,7,2,7 + 2,350,41649,Trabzon,42456,Ortahisar,42535,Akyazı
+313021,1917166,Sale,Dükkan / Mağaza,İşyeri,495000,TRY,495000,TRY,,,,61,10423,Aydın,10831,Kuşadası,10844,Yavansu
+313022,1803190,Sale,Daire,Konut,210000,TRY,210000,TRY,3,1,3 + 1,125,35966,Sakarya,35967,Adapazarı,35990,Korucuk
+313023,1988770,Rent,Villa,Konut,11000,TRY,11000,TRY,6,2,6 + 2,475,1,İstanbul,66134,Eyüpsultan,66199,Göktürk Merkez
+313024,2119308,Sale,Daire,Konut,228000,TRY,228000,TRY,3,1,3 + 1,175,25014,Kayseri,25245,Kocasinan,25348,Erkilet Dere
+313025,2158927,Rent,Villa,Konut,22000,TRY,22000,TRY,4,1,4 + 1,300,2554,İzmir,2957,Çeşme,2978,Şifne
+313026,2253855,Sale,Daire,Konut,165000,TRY,165000,TRY,2,1,2 + 1,95,40596,Tekirdağ,40626,Çorlu,40635,Nusratiye
+313027,1639054,Sale,Tarla,Arsa,650000,TRY,650000,TRY,,,,4600,5092,Bursa,5927,Orhangazi,5963,Cihanköy
+313028,1535246,Rent,Sanal & Hazır Ofis,İşyeri,1800,TRY,1800,TRY,,,,10,1,İstanbul,49,Ataşehir,50,Küçükbakkalköy
+313029,1292129,Sale,Daire,Konut,304000,TRY,304000,TRY,2,1,2 + 1,100,1,İstanbul,580,Kartal,582,Cevizli
+313030,1992039,Sale,Rezidans,Konut,839500,TRY,839500,TRY,3,1,3 + 1,150,2554,İzmir,2860,Bornova,2866,Merkez
+313031,1775400,Sale,Sanayi İmarlı,Arsa,1350000,TRY,1350000,TRY,,,,3530,40596,Tekirdağ,40950,Süleymanpaşa,40961,Zafer
+313032,1865419,Rent,Villa,Konut,30000,TRY,30000,TRY,3,1,3 + 1,120,2554,İzmir,2957,Çeşme,2965,Cumhuriyet
+313033,1467656,Sale,Villa,Konut,1100000,TRY,1100000,TRY,3,1,3 + 1,120,32637,Muğla,32638,Bodrum,58747,Karabağ
+313034,1947962,Sale,Müstakil Ev,Konut,130000,TRY,130000,TRY,2,1,2 + 1,120,25014,Kayseri,25091,Develi,25094,Aşık Seyrani
+313035,2228226,Sale,Daire,Konut,380000,TRY,380000,TRY,2,1,2 + 1,120,1,İstanbul,229,Beylikdüzü,236,Adnan Kahveci
+313036,2272788,Sale,Yazlık,Konut,390000,TRY,390000,TRY,4,1,4 + 1,150,10423,Aydın,10831,Kuşadası,10855,Güzelçamlı
+313037,2153898,Sale,Daire,Konut,180000,TRY,180000,TRY,3,1,3 + 1,160,23133,Kahramanmaraş,23817,Onikişubat,64502,Tekerek
+313038,1653370,Sale,Daire,Konut,470000,TRY,470000,TRY,2,1,2 + 1,82,1,İstanbul,963,Üsküdar,979,Beylerbeyi
+313039,1788846,Sale,Daire,Konut,170000,TRY,170000,TRY,1,1,1 + 1,45,8229,Afyonkarahisar,8669,Afyonkarahisar Merkez,70934,Erenler
+313040,1557468,Sale,Daire,Konut,522000,TRY,522000,TRY,4,1,4 + 1,185,29689,Manisa,30838,Yunusemre,30858,Güzelyurt
+313041,1864016,Sale,Daire,Konut,149000,TRY,149000,TRY,2,1,2 + 1,115,1,İstanbul,229,Beylikdüzü,232,Cumhuriyet
+313042,1569544,Sale,Daire,Konut,251000,TRY,251000,TRY,2,1,2 + 1,160,5092,Bursa,5969,Osmangazi,6021,Yunuseli
+313043,2294074,Sale,Dükkan / Mağaza,İşyeri,299000,TRY,299000,TRY,,,,90,6253,Kocaeli,6320,Derince,6326,İbnisina
+313044,2297071,Sale,Villa,Konut,365000,TRY,365000,TRY,3,1,3 + 1,150,10423,Aydın,10831,Kuşadası,10842,Kadınlar Denizi
+313045,819769,Sale,Daire,Konut,350000,TRY,350000,TRY,2,2,2 + 2,125,1,İstanbul,101,Bahçelievler,108,Siyavuşpaşa
+313046,1218579,Sale,Daire,Konut,439000,TRY,439000,TRY,3,1,3 + 1,145,5092,Bursa,5969,Osmangazi,6057,Soğanlı
+313047,2295609,Sale,Dükkan / Mağaza,İşyeri,89900,TRY,89900,TRY,,,,45,32637,Muğla,32706,Dalaman,32707,Merkez
+313048,2142565,Sale,Villa,Konut,380000,TRY,380000,TRY,3,1,3 + 1,200,3960,Antalya,4065,Alanya,4197,Konaklı
+313049,782379,Sale,Daire,Konut,195000,TRY,195000,TRY,3,1,3 + 1,130,1012,Ankara,1041,Altındağ,1077,Yıldıztepe
+313050,1544432,Sale,Daire,Konut,360000,TRY,360000,TRY,3,1,3 + 1,160,41649,Trabzon,42456,Ortahisar,42527,2 Nolu Bostancı
+313051,1537555,Sale,Daire,Konut,500000,TRY,500000,TRY,3,1,3 + 1,90,32637,Muğla,32638,Bodrum,32685,Gündoğan
+313052,1967969,Rent,Daire,Konut,1100,TRY,1100,TRY,3,1,3 + 1,165,25014,Kayseri,25366,Melikgazi,25448,Köşk
+313053,1585055,Rent,Daire,Konut,750,TRY,750,TRY,2,1,2 + 1,65,5092,Bursa,5776,Nilüfer,74388,Dumlupınar
+313054,1593382,Sale,Daire,Konut,270000,TRY,270000,TRY,3,1,3 + 1,175,9494,Aksaray,9593,Aksaray Merkez,71005,Hasas
+313055,1723897,Sale,Daire,Konut,320000,TRY,320000,TRY,3,1,3 + 1,145,36701,Samsun,36803,Atakum,36826,Yenimahalle
+313056,1734074,Sale,Daire,Konut,125500,TRY,125500,TRY,1,1,1 + 1,50,8229,Afyonkarahisar,8669,Afyonkarahisar Merkez,70156,Marulcu
+313057,2038088,Sale,Villa,Konut,725000,TRY,725000,TRY,3,1,3 + 1,150,10423,Aydın,10576,Didim,10586,Mavişehir
+313058,2070295,Rent,Daire,Konut,1900,TRY,1900,TRY,3,1,3 + 1,140,1,İstanbul,625,Maltepe,639,Çınar
+313059,1473389,Sale,Bahçe,Arsa,90000,TRY,90000,TRY,,,,600,25014,Kayseri,25691,Talas,25697,Endürlük
+313060,1755559,Rent,Dükkan / Mağaza,İşyeri,2750,TRY,2750,TRY,,,,280,10423,Aydın,10576,Didim,10583,Çamlık
+313061,2280523,Rent,Daire,Konut,1400,TRY,1400,TRY,2,1,2 + 1,80,1,İstanbul,560,Kağıthane,572,Hürriyet
+313062,2002906,Sale,Daire,Konut,225000,TRY,225000,TRY,2,1,2 + 1,98,1,İstanbul,682,Sancaktepe,696,Mevlana
+313063,581165,Sale,Daire,Konut,1100000,TRY,1100000,TRY,3,1,3 + 1,130,1,İstanbul,537,Kadıköy,541,Suadiye
+313064,1283853,Sale,Daire,Konut,155000,TRY,155000,TRY,3,1,3 + 1,120,1012,Ankara,1565,Etimesgut,1572,Süvari
+313065,1942549,Rent,Daire,Konut,1300,TRY,1300,TRY,4,1,4 + 1,170,6253,Kocaeli,6320,Derince,6322,Çenedağ
+313066,1256533,Sale,Daire,Konut,950000,TRY,950000,TRY,5,1,5 + 1,210,1,İstanbul,537,Kadıköy,543,Merdivenköy
+313067,722011,Sale,Daire,Konut,280000,TRY,280000,TRY,3,1,3 + 1,130,5092,Bursa,6182,Yıldırım,6200,Kaplıkaya
+313068,2181725,Sale,Daire,Konut,1250000,TRY,1250000,TRY,5,1,5 + 1,250,1012,Ankara,1322,Çankaya,1357,Bahçelievler
+313069,1801826,Sale,Daire,Konut,300000,TRY,300000,TRY,3,1,3 + 1,135,32637,Muğla,32638,Bodrum,32688,İslamhaneleri
+313070,1644842,Sale,Daire,Konut,154900,TRY,154900,TRY,2,1,2 + 1,97,3960,Antalya,4816,Manavgat,4857,Yayla
+313071,1803833,Rent,Daire,Konut,550,TRY,550,TRY,2,1,2 + 1,100,1,İstanbul,394,Esenyurt,74543,Bağlarçeşme
+313072,2045653,Rent,Daire,Konut,800,TRY,800,TRY,1,1,1 + 1,80,1,İstanbul,887,Sultangazi,895,İsmetpaşa
+313073,1720810,Rent,Rezidans,Konut,6960,TRY,6960,TRY,4,1,4 + 1,220,1012,Ankara,1322,Çankaya,1410,Güzeltepe
+313074,1851162,Sale,Daire,Konut,100000,TRY,100000,TRY,3,1,3 + 1,125,5092,Bursa,5637,Mustafakemalpaşa,5720,Yunus Emre
+313075,2229619,Rent,Daire,Konut,1250,TRY,1250,TRY,2,1,2 + 1,145,1,İstanbul,644,Pendik,647,Esenyalı
+313076,1934150,Sale,Daire,Konut,170000,TRY,170000,TRY,2,1,2 + 1,100,1,İstanbul,131,Başakşehir,136,Güvercintepe
+313077,1714987,Rent,Daire,Konut,1500,TRY,1500,TRY,4,1,4 + 1,120,15241,Denizli,15759,Pamukkale,15828,15 Mayıs
+313078,2126332,Rent,Daire,Konut,4250,TRY,4250,TRY,3,1,3 + 1,192,2554,İzmir,2860,Bornova,2878,Kazımdirik
+313079,2146533,Rent,Daire,Konut,11000,TRY,11000,TRY,3,1,3 + 1,175,6826,Adana,7623,Yüreğir,7730,Akdeniz
+313080,1905733,Rent,Daire,Konut,1700,TRY,1700,TRY,5,1,5 + 1,170,1,İstanbul,229,Beylikdüzü,234,Kavaklı
+313081,2094181,Rent,Daire,Konut,1450,TRY,1450,TRY,2,1,2 + 1,70,1,İstanbul,963,Üsküdar,991,Mimar Sinan
+313082,1460160,Sale,Daire,Konut,175000,TRY,175000,TRY,2,1,2 + 1,90,29689,Manisa,30838,Yunusemre,30855,Barbaros
+313083,1858429,Sale,Daire,Konut,149999,TRY,149999,TRY,2,1,2 + 1,100,1,İstanbul,229,Beylikdüzü,232,Cumhuriyet
+313084,1652595,Sale,Daire,Konut,155000,TRY,155000,TRY,2,1,2 + 1,100,1,İstanbul,229,Beylikdüzü,232,Cumhuriyet
+313085,2249597,Rent,Daire,Konut,2750,TRY,2750,TRY,1,1,1 + 1,68,1,İstanbul,580,Kartal,594,Kordonboyu
+313086,1657149,Sale,Daire,Konut,155000,TRY,155000,TRY,2,1,2 + 1,80,6826,Adana,7452,Seyhan,7545,Emek
+313087,2238272,Sale,Tarla,Arsa,175000,TRY,175000,TRY,,,,414,1,İstanbul,314,Çatalca,317,Çakıl
+313088,1817067,Sale,Daire,Konut,140000,TRY,140000,TRY,2,1,2 + 1,85,40596,Tekirdağ,40880,Şarköy,40882,Cumhuriyet
+313089,2256574,Rent,Daire,Konut,1350,TRY,1350,TRY,2,1,2 + 1,85,1,İstanbul,560,Kağıthane,573,Merkez
+313090,1624929,Sale,Daire,Konut,129000,TRY,129000,TRY,3,1,3 + 1,145,40596,Tekirdağ,40626,Çorlu,40643,Reşadiye
+313091,2253158,Rent,Daire,Konut,2300,TRY,2300,TRY,2,2,2 + 2,120,1,İstanbul,560,Kağıthane,562,Çeliktepe
+313092,1707924,Sale,Daire,Konut,765000,TRY,765000,TRY,4,2,4 + 2,190,1,İstanbul,963,Üsküdar,976,Ünalan
+313093,1509231,Sale,Daire,Konut,165000,TRY,165000,TRY,3,1,3 + 1,120,29689,Manisa,30695,Turgutlu,30717,Yiğitler
+313094,1386542,Sale,Daire,Konut,315000,TRY,315000,TRY,2,1,2 + 1,105,1,İstanbul,887,Sultangazi,898,Yunus Emre
+313095,892711,Sale,Bağ,Arsa,245000,TRY,245000,TRY,,,,576,36701,Samsun,36803,Atakum,36808,Büyükoyumca
+313096,2197775,Rent,Ofis,İşyeri,2500,TRY,2500,TRY,2,1,2 + 1,70,1,İstanbul,182,Beykoz,183,Kavacık
+313097,2027453,Sale,Villa,Konut,1550000,TRY,1550000,TRY,5,1,5 + 1,750,5092,Bursa,5583,Mudanya,5623,Mürsel
+313098,2248617,Sale,Daire,Konut,160000,TRY,160000,TRY,2,1,2 + 1,110,1,İstanbul,8,Arnavutköy,17,Fatih
+313099,2259052,Rent,Daire,Konut,1000,TRY,1000,TRY,2,1,2 + 1,115,1,İstanbul,229,Beylikdüzü,233,Gürpınar
+313100,1526746,Sale,Daire,Konut,155000,TRY,155000,TRY,2,1,2 + 1,105,29689,Manisa,30838,Yunusemre,30854,Atatürk
+313101,1864472,Sale,Daire,Konut,450000,TRY,450000,TRY,3,1,3 + 1,140,5092,Bursa,5776,Nilüfer,5819,Cumhuriyet
+313102,1951685,Rent,Daire,Konut,1000,TRY,1000,TRY,1,1,1 + 1,65,9494,Aksaray,9593,Aksaray Merkez,70277,Aratol İstiklal
+313103,1587566,Sale,Daire,Konut,99999,TRY,99999,TRY,2,1,2 + 1,111,1,İstanbul,742,Şile,748,Ahmetli
+313104,2026737,Sale,Daire,Konut,185000,TRY,185000,TRY,2,1,2 + 1,120,1012,Ankara,1322,Çankaya,1381,Metin Oktay
+313105,1766978,Sale,Tarla,Arsa,49000,TRY,49000,TRY,,,,1675,26208,Kırklareli,26267,Kofçaz,51925,Malkoçlar Köyü
+313106,2056898,Rent,Daire,Konut,2500,TRY,2500,TRY,2,1,2 + 1,75,32637,Muğla,32638,Bodrum,32641,Kumbahçe
+313107,1905815,Sale,Konut İmarlı,Arsa,365000,TRY,365000,TRY,,,,193,14264,Çanakkale,14321,Biga,14327,Şirintepe
+313108,2006000,Sale,Daire,Konut,315000,TRY,315000,TRY,3,1,3 + 1,175,25014,Kayseri,25245,Kocasinan,25263,Beşparmak
+313109,1987890,Rent,Daire,İşyeri,5750,TRY,5750,TRY,3,1,3 + 1,165,1,İstanbul,537,Kadıköy,553,Feneryolu
+313110,2190012,Rent,Daire,Konut,1500,TRY,1500,TRY,3,1,3 + 1,145,1,İstanbul,229,Beylikdüzü,233,Gürpınar
+313111,1988711,Sale,Daire,Konut,360000,TRY,360000,TRY,3,1,3 + 1,156,1,İstanbul,131,Başakşehir,137,Kayabaşı
+313112,1712566,Daily Rent,Daire,Konut,75,TRY,75,TRY,2,1,2 + 1,90,5092,Bursa,5969,Osmangazi,6026,Santral Garaj
+313113,1757115,Rent,Daire,Konut,1500,TRY,1500,TRY,2,1,2 + 1,100,1,İstanbul,625,Maltepe,633,Feyzullah
+313114,2233960,Rent,Daire,Konut,700,TRY,700,TRY,2,1,2 + 1,105,10423,Aydın,11113,Efeler,11131,Meşrutiyet
+313115,2275954,Sale,Daire,Konut,335000,TRY,335000,TRY,3,1,3 + 1,145,34286,Ordu,35185,Altınordu,35228,Karşıyaka
+313116,1529123,Sale,Daire,Konut,380000,TRY,380000,TRY,3,1,3 + 1,175,25014,Kayseri,25366,Melikgazi,25455,Yıldırım Beyazıt
+313117,1342282,Rent,Dükkan / Mağaza,İşyeri,48000,TRY,48000,TRY,,,,200,1,İstanbul,537,Kadıköy,553,Feneryolu
+313118,1639145,Sale,Daire,Konut,265000,TRY,265000,TRY,2,1,2 + 1,90,1,İstanbul,887,Sultangazi,895,İsmetpaşa
+313119,1594725,Sale,Daire,Konut,450000,TRY,450000,TRY,5,2,5 + 2,270,5092,Bursa,5583,Mudanya,5587,Güzelyalı Burgaz
+313120,1568699,Sale,Daire,Konut,420000,TRY,420000,TRY,2,1,2 + 1,95,1,İstanbul,926,Ümraniye,942,Elmalıkent
+313121,2052706,Sale,Daire,Konut,250000,TRY,250000,TRY,1,1,1 + 1,75,1,İstanbul,742,Şile,745,Çavuş
+313122,2213932,Sale,Daire,Konut,460000,TRY,460000,TRY,5,1,5 + 1,220,31676,Mersin,32049,Mezitli,32062,Akdeniz
+313123,2127968,Rent,Daire,Konut,650,TRY,650,TRY,1,1,1 + 1,59,1,İstanbul,871,Sultanbeyli,876,Battalgazi
+313124,2085812,Sale,Daire,Konut,650000,TRY,650000,TRY,3,1,3 + 1,140,1,İstanbul,67,Avcılar,70,Denizköşkler
+313125,1699284,Sale,Daire,Konut,150000,TRY,150000,TRY,2,1,2 + 1,100,1,İstanbul,229,Beylikdüzü,232,Cumhuriyet
+313126,1512860,Sale,Daire,Konut,399000,TRY,399000,TRY,4,1,4 + 1,185,1012,Ankara,1912,Keçiören,1918,Etlik
+313127,1553368,Sale,Daire,Konut,295000,TRY,295000,TRY,3,1,3 + 1,122,1,İstanbul,682,Sancaktepe,691,Fatih
+313128,1843218,Sale,Daire,Konut,500000,TRY,500000,TRY,4,2,4 + 2,170,1,İstanbul,963,Üsküdar,969,Bulgurlu
+313129,1658515,Rent,Daire,Konut,750,TRY,750,TRY,2,1,2 + 1,100,36701,Samsun,36803,Atakum,36818,Cumhuriyet
+313130,1845059,Rent,Daire,Konut,850,TRY,850,TRY,3,1,3 + 1,115,8229,Afyonkarahisar,8669,Afyonkarahisar Merkez,72878,Cumhuriyet
+313131,2005776,Sale,Daire,Konut,183000,TRY,183000,TRY,2,1,2 + 1,95,11210,Balıkesir,11609,Edremit,11640,Akçay
+313132,1734705,Rent,Depo / Antrepo,İşyeri,2000,TRY,2000,TRY,,,,100,1,İstanbul,537,Kadıköy,542,Hasanpaşa
+313133,1488011,Sale,Daire,Konut,345000,TRY,345000,TRY,4,1,4 + 1,185,1012,Ankara,1912,Keçiören,1918,Etlik
+313134,2012342,Sale,Daire,Konut,339000,TRY,339000,TRY,4,1,4 + 1,210,1012,Ankara,2326,Pursaklar,2347,Mimar Sinan
+313135,1722714,Rent,Daire,Konut,12750,TRY,12750,TRY,3,1,3 + 1,185,6826,Adana,6995,Çukurova,7001,Huzurevleri
+313136,2242407,Sale,Daire,Konut,410000,TRY,410000,TRY,3,1,3 + 1,200,40596,Tekirdağ,40950,Süleymanpaşa,41023,Hürriyet
+313137,1482614,Rent,Daire,Konut,900,TRY,900,TRY,2,1,2 + 1,130,31676,Mersin,31885,Erdemli,31967,Merkez
+313138,1785971,Rent,Daire,Konut,1200,TRY,1200,TRY,2,1,2 + 1,100,2554,İzmir,2907,Buca,2908,Adatepe
+313139,1278731,Sale,Daire,Konut,260000,TRY,260000,TRY,3,1,3 + 1,155,44190,Zonguldak,44415,Ereğli,44417,Kepez
+313140,824675,Sale,Köşk / Konak / Yalı,Konut,9825000,TRY,9825000,TRY,6,3,6 + 3,400,3960,Antalya,4641,Konyaaltı,4652,Uncalı
+313141,2020857,Rent,Daire,Konut,975,TRY,975,TRY,2,1,2 + 1,100,14264,Çanakkale,14532,Çanakkale Merkez,70407,Kepez Bld. (Boğazkent)
+313142,1526422,Rent,Daire,Konut,1450,TRY,1450,TRY,3,1,3 + 1,130,1,İstanbul,625,Maltepe,626,Küçükyalı
+313143,1657890,Sale,Villa,Konut,660000,TRY,660000,TRY,4,1,4 + 1,260,2554,İzmir,3480,Menderes,3502,Mithatpaşa
+313144,1731084,Sale,Daire,Konut,730000,TRY,730000,TRY,4,2,4 + 2,185,1,İstanbul,144,Bayrampaşa,152,Muratpaşa
+313145,1761775,Rent,Daire,Konut,2250,TRY,2250,TRY,1,1,1 + 1,65,2554,İzmir,2589,Balçova,2593,Onur
+313146,88634,Sale,Villa,Konut,2100000,TRY,2100000,TRY,5,2,5 + 2,324,1,İstanbul,131,Başakşehir,140,Bahçeşehir 1. Kısım
+313147,2096327,Sale,Daire,Konut,225000,TRY,225000,TRY,2,1,2 + 1,90,1,İstanbul,101,Bahçelievler,106,Hürriyet
+313148,1806876,Sale,Villa,Konut,450000,TRY,450000,TRY,3,1,3 + 1,153,6253,Kocaeli,6788,Körfez,6799,İlimtepe
+313149,1565807,Sale,Daire,Konut,255000,TRY,255000,TRY,3,1,3 + 1,140,32637,Muğla,33102,Ortaca,33106,Atatürk
+313150,1777024,Sale,Villa,Konut,575000,TRY,575000,TRY,3,1,3 + 1,150,10423,Aydın,10831,Kuşadası,10853,Davutlar
+313151,1918250,Rent,Daire,Konut,2800,TRY,2800,TRY,2,1,2 + 1,70,1,İstanbul,843,Şişli,859,Gülbahar
+313152,717012,Sale,Daire,Konut,134000,TRY,134000,TRY,2,1,2 + 1,95,1012,Ankara,1322,Çankaya,1349,Harbiye
+313153,1258534,Sale,Daire,Konut,450000,TRY,450000,TRY,3,1,3 + 1,120,1012,Ankara,1322,Çankaya,1397,Mutlukent
+313154,1734927,Sale,Daire,Konut,499000,TRY,499000,TRY,4,1,4 + 1,185,1012,Ankara,1912,Keçiören,1918,Etlik
+313155,1987707,Rent,Müstakil Ev,Konut,600,TRY,600,TRY,2,1,2 + 1,90,6253,Kocaeli,6704,Kartepe,6778,Köseköy
+313156,2132389,Rent,Atölye,İşyeri,3100,TRY,3100,TRY,,,,200,1,İstanbul,78,Bağcılar,74390,Fevzi Çakmak
+313157,898824,Sale,Daire,Konut,215000,TRY,215000,TRY,2,1,2 + 1,80,1,İstanbul,601,Küçükçekmece,605,Cumhuriyet
+313158,1916074,Rent,Daire,Konut,900,TRY,900,TRY,2,1,2 + 1,90,1,İstanbul,355,Çekmeköy,365,Güngören
+313159,1984383,Rent,Daire,Konut,1500,TRY,1500,TRY,2,1,2 + 1,75,1,İstanbul,241,Beyoğlu,280,Tomtom
+313160,2127782,Sale,Daire,Konut,355000,TRY,355000,TRY,3,1,3 + 1,145,1012,Ankara,2482,Yenimahalle,2506,Güventepe
+313161,1746261,Sale,Daire,Konut,130000,TRY,130000,TRY,1,0,1 + 0,115,12672,Batman,12834,Batman Merkez,70105,Kültür
+313162,2009908,Sale,Daire,Konut,400000,TRY,400000,TRY,5,1,5 + 1,240,1,İstanbul,625,Maltepe,637,Zümrütevler
+313163,1664214,Sale,Daire,Konut,215000,TRY,215000,TRY,2,1,2 + 1,85,2554,İzmir,3183,Karşıyaka,3205,Zübeyde Hanım
+313164,1673411,Rent,Daire,Konut,850,TRY,850,TRY,1,1,1 + 1,65,1012,Ankara,1322,Çankaya,1346,Kavaklıdere
+313165,1812794,Rent,Daire,Konut,1000,TRY,1000,TRY,3,1,3 + 1,175,36701,Samsun,36803,Atakum,36819,Esenevler
+313166,1649203,Sale,Villa,Konut,265000,TRY,265000,TRY,3,1,3 + 1,200,10423,Aydın,10576,Didim,10586,Mavişehir
+313167,2115813,Sale,Daire,Konut,240000,TRY,240000,TRY,3,1,3 + 1,175,38033,Şanlıurfa,39364,Karaköprü,59422,Doğukent
+313168,1761089,Sale,Daire,Konut,110000,TRY,110000,TRY,2,1,2 + 1,100,20173,Gaziantep,20627,Şahinbey,20805,Küçükkızılhisar
+313169,1921333,Sale,Villa,Konut,495000,TRY,495000,TRY,4,2,4 + 2,240,32637,Muğla,33132,Ula,33137,Demirtaş
+313170,1416213,Rent,Daire,Konut,1550,TRY,1550,TRY,1,1,1 + 1,95,10423,Aydın,10831,Kuşadası,10832,Türkmen
+313171,2039648,Rent,Daire,Konut,1200,TRY,1200,TRY,3,1,3 + 1,170,1,İstanbul,887,Sultangazi,895,İsmetpaşa
+313172,1682575,Rent,Dükkan / Mağaza,İşyeri,1250,TRY,1250,TRY,,,,25,6253,Kocaeli,6455,İzmit,6541,Hacıhızır
+313173,1805237,Sale,Daire,Konut,150000,TRY,150000,TRY,1,1,1 + 1,70,36701,Samsun,36803,Atakum,36826,Yenimahalle
+313174,1476421,Sale,Daire,Konut,325000,TRY,325000,TRY,3,1,3 + 1,120,1,İstanbul,625,Maltepe,634,Fındıklı
+313175,94383,Sale,Rezidans,Konut,1175000,TRY,1175000,TRY,3,1,3 + 1,183,1,İstanbul,131,Başakşehir,139,Ziya Gökalp
+313176,1644040,Sale,Dükkan / Mağaza,İşyeri,175000,TRY,175000,TRY,,,,40,18260,Erzurum,19480,Yakutiye,74501,Lalapaşa
+313177,2258627,Sale,Daire,Konut,155000,TRY,155000,TRY,2,1,2 + 1,90,3960,Antalya,4574,Kepez,4601,Hüsnü Karakaş
+313178,1634000,Sale,Daire,Konut,680000,TRY,680000,TRY,4,1,4 + 1,150,1,İstanbul,560,Kağıthane,567,Ortabayır
+313179,1750455,Sale,Konut İmarlı,Arsa,100000,TRY,100000,TRY,,,,244,40596,Tekirdağ,40846,Saray,40861,Büyükyoncalı
+313180,1596693,Sale,Daire,Konut,380000,TRY,380000,TRY,3,1,3 + 1,165,6253,Kocaeli,6455,İzmit,6537,Kozluk
+313181,1457960,Sale,Daire,Konut,168000,TRY,168000,TRY,3,1,3 + 1,135,1,İstanbul,871,Sultanbeyli,882,Mimar Sinan
+313182,2234139,Sale,Daire,Konut,200000,TRY,200000,TRY,2,1,2 + 1,160,31676,Mersin,32049,Mezitli,32056,Kaleköy
+313183,1743710,Sale,Daire,Konut,410000,TRY,410000,TRY,4,1,4 + 1,160,35966,Sakarya,36419,Karasu,36471,Yenidoğan
+313184,1535317,Rent,Daire,Konut,800,TRY,800,TRY,2,1,2 + 1,95,1,İstanbul,394,Esenyurt,413,Yeşilkent
+313185,1633553,Sale,Daire,Konut,258000,TRY,258000,TRY,2,1,2 + 1,90,1,İstanbul,887,Sultangazi,893,Esentepe
+313186,1801109,Rent,Dükkan / Mağaza,İşyeri,6500,TRY,6500,TRY,,,,135,1,İstanbul,101,Bahçelievler,108,Siyavuşpaşa
+313187,2288683,Sale,Çiftlik,Arsa,85000,TRY,85000,TRY,,,,5225,11210,Balıkesir,12217,Susurluk,12246,Ömerköy
+313188,759093,Sale,Daire,Konut,250000,TRY,250000,TRY,5,1,5 + 1,220,1012,Ankara,2071,Mamak,2097,Fahri Korutürk
+313189,1669639,Sale,Daire,Konut,360000,TRY,360000,TRY,4,2,4 + 2,175,1,İstanbul,8,Arnavutköy,33,Anadolu
+313190,1729563,Rent,Daire,Konut,1000,TRY,1000,TRY,2,1,2 + 1,80,1,İstanbul,355,Çekmeköy,360,Hamidiye
+313191,1942671,Rent,Daire,Konut,900,TRY,900,TRY,1,1,1 + 1,60,1012,Ankara,1322,Çankaya,1421,Barbaros
+313192,1904378,Sale,Villa,Konut,580000,TRY,580000,TRY,4,1,4 + 1,200,11210,Balıkesir,11609,Edremit,11650,Güre
+313193,1729035,Rent,Dükkan / Mağaza,İşyeri,2850,TRY,2850,TRY,,,,100,1,İstanbul,843,Şişli,852,Meşrutiyet
+313194,2027969,Sale,Daire,Konut,140000,TRY,140000,TRY,2,1,2 + 1,112,1,İstanbul,394,Esenyurt,401,Akçaburgaz
+313195,1650648,Sale,Zeytinlik,Arsa,300000,TRY,300000,TRY,,,,1409,5092,Bursa,5583,Mudanya,5609,Çepni
+313196,2119623,Rent,Daire,Konut,1600,TRY,1600,TRY,3,1,3 + 1,165,6826,Adana,6995,Çukurova,7005,Mahfesığmaz
+313197,1494893,Rent,Villa,Konut,6000,TRY,6000,TRY,4,1,4 + 1,199,1,İstanbul,703,Sarıyer,708,Zekeriyaköy
+313198,1688801,Rent,Daire,Konut,800,TRY,800,TRY,2,1,2 + 1,75,1,İstanbul,101,Bahçelievler,74749,Yenibosna Merkez
+313199,725912,Sale,Daire,Konut,485000,TRY,485000,TRY,3,1,3 + 1,250,2554,İzmir,2989,Çiğli,74810,Ataşehir
+313200,1517692,Sale,Daire,Konut,290000,TRY,290000,TRY,2,1,2 + 1,110,3960,Antalya,4641,Konyaaltı,4645,Hurma
+313201,1630511,Sale,Daire,Konut,205000,TRY,205000,TRY,3,1,3 + 1,115,6253,Kocaeli,6305,Darıca,74309,Kazım Karabekir
+313202,1566280,Sale,Daire,Konut,205000,TRY,205000,TRY,3,1,3 + 1,105,1012,Ankara,2482,Yenimahalle,2547,25 Mart
+313203,1657451,Rent,Daire,Konut,800,TRY,800,TRY,3,1,3 + 1,150,6253,Kocaeli,6788,Körfez,6796,Fatih
+313204,2058319,Rent,Daire,Konut,600,TRY,600,TRY,2,1,2 + 1,100,36701,Samsun,36803,Atakum,36822,İstiklal
+313205,1714514,Sale,Daire,Konut,127000,TRY,127000,TRY,2,1,2 + 1,90,26630,Konya,27935,Selçuklu,28018,Akıncılar
+313206,1153239,Sale,Daire,Konut,110000,TRY,110000,TRY,3,1,3 + 1,130,44190,Zonguldak,44415,Ereğli,44416,Bağlık
+313207,637779,Sale,Daire,Konut,305000,TRY,305000,TRY,3,1,3 + 1,175,3960,Antalya,4816,Manavgat,53799,Ilıca
+313208,1486318,Sale,Daire,Konut,450000,TRY,450000,TRY,3,1,3 + 1,127,2554,İzmir,3088,Güzelbahçe,3097,Yelki
+313209,2192612,Sale,Konut İmarlı,Arsa,115000,TRY,115000,TRY,,,,151,40596,Tekirdağ,40810,Marmaraereğlisi,40820,Yeniçiftlik
+313210,769558,Sale,Dükkan / Mağaza,İşyeri,450000,TRY,450000,TRY,,,,275,15241,Denizli,15957,Merkezefendi,15960,Akkonak
+313211,1468812,Sale,Daire,Konut,325000,TRY,325000,TRY,2,2,2 + 2,160,1,İstanbul,887,Sultangazi,891,Cebeci
+313212,1254203,Rent,Rezidans,Konut,3900,TRY,3900,TRY,1,1,1 + 1,3900,1,İstanbul,843,Şişli,847,Esentepe
+313213,2251542,Rent,Villa,Konut,55000,TRY,55000,TRY,4,1,4 + 1,439,32637,Muğla,32638,Bodrum,44714,Dirmil
+313214,1909855,Sale,Daire,Konut,227000,TRY,227000,TRY,2,1,2 + 1,110,40596,Tekirdağ,40597,Çerkezköy,40600,Bağlık
+313215,1729190,Sale,Daire,Konut,565000,TRY,565000,TRY,3,1,3 + 1,125,1,İstanbul,78,Bağcılar,79,Güneşli
+313216,2047290,Sale,Daire,Konut,205000,TRY,205000,TRY,2,1,2 + 1,90,2554,İzmir,2907,Buca,2939,Ufuk
+313217,2077969,Sale,Daire,Konut,50000,TRY,50000,TRY,2,1,2 + 1,95,6253,Kocaeli,6357,Gebze,6363,Cumhuriyet
+313218,1981187,Sale,Konut İmarlı,Arsa,77500,TRY,77500,TRY,,,,135,5092,Bursa,5138,Gemlik,5146,Gençali
+313219,1420576,Sale,Daire,Konut,350000,TRY,350000,TRY,3,1,3 + 1,140,44190,Zonguldak,44415,Ereğli,44478,Orhanlar
+313220,1234269,Sale,Daire,Konut,220000,TRY,220000,TRY,3,1,3 + 1,135,31676,Mersin,31885,Erdemli,31898,Kızkalesi
+313221,1831027,Sale,Daire,Konut,192000,TRY,192000,TRY,2,1,2 + 1,135,25014,Kayseri,25245,Kocasinan,25277,Mimarsinan
+313222,2140325,Rent,Daire,Konut,1000,TRY,1000,TRY,2,1,2 + 1,80,36701,Samsun,36803,Atakum,36826,Yenimahalle
+313223,1334501,Sale,Tarla,Arsa,1995000,TRY,1995000,TRY,,,,62500,5092,Bursa,5413,Karacabey,5485,Hayırlar
+313224,1691601,Rent,Daire,Konut,6000,TRY,6000,TRY,2,1,2 + 1,160,1,İstanbul,156,Beşiktaş,158,Levent
+313225,1410053,Sale,Daire,Konut,190000,TRY,190000,TRY,4,1,4 + 1,180,3960,Antalya,4947,Muratpaşa,4982,Konuksever
+313226,1919594,Sale,Daire,Konut,480000,TRY,480000,TRY,3,1,3 + 1,145,1012,Ankara,2482,Yenimahalle,2509,İnönü
+313227,1778340,Sale,Villa,Konut,1300000,TRY,1300000,TRY,3,1,3 + 1,135,32637,Muğla,32638,Bodrum,32702,Yalıkavak
+313228,1341359,Sale,Daire,Konut,185000,TRY,185000,TRY,3,1,3 + 1,135,24690,Kastamonu,24853,Kastamonu Merkez,70528,İnönü
+313229,1080392,Sale,Ev Ofis,İşyeri,17100000,TRY,17100000,TRY,,,,400,1,İstanbul,843,Şişli,845,Teşvikiye
+313230,1783859,Rent,Rezidans,Konut,850,TRY,850,TRY,1,1,1 + 1,60,10423,Aydın,10831,Kuşadası,10849,Değirmendere
+313231,1543827,Sale,Tarla,Arsa,175000,TRY,175000,TRY,,,,9200,26208,Kırklareli,26209,Babaeski,75079,Erikleryurdu Köyü
+313232,1924161,Sale,Daire,Konut,135000,TRY,135000,TRY,3,1,3 + 1,120,1012,Ankara,1912,Keçiören,1938,Hisar
+313233,2119032,Sale,Daire,Konut,153000,TRY,153000,TRY,1,1,1 + 1,50,14264,Çanakkale,14532,Çanakkale Merkez,70108,İsmetpaşa
+313234,1746781,Sale,Daire,Konut,420000,TRY,420000,TRY,2,1,2 + 1,70,32637,Muğla,32638,Bodrum,32702,Yalıkavak
+313235,2146080,Sale,Daire,Konut,169000,TRY,169000,TRY,1,1,1 + 1,55,29689,Manisa,30838,Yunusemre,30858,Güzelyurt
+313236,328899,Sale,Yazlık,Konut,400000,TRY,400000,TRY,3,1,3 + 1,120,2554,İzmir,3729,Seferihisar,3739,Tepecik
+313237,2122931,Rent,Komple Bina,İşyeri,4500,TRY,4500,TRY,,,,475,5092,Bursa,5969,Osmangazi,6029,Çekirge
+313238,2116275,Sale,Rezidans,Konut,997000,TRY,997000,TRY,2,1,2 + 1,110,1,İstanbul,703,Sarıyer,704,Maslak
+313239,1451796,Rent,Daire,Konut,650,TRY,650,TRY,2,1,2 + 1,100,1,İstanbul,67,Avcılar,73,Üniversite
+313240,2040670,Rent,Dükkan / Mağaza,İşyeri,1250,TRY,1250,TRY,,,,270,3960,Antalya,4574,Kepez,4632,Varsak Karşıyaka
+313241,2247366,Rent,Daire,Konut,1099,TRY,1099,TRY,2,1,2 + 1,90,1,İstanbul,144,Bayrampaşa,151,İsmet Paşa
+313242,1460904,Sale,Daire,Konut,345000,TRY,345000,TRY,2,1,2 + 1,90,1,İstanbul,67,Avcılar,69,Cihangir
+313243,1574518,Sale,Daire,Konut,520000,TRY,520000,TRY,3,2,3 + 2,140,1,İstanbul,926,Ümraniye,934,Atatürk
+313244,1134860,Sale,Daire,Konut,155000,TRY,155000,TRY,2,1,2 + 1,110,40596,Tekirdağ,40597,Çerkezköy,40606,Yıldırım Beyazıt
+313245,1299025,Rent,Daire,Konut,1350,TRY,1350,TRY,1,1,1 + 1,48,1,İstanbul,601,Küçükçekmece,603,Atakent
+313246,1705674,Sale,Daire,Konut,92000,TRY,92000,TRY,3,1,3 + 1,85,1012,Ankara,2071,Mamak,2082,Aşık Veysel
+313247,1971567,Sale,Daire,Konut,200000,TRY,200000,TRY,3,1,3 + 1,125,3960,Antalya,4816,Manavgat,53799,Ilıca
+313248,2217307,Rent,Daire,Konut,750,TRY,750,TRY,2,1,2 + 1,100,3960,Antalya,4947,Muratpaşa,4999,Yüksekalan
+313249,1983698,Rent,Daire,Konut,750,TRY,750,TRY,2,1,2 + 1,60,10423,Aydın,10909,Nazilli,10911,Karaçay
+313250,1590127,Rent,Daire,Konut,1200,TRY,1200,TRY,2,1,2 + 1,80,1,İstanbul,560,Kağıthane,569,Seyrantepe
+313251,2252821,Sale,Villa,Konut,850000,TRY,850000,TRY,3,1,3 + 1,135,11210,Balıkesir,11211,Ayvalık,11216,Sefa Çamlık
+313252,1977544,Sale,Daire,Konut,200000,TRY,200000,TRY,1,1,1 + 1,50,6253,Kocaeli,6455,İzmit,6550,Çukurbağ
+313253,2185930,Sale,Daire,Konut,250000,TRY,250000,TRY,3,1,3 + 1,120,10423,Aydın,10576,Didim,10587,Yeni
+313254,1721235,Sale,Daire,Konut,230000,TRY,230000,TRY,2,1,2 + 1,90,40596,Tekirdağ,40626,Çorlu,40628,Alipaşa
+313255,2216261,Sale,Daire,Konut,185000,TRY,185000,TRY,2,1,2 + 1,120,26630,Konya,26665,Akşehir,26677,İstasyon
+313256,1401228,Sale,Daire,Konut,290000,TRY,290000,TRY,2,1,2 + 1,75,1,İstanbul,601,Küçükçekmece,603,Atakent
+313257,1908643,Rent,Daire,Konut,800,TRY,800,TRY,3,1,3 + 1,140,40100,Sivas,40310,Sivas Merkez,71999,Ece
+313258,1888728,Sale,Daire,Konut,209000,TRY,209000,TRY,3,1,3 + 1,165,6826,Adana,6995,Çukurova,7001,Huzurevleri
+313259,2146706,Sale,Daire,Konut,320000,TRY,320000,TRY,2,1,2 + 1,110,3960,Antalya,4065,Alanya,4087,Mahmutlar
+313260,2258023,Rent,Daire,Konut,900,TRY,900,TRY,4,1,4 + 1,220,35287,Osmaniye,35463,Osmaniye Merkez,71087,Alibeyli
+313261,1664701,Sale,Daire,Konut,169000,TRY,169000,TRY,1,1,1 + 1,55,11210,Balıkesir,12382,Karesi,12396,Paşa Alanı
+313262,774669,Sale,Daire,Konut,550000,TRY,550000,TRY,4,1,4 + 1,197,1,İstanbul,131,Başakşehir,140,Bahçeşehir 1. Kısım
+313263,1252362,Sale,Daire,Konut,155000,TRY,155000,TRY,1,0,1 + 0,43,1,İstanbul,394,Esenyurt,47433,Barbaros Hayrettin Paşa
+313264,1617285,Sale,Daire,Konut,175000,TRY,175000,TRY,3,1,3 + 1,110,1012,Ankara,1912,Keçiören,1938,Hisar
+313265,1913343,Sale,Konut İmarlı,Arsa,90000,TRY,90000,TRY,,,,535,17102,Düzce,17250,Düzce Merkez,70116,Sallar
+313266,1769108,Rent,Daire,Konut,400,TRY,400,TRY,1,1,1 + 1,75,24121,Karaman,24214,Karaman Merkez,68989,Yunuskent
+313267,2068732,Sale,Daire,Konut,990000,TRY,990000,TRY,2,1,2 + 1,110,1,İstanbul,537,Kadıköy,538,Göztepe
+313268,1591595,Sale,Daire,Konut,210000,TRY,210000,TRY,2,1,2 + 1,110,13752,Bolu,13823,Bolu Merkez,70857,Sağlık
+313269,1454941,Sale,Dükkan / Mağaza,İşyeri,1443000,TRY,1443000,TRY,,,,111,1,İstanbul,394,Esenyurt,45468,Mehmet Akif Ersoy
+313270,736867,Sale,Rezidans,Konut,350000,TRY,350000,TRY,2,1,2 + 1,135,1,İstanbul,394,Esenyurt,45926,Gökevler
+313271,2096205,Sale,Daire,Konut,380000,TRY,380000,TRY,3,1,3 + 1,160,29689,Manisa,30838,Yunusemre,30858,Güzelyurt
+313272,1529412,Rent,Daire,Konut,1450,TRY,1450,TRY,2,1,2 + 1,146,6253,Kocaeli,6305,Darıca,6308,Bayramoğlu
+313273,2171244,Sale,Dükkan / Mağaza,İşyeri,400000,TRY,400000,TRY,,,,280,14264,Çanakkale,14532,Çanakkale Merkez,70451,Cevat Paşa
+313274,1616299,Sale,Daire,Konut,525000,TRY,525000,TRY,2,1,2 + 1,125,1,İstanbul,355,Çekmeköy,360,Hamidiye
+313275,1887815,Sale,Daire,Konut,275000,TRY,275000,TRY,3,1,3 + 1,155,17102,Düzce,17250,Düzce Merkez,70134,Cumhuriyet
+313276,2165037,Sale,Komple Bina,Konut,392000,TRY,392000,TRY,4,1,4 + 1,145,8229,Afyonkarahisar,8669,Afyonkarahisar Merkez,70921,Selçuklu
+313277,1209802,Rent,Daire,Konut,2000,TRY,2000,TRY,3,1,3 + 1,130,1,İstanbul,601,Küçükçekmece,603,Atakent
+313278,1810459,Sale,Daire,Konut,97000,TRY,97000,TRY,2,1,2 + 1,95,1,İstanbul,887,Sultangazi,898,Yunus Emre
+313279,1527475,Rent,Daire,Konut,2800,TRY,2800,TRY,3,1,3 + 1,150,2554,İzmir,3071,Gaziemir,3079,Gazi
+313280,1681817,Sale,Daire,Konut,210000,TRY,210000,TRY,3,1,3 + 1,145,17102,Düzce,17250,Düzce Merkez,72186,Beyciler
+313281,1916591,Sale,Rezidans,Konut,390000,TRY,390000,TRY,3,1,3 + 1,120,10423,Aydın,10831,Kuşadası,10833,İkiçeşmelik
+313282,2107175,Sale,Daire,Konut,160000,TRY,160000,TRY,2,1,2 + 1,65,5092,Bursa,5776,Nilüfer,74521,Görükle
+313283,2056838,Sale,Yazlık,Konut,370000,TRY,370000,TRY,4,1,4 + 1,200,10423,Aydın,10831,Kuşadası,10855,Güzelçamlı
+313284,2133705,Sale,Daire,Konut,120000,TRY,120000,TRY,2,1,2 + 1,95,36701,Samsun,37367,İlkadım,37386,Selahiye
+313285,1660221,Sale,Daire,Konut,550000,TRY,550000,TRY,2,1,2 + 1,120,2554,İzmir,3366,Konak,3370,Akın Simav
+313286,1012156,Sale,Dükkan / Mağaza,İşyeri,1750000,TRY,1750000,TRY,,,,50,1,İstanbul,843,Şişli,864,Merkez
+313287,1883326,Rent,Ofis,İşyeri,1750,TRY,1750,TRY,3,2,3 + 2,200,1,İstanbul,644,Pendik,652,Velibaba
+313288,556482,Sale,Villa,Konut,3650000,TRY,3650000,TRY,5,2,5 + 2,380,3960,Antalya,4641,Konyaaltı,4647,Liman
+313289,1587854,Sale,Daire,Konut,140000,TRY,140000,TRY,3,1,3 + 1,135,34018,Niğde,34149,Niğde Merkez,70043,İlhanlı
+313290,2296367,Sale,Daire,Konut,1400000,TRY,1400000,TRY,3,1,3 + 1,129,1,İstanbul,537,Kadıköy,552,Fenerbahçe
+313291,1656414,Sale,Rezidans,Konut,530000,TRY,530000,TRY,4,1,4 + 1,230,6826,Adana,6995,Çukurova,7001,Huzurevleri
+313292,1640662,Sale,Daire,Konut,325000,TRY,325000,TRY,3,1,3 + 1,250000,11210,Balıkesir,11609,Edremit,65531,Altınkum
+313293,1188265,Sale,Daire,Konut,1350000,TRY,1350000,TRY,3,1,3 + 1,160,1,İstanbul,537,Kadıköy,545,Bostancı
+313294,1931323,Sale,Daire,Konut,200000,TRY,200000,TRY,4,1,4 + 1,190,1,İstanbul,229,Beylikdüzü,231,Büyükşehir
+313295,686768,Sale,Daire,Konut,2500000,TRY,2500000,TRY,4,1,4 + 1,165,1,İstanbul,113,Bakırköy,116,Yeşilköy
+313296,2155923,Sale,Daire,Konut,380000,TRY,380000,TRY,3,1,3 + 1,120,8229,Afyonkarahisar,8669,Afyonkarahisar Merkez,70921,Selçuklu
+313297,1551257,Sale,Daire,Konut,145000,TRY,145000,TRY,2,1,2 + 1,115,1012,Ankara,1912,Keçiören,1949,Osmangazi
+313298,1119475,Sale,Daire,Konut,450000,TRY,450000,TRY,4,2,4 + 2,170,1,İstanbul,887,Sultangazi,891,Cebeci
+313299,2080529,Sale,Daire,Konut,225000,TRY,225000,TRY,2,1,2 + 1,98,10423,Aydın,10831,Kuşadası,10832,Türkmen
+313300,1507203,Sale,Tarla,Arsa,139000,TRY,139000,TRY,,,,52450,29689,Manisa,30083,Gördes,30114,Doğanpınar
+313301,1650432,Sale,Daire,Konut,350000,TRY,350000,TRY,2,1,2 + 1,110,15241,Denizli,15957,Merkezefendi,15960,Akkonak
+313302,2211576,Rent,Daire,Konut,2500,TRY,2500,TRY,4,1,4 + 1,200,2554,İzmir,3071,Gaziemir,3083,Sevgi
+313303,1301180,Sale,Daire,Konut,350000,TRY,350000,TRY,3,1,3 + 1,115,2554,İzmir,3366,Konak,3369,Altıntaş
+313304,1744126,Sale,Daire,Konut,275000,TRY,275000,TRY,3,1,3 + 1,120,1012,Ankara,1912,Keçiören,1918,Etlik
+313305,1792959,Rent,Dükkan / Mağaza,İşyeri,3000,TRY,3000,TRY,,,,110,1,İstanbul,66134,Eyüpsultan,66184,Güzeltepe
+313306,746211,Sale,Daire,Konut,900000,TRY,900000,TRY,3,1,3 + 1,135,1,İstanbul,66134,Eyüpsultan,66199,Göktürk Merkez
+313307,1385521,Sale,Çiftlik,Arsa,750000,TRY,750000,TRY,,,,3348,39689,Sinop,39791,Sinop Merkez,67107,Demirci Köyü
+313308,2148039,Rent,Daire,Konut,1650,TRY,1650,TRY,3,1,3 + 1,145,2554,İzmir,3071,Gaziemir,3082,Irmak
+313309,2173568,Rent,Ofis,İşyeri,300,TRY,300,TRY,1,0,1 + 0,45,1,İstanbul,525,Güngören,530,Abdurrahman Nafiz Gürman
+313310,1836759,Sale,Bahçe,Arsa,200000,TRY,200000,TRY,,,,4500,15241,Denizli,15886,Tavas,15939,Pınarlık
+313311,1827238,Sale,Yazlık,Konut,775000,TRY,775000,TRY,3,1,3 + 1,300,31676,Mersin,31885,Erdemli,31899,Tömük
+313312,2105847,Sale,Daire,Konut,239000,TRY,239000,TRY,3,1,3 + 1,175,6826,Adana,6995,Çukurova,7010,Yurt
+313313,1801877,Sale,Bağ,Arsa,205000,TRY,205000,TRY,,,,1758,25014,Kayseri,25366,Melikgazi,25437,Gesi Güney
+313314,2276293,Sale,Villa,Konut,260000,TRY,260000,TRY,3,1,3 + 1,264,21797,Hatay,22019,Dörtyol,22057,Yeşilköy
+313315,1696087,Rent,Daire,Konut,850,TRY,850,TRY,2,1,2 + 1,65,1,İstanbul,926,Ümraniye,935,Çakmak
+313316,1711009,Rent,Dükkan / Mağaza,İşyeri,1500,TRY,1500,TRY,,,,65,3960,Antalya,4065,Alanya,4124,Hacet
+313317,2177997,Sale,Daire,Konut,183000,TRY,183000,TRY,2,1,2 + 1,100,1,İstanbul,682,Sancaktepe,700,Yunus Emre
+313318,1724616,Sale,Daire,Konut,390000,TRY,390000,TRY,4,1,4 + 1,125,1,İstanbul,926,Ümraniye,943,Esenevler
+313319,2290420,Sale,Villa,Konut,2100000,TRY,2100000,TRY,4,1,4 + 1,300,3960,Antalya,4641,Konyaaltı,4648,Molla Yusuf
+313320,1713435,Rent,Daire,Konut,1250,TRY,1250,TRY,3,1,3 + 1,135,2554,İzmir,2907,Buca,2918,Buca Koop.
+313321,1081556,Sale,Daire,Konut,395000,TRY,395000,TRY,3,1,3 + 1,145,6253,Kocaeli,6357,Gebze,6374,Osman Yılmaz
+313322,1456863,Sale,Daire,Konut,363000,TRY,363000,TRY,2,1,2 + 1,90,1,İstanbul,49,Ataşehir,60,Esatpaşa
+313323,2263404,Sale,Tarla,Arsa,360000,TRY,360000,TRY,,,,9,13052,Bilecik,13053,Bozüyük,13059,Yediler
+313324,1860199,Sale,Daire,Konut,185000,TRY,185000,TRY,1,1,1 + 1,60,10423,Aydın,10576,Didim,10583,Çamlık
+313325,1454158,Sale,Daire,Konut,240000,TRY,240000,TRY,3,1,3 + 1,145,29689,Manisa,30838,Yunusemre,30858,Güzelyurt
+313326,1777574,Rent,Daire,Konut,1200,TRY,1200,TRY,1,1,1 + 1,50,1,İstanbul,601,Küçükçekmece,603,Atakent
+313327,684638,Sale,Konut İmarlı,Arsa,245000,TRY,245000,TRY,,,,2616,14264,Çanakkale,14265,Ayvacık,63497,Tartışık Köyü
+313328,2107880,Sale,Daire,Konut,430000,TRY,430000,TRY,3,1,3 + 1,192,20173,Gaziantep,20627,Şahinbey,52239,İbn-İ Sina
+313329,2268449,Rent,Daire,Konut,1300,TRY,1300,TRY,2,1,2 + 1,100,1,İstanbul,355,Çekmeköy,367,Mehmet Akif
+313330,2108520,Rent,Daire,Konut,650,TRY,650,TRY,2,1,2 + 1,110,6826,Adana,7381,Sarıçam,7409,Yeşiltepe
+313331,1784856,Rent,Daire,Konut,450,TRY,450,TRY,2,1,2 + 1,70,6253,Kocaeli,6455,İzmit,6485,Akpınar
+313332,2235484,Sale,Daire,Konut,825000,TRY,825000,TRY,4,1,4 + 1,215,1,İstanbul,625,Maltepe,635,İdealtepe
+313333,2136036,Sale,Daire,Konut,127000,TRY,127000,TRY,3,1,3 + 1,145,26630,Konya,26665,Akşehir,26676,Gazi
+313334,1850768,Sale,Daire,Konut,219000,TRY,219000,TRY,3,1,3 + 1,148,1012,Ankara,1565,Etimesgut,1579,Bağlıca
+313335,1683406,Sale,Tarla,Arsa,2850000,TRY,2850000,TRY,,,,6500,32637,Muğla,32638,Bodrum,32648,Bitez
+313336,1655656,Sale,Çok Amaçlı,Arsa,620000,TRY,620000,TRY,,,,1170,31676,Mersin,32049,Mezitli,32053,Davultepe
+313337,1972998,Sale,Daire,Konut,475000,TRY,475000,TRY,2,1,2 + 1,110,2554,İzmir,2589,Balçova,2591,Eğitim
+313338,1824444,Sale,Dükkan / Mağaza,İşyeri,65000,TRY,65000,TRY,,,,20,26630,Konya,27935,Selçuklu,28022,Mehmet Akif
+313339,1720046,Sale,Dükkan / Mağaza,İşyeri,345000,TRY,345000,TRY,,,,100,2554,İzmir,3102,Karabağlar,3104,Basın Sitesi
+313340,2170229,Rent,Daire,Konut,5000,TRY,5000,TRY,2,1,2 + 1,120,1,İstanbul,241,Beyoğlu,267,Kılıçali Paşa
+313341,1553140,Sale,Daire,Konut,250000,TRY,250000,TRY,3,1,3 + 1,145,41649,Trabzon,42456,Ortahisar,42495,2 Nolu Beşirli
+313342,1987084,Rent,Daire,Konut,800,TRY,800,TRY,1,1,1 + 1,60,1,İstanbul,101,Bahçelievler,109,Soğanlı
+313343,2224821,Sale,Daire,Konut,440000,TRY,440000,TRY,5,2,5 + 2,300,36701,Samsun,36803,Atakum,36819,Esenevler
+313344,1551354,Sale,Daire,Konut,210000,TRY,210000,TRY,2,1,2 + 1,126,15241,Denizli,15957,Merkezefendi,15983,Çakmak
+313345,1717462,Rent,Daire,Konut,1100,TRY,1100,TRY,3,1,3 + 1,100,1012,Ankara,2482,Yenimahalle,2501,Ergazi
+313346,1850829,Rent,Daire,Konut,2700,TRY,2700,TRY,3,1,3 + 1,125,1,İstanbul,537,Kadıköy,539,Erenköy
+313347,2019625,Sale,Ofis,İşyeri,610000,TRY,610000,TRY,,,,84,2554,İzmir,2660,Bayraklı,2663,Adalet
+313348,1662798,Rent,Daire,Konut,2500,TRY,2500,TRY,3,1,3 + 1,130,1,İstanbul,963,Üsküdar,976,Ünalan
+313349,1489435,Sale,Villa,Konut,1700000,TRY,1700000,TRY,4,1,4 + 1,220,32637,Muğla,32638,Bodrum,32684,Gümüşlük
+313350,1512060,Sale,Daire,Konut,210000,TRY,210000,TRY,2,1,2 + 1,100,39689,Sinop,39791,Sinop Merkez,66344,Zeytinlik
+313351,1766812,Sale,Villa,Konut,1869000,TRY,1869000,TRY,3,2,3 + 2,300,35966,Sakarya,36595,Sapanca,74417,Kurtköy Yavuzselim
+313352,1598237,Sale,Daire,Konut,258000,TRY,258000,TRY,4,1,4 + 1,207,7732,Adıyaman,8021,Adıyaman Merkez,70280,Yunus Emre
+313353,673757,Rent,Daire,Konut,1250,TRY,1250,TRY,2,1,2 + 1,100,1012,Ankara,1912,Keçiören,1930,Aşağı Eğlence
+313354,1722164,Sale,Daire,Konut,165000,TRY,165000,TRY,1,1,1 + 1,60,10423,Aydın,10831,Kuşadası,10849,Değirmendere
+313355,1323609,Sale,Daire,Konut,150000,TRY,150000,TRY,1,1,1 + 1,50,32637,Muğla,32917,Marmaris,32924,Siteler
+313356,1602451,Rent,Daire,Konut,1200,TRY,1200,TRY,3,1,3 + 1,140,5092,Bursa,5969,Osmangazi,6020,Kükürtlü
+313357,2058394,Rent,Daire,Konut,1400,TRY,1400,TRY,2,1,2 + 1,100,6826,Adana,7452,Seyhan,7481,Namık Kemal
+313358,1985858,Sale,Daire,Konut,100000,TRY,100000,TRY,1,1,1 + 1,60,40596,Tekirdağ,40626,Çorlu,74439,Şeyh Sinan
+313359,2181486,Sale,Daire,Konut,715000,TRY,715000,TRY,3,1,3 + 1,160,3960,Antalya,4641,Konyaaltı,4648,Molla Yusuf
+313360,1892783,Sale,Daire,Konut,350000,TRY,350000,TRY,3,1,3 + 1,110,1012,Ankara,1322,Çankaya,1326,Konutkent
+313361,1827165,Sale,Daire,Konut,130000,TRY,130000,TRY,2,1,2 + 1,90,40596,Tekirdağ,40626,Çorlu,74439,Şeyh Sinan
+313362,665674,Rent,Rezidans,Konut,5200,TRY,5200,TRY,1,1,1 + 1,98,1,İstanbul,156,Beşiktaş,157,Dikilitaş
+313363,1193333,Rent,Daire,Konut,1500,TRY,1500,TRY,3,1,3 + 1,165,41649,Trabzon,42419,Yomra,42441,Kaşüstü
+313364,1774747,Rent,Daire,Konut,850,TRY,850,TRY,1,1,1 + 1,100,6826,Adana,6995,Çukurova,7001,Huzurevleri
+313365,1721712,Sale,Komple Bina,İşyeri,170000,TRY,170000,TRY,,,,2200,35287,Osmaniye,35463,Osmaniye Merkez,67090,Akyar Köyü
+313366,2299495,Sale,Daire,Konut,180000,TRY,180000,TRY,3,1,3 + 1,135,2554,İzmir,3858,Torbalı,3859,Alpkent
+313367,1672266,Rent,Daire,Konut,800,TRY,800,TRY,2,1,2 + 1,100,1,İstanbul,644,Pendik,662,Çamlık
+313368,2224411,Sale,Konut İmarlı,Arsa,270000,TRY,270000,TRY,,,,265,34286,Ordu,34464,Fatsa,34544,Dolunay
+313369,1650801,Sale,Daire,Konut,185000,TRY,185000,TRY,2,1,2 + 1,70,1,İstanbul,67,Avcılar,72,Mustafa Kemal Paşa
+313370,1628704,Sale,Bahçe,Arsa,600000,TRY,600000,TRY,,,,17380,31676,Mersin,31885,Erdemli,31887,Aydınlar
+313371,1792480,Sale,Daire,Konut,147000,TRY,147000,TRY,1,1,1 + 1,85,1,İstanbul,394,Esenyurt,57835,Süleymaniye
+313372,2097115,Sale,Daire,Konut,149000,TRY,149000,TRY,3,1,3 + 1,115,1012,Ankara,1912,Keçiören,1951,Pınarbaşı
+313373,1630845,Rent,Daire,Konut,1400,TRY,1400,TRY,2,1,2 + 1,100,1,İstanbul,101,Bahçelievler,103,Şirinevler
+313374,1903803,Sale,Daire,Konut,280000,TRY,280000,TRY,1,1,1 + 1,67,1,İstanbul,394,Esenyurt,63929,Akevler
+313375,2027458,Sale,Daire,Konut,190000,TRY,190000,TRY,2,1,2 + 1,110,5092,Bursa,5182,Gürsu,5186,İstiklal
+313376,2047694,Sale,Daire,Konut,370000,TRY,370000,TRY,3,1,3 + 1,185,10423,Aydın,11113,Efeler,11119,Adnan Menderes
+313377,2228836,Rent,Daire,Konut,1350,TRY,1350,TRY,3,1,3 + 1,135,5092,Bursa,5969,Osmangazi,6084,Hamitler
+313378,1787048,Sale,Daire,Konut,480000,TRY,480000,TRY,3,1,3 + 1,160,1,İstanbul,887,Sultangazi,900,Eski Habipler
+313379,2034875,Sale,Daire,Konut,24000000,TRY,24000000,TRY,4,1,4 + 1,330,1,İstanbul,156,Beşiktaş,168,Bebek
+313380,1985356,Sale,Daire,Konut,275000,TRY,275000,TRY,1,1,1 + 1,70,1,İstanbul,843,Şişli,846,Mecidiyeköy
+313381,1737660,Sale,Daire,Konut,525000,TRY,525000,TRY,3,1,3 + 1,130,32637,Muğla,32733,Datça,32735,İskele
+313382,1873447,Sale,Daire,Konut,369000,TRY,369000,TRY,3,1,3 + 1,170,1,İstanbul,963,Üsküdar,969,Bulgurlu
+313383,2243310,Sale,Daire,Konut,400000,TRY,400000,TRY,2,1,2 + 1,86,1,İstanbul,644,Pendik,665,Fevzi Çakmak
+313384,1872465,Rent,Daire,Konut,1100,TRY,1100,TRY,1,1,1 + 1,70,1,İstanbul,66134,Eyüpsultan,66156,Silahtarağa
+313385,2037279,Rent,Daire,Konut,1350,TRY,1350,TRY,2,1,2 + 1,100,1,İstanbul,394,Esenyurt,63929,Akevler
+313386,1942965,Sale,Konut İmarlı,Arsa,1500000,TRY,1500000,TRY,,,,400,2554,İzmir,3088,Güzelbahçe,3089,Yalı
+313387,1927754,Sale,Villa,Konut,450000,TRY,450000,TRY,3,1,3 + 1,140,32637,Muğla,32706,Dalaman,32709,Karaçalı
+313388,1823210,Sale,Konut İmarlı,Arsa,410000,TRY,410000,TRY,,,,525,9494,Aksaray,9593,Aksaray Merkez,70137,Çiftlik
+313389,1643573,Sale,Daire,Konut,389000,TRY,389000,TRY,4,1,4 + 1,170,1012,Ankara,2326,Pursaklar,2344,Merkez
+313390,1507525,Rent,Daire,Konut,1200,TRY,1200,TRY,3,1,3 + 1,125,1012,Ankara,1615,Gölbaşı,1618,İncek
+313391,1673725,Sale,Daire,Konut,660000,TRY,660000,TRY,4,1,4 + 1,190,1012,Ankara,1565,Etimesgut,1579,Bağlıca
+313392,705934,Sale,Daire,Konut,830000,TRY,830000,TRY,2,1,2 + 1,129,1,İstanbul,49,Ataşehir,54,Barbaros
+313393,1954723,Sale,Daire,Konut,310000,TRY,310000,TRY,3,1,3 + 1,140,21009,Giresun,21301,Giresun Merkez,70886,Teyyaredüzü
+313394,2266730,Sale,Daire,Konut,368000,TRY,368000,TRY,3,1,3 + 1,145,40596,Tekirdağ,40950,Süleymanpaşa,41023,Hürriyet
+313395,2024242,Rent,Daire,Konut,1350,TRY,1350,TRY,2,1,2 + 1,90,1,İstanbul,448,Fatih,453,Yedikule
+313396,2009455,Sale,Daire,Konut,108000,TRY,108000,TRY,1,1,1 + 1,55,36701,Samsun,36803,Atakum,36823,Körfez
+313397,1807420,Sale,Bahçe,Arsa,220000,TRY,220000,TRY,,,,1000,1012,Ankara,1013,Akyurt,1034,Yeşiltepe
+313398,2123617,Sale,Daire,Konut,245000,TRY,245000,TRY,3,1,3 + 1,125,19584,Eskişehir,20081,Tepebaşı,20144,Ertuğrulgazi
+313399,1790726,Sale,Daire,Konut,270000,TRY,270000,TRY,2,1,2 + 1,120,1,İstanbul,67,Avcılar,68,Ambarlı
+313400,1761728,Rent,Daire,Konut,800,TRY,800,TRY,2,1,2 + 1,95,6253,Kocaeli,6357,Gebze,6361,Barış
+313401,2241206,Sale,Daire,Konut,150000,TRY,150000,TRY,3,1,3 + 1,115,29689,Manisa,29716,Akhisar,29758,Hürriyet
+313402,2294654,Sale,Daire,Konut,320000,TRY,320000,TRY,3,1,3 + 1,180,36701,Samsun,36803,Atakum,36824,Mevlana
+313403,2031512,Sale,Villa,Konut,299000,TRY,299000,TRY,2,1,2 + 1,130,10423,Aydın,10831,Kuşadası,10844,Yavansu
+313404,2074097,Rent,Daire,Konut,800,TRY,800,TRY,2,1,2 + 1,100,3960,Antalya,4947,Muratpaşa,4971,Gebizli
+313405,1827490,Sale,Daire,Konut,180000,TRY,180000,TRY,2,1,2 + 1,85,5092,Bursa,6182,Yıldırım,6227,Yeşil
+313406,1959794,Sale,Daire,Konut,400000,TRY,400000,TRY,2,1,2 + 1,100,11210,Balıkesir,11609,Edremit,11641,Altınoluk
+313407,1119769,Rent,Daire,Konut,800,TRY,800,TRY,2,1,2 + 1,90,2554,İzmir,2660,Bayraklı,2664,Alpaslan
+313408,1352808,Sale,Daire,Konut,280000,TRY,280000,TRY,3,1,3 + 1,130,41649,Trabzon,42456,Ortahisar,42479,Yenicuma
+313409,1258509,Sale,Villa,Konut,2850000,TRY,2850000,TRY,,,,1300,1012,Ankara,1615,Gölbaşı,1617,Karşıyaka
+313410,1961248,Rent,Daire,Konut,500,TRY,500,TRY,2,1,2 + 1,65,35966,Sakarya,35967,Adapazarı,36023,Yenigün
+313411,1590273,Rent,Daire,Konut,2000,TRY,2000,TRY,3,1,3 + 1,144,1,İstanbul,394,Esenyurt,63929,Akevler
+313412,2251227,Sale,Daire,Konut,177000,TRY,177000,TRY,2,1,2 + 1,120,6826,Adana,7381,Sarıçam,7403,Osmangazi
+313413,1813138,Sale,Daire,Konut,50000,TRY,50000,TRY,2,1,2 + 1,105,20173,Gaziantep,20228,İslahiye,20235,Atatürk
+313414,2054049,Rent,Daire,Konut,4500,TRY,4500,TRY,3,1,3 + 1,190,1,İstanbul,66134,Eyüpsultan,66148,Mimar Sinan
+313415,1573313,Rent,Daire,Konut,1900,TRY,1900,TRY,1,1,1 + 1,65,1,İstanbul,843,Şişli,847,Esentepe
+313416,1803961,Sale,Daire,Konut,160000,TRY,160000,TRY,3,1,3 + 1,130,25014,Kayseri,25366,Melikgazi,25437,Gesi Güney
+313417,1825203,Sale,Daire,Konut,900000,TRY,900000,TRY,4,1,4 + 1,170,3960,Antalya,4641,Konyaaltı,4652,Uncalı
+313418,1428053,Sale,Daire,Konut,95000,TRY,95000,TRY,2,1,2 + 1,95,11210,Balıkesir,11304,Bandırma,11320,Dere
+313419,2138568,Sale,Çiftlik Evi,Konut,460000,TRY,460000,TRY,4,1,4 + 1,2800,1012,Ankara,1448,Çubuk,1474,Sünlü
+313420,1055945,Sale,Daire,Konut,415000,TRY,415000,TRY,2,1,2 + 1,90,1,İstanbul,625,Maltepe,633,Feyzullah
+313421,2243417,Sale,Daire,Konut,375000,TRY,375000,TRY,3,1,3 + 1,120,1,İstanbul,560,Kağıthane,564,Gürsel
+313422,1340727,Sale,Daire,Konut,234999,TRY,234999,TRY,3,1,3 + 1,120,2554,İzmir,3480,Menderes,3501,Kemalpaşa
+313423,1660681,Rent,Daire,Konut,450,TRY,450,TRY,2,1,2 + 1,100,15241,Denizli,15759,Pamukkale,15792,Siteler
+313424,1309584,Sale,Daire,Konut,175000,TRY,175000,TRY,2,1,2 + 1,95,43620,Yalova,43684,Yalova Merkez,70315,Bahçelievler
+313425,2263164,Rent,Daire,Konut,850,TRY,850,TRY,3,1,3 + 1,120,6253,Kocaeli,6661,Karamürsel,6690,4 Temmuz
+313426,1743013,Sale,Daire,Konut,227500,TRY,227500,TRY,2,1,2 + 1,130,6826,Adana,7452,Seyhan,7532,Dumlupınar
+313427,1597355,Sale,Daire,Konut,125000,TRY,125000,TRY,2,1,2 + 1,90,31676,Mersin,32514,Toroslar,32535,Mevlana
+313428,1482535,Sale,Daire,Konut,222000,TRY,222000,TRY,2,1,2 + 1,90,6253,Kocaeli,6294,Çayırova,6299,Emek
+313429,1705106,Sale,Daire,Konut,285000,TRY,285000,TRY,3,1,3 + 1,135,1,İstanbul,394,Esenyurt,60964,Osmangazi
+313430,2222418,Rent,Daire,Konut,650,TRY,650,TRY,2,1,2 + 1,75,14264,Çanakkale,14321,Biga,14327,Şirintepe
+313431,1502142,Sale,Daire,Konut,500000,TRY,500000,TRY,4,1,4 + 1,240,6826,Adana,7452,Seyhan,7540,Pınar
+313432,1686649,Rent,Dükkan / Mağaza,İşyeri,800,TRY,800,TRY,,,,60,10423,Aydın,10831,Kuşadası,10855,Güzelçamlı
+313433,1364808,Sale,Daire,Konut,230000,TRY,230000,TRY,3,1,3 + 1,160,31676,Mersin,32601,Yenişehir,74308,Bahçelievler
+313434,2248748,Rent,Dükkan / Mağaza,İşyeri,750,TRY,750,TRY,,,,100,29689,Manisa,30762,Şehzadeler,30793,Sakarya
+313435,1505481,Sale,Daire,Konut,174000,TRY,174000,TRY,2,1,2 + 1,80,25014,Kayseri,25691,Talas,25706,Mevlana
+313436,2060661,Sale,Villa,Konut,370000,TRY,370000,TRY,3,1,3 + 1,150,10423,Aydın,10576,Didim,10589,Akbük
+313437,2058839,Sale,Daire,Konut,280000,TRY,280000,TRY,3,1,3 + 1,100,2554,İzmir,3183,Karşıyaka,3185,Aksoy
+313438,2050287,Rent,Daire,Konut,500,TRY,500,TRY,2,1,2 + 1,90,41649,Trabzon,42456,Ortahisar,42488,Yeşiltepe
+313439,2218220,Sale,Konut İmarlı,Arsa,45000,TRY,45000,TRY,,,,265,1,İstanbul,806,Silivri,828,Sancaktepe
+313440,1624361,Sale,Daire,Konut,600000,TRY,600000,TRY,2,1,2 + 1,110,3960,Antalya,4065,Alanya,4086,Kestel
+313441,1167202,Sale,Yazlık,Konut,225000,TRY,225000,TRY,3,1,3 + 1,120,10423,Aydın,10831,Kuşadası,10844,Yavansu
+313442,319236,Sale,Villa,Konut,1400000,TRY,1400000,TRY,5,2,5 + 2,330,1,İstanbul,287,Büyükçekmece,313,Sinanoba
+313443,2212056,Sale,Daire,Konut,345000,TRY,345000,TRY,3,1,3 + 1,140,1012,Ankara,1322,Çankaya,1436,Ata
+313444,2220810,Rent,Daire,Konut,35000,TRY,35000,TRY,4,1,4 + 1,210,6826,Adana,6995,Çukurova,7000,Güzelyalı
+313445,2127842,Sale,Daire,Konut,330000,TRY,330000,TRY,3,1,3 + 1,165,6253,Kocaeli,6455,İzmit,6517,Kuruçeşme Fatih
+313446,614053,Sale,Rezidans,Konut,310000,TRY,310000,TRY,1,1,1 + 1,72,1,İstanbul,394,Esenyurt,47549,Selahaddin Eyyubi
+313447,1220952,Sale,Daire,Konut,550000,TRY,550000,TRY,3,1,3 + 1,125,2554,İzmir,3183,Karşıyaka,3187,Atakent
+313448,727639,Sale,Daire,Konut,190000,TRY,190000,TRY,3,1,3 + 1,130,1012,Ankara,1041,Altındağ,1060,Gülpınar
+313449,2215047,Sale,Daire,Konut,435000,TRY,435000,TRY,4,1,4 + 1,210,6826,Adana,7452,Seyhan,7528,Gürselpaşa
+313450,1929279,Sale,Dükkan / Mağaza,İşyeri,500000,TRY,500000,TRY,,,,242,29689,Manisa,30335,Salihli,30363,Yeşilyurt
+313451,1193806,Sale,Daire,Konut,320000,TRY,320000,TRY,3,1,3 + 1,150,1012,Ankara,2326,Pursaklar,2327,Fatih
+313452,595030,Sale,Daire,Konut,375000,TRY,375000,TRY,3,1,3 + 1,125,1,İstanbul,101,Bahçelievler,105,Cumhuriyet
+313453,2123576,Sale,Daire,Konut,600000,TRY,600000,TRY,2,1,2 + 1,95,14264,Çanakkale,14532,Çanakkale Merkez,70451,Cevat Paşa
+313454,1812900,Sale,Daire,Konut,410000,TRY,410000,TRY,2,1,2 + 1,80,32637,Muğla,32638,Bodrum,32702,Yalıkavak
+313455,1878345,Sale,Özel Kullanım,Arsa,117500,TRY,117500,TRY,,,,308,2554,İzmir,3019,Dikili,3028,Çandarlı
+313456,2165235,Sale,Daire,Konut,210000,TRY,210000,TRY,3,1,3 + 1,125,15241,Denizli,15957,Merkezefendi,15958,Şemikler
+313457,1916933,Sale,Daire,Konut,795000,TRY,795000,TRY,2,1,2 + 1,80,1,İstanbul,113,Bakırköy,118,Kartaltepe
+313458,2238383,Sale,Villa,Konut,380000,TRY,380000,TRY,4,1,4 + 1,160,35966,Sakarya,36595,Sapanca,36596,Çayiçi
+313459,1756843,Sale,Daire,Konut,280000,TRY,280000,TRY,2,1,2 + 1,100,10423,Aydın,10576,Didim,10581,Altınkum
+313460,2211336,Sale,Daire,Konut,395000,TRY,395000,TRY,3,1,3 + 1,295,1012,Ankara,2071,Mamak,2113,Mutlu
+313461,1994321,Sale,Daire,Konut,398000,TRY,398000,TRY,3,1,3 + 1,150,1012,Ankara,1912,Keçiören,1918,Etlik
+313462,1687403,Rent,Daire,Konut,1250,TRY,1250,TRY,4,1,4 + 1,225,28777,Malatya,29593,Yeşilyurt,29657,Bostanbaşı
+313463,1529955,Sale,Daire,Konut,1048000,TRY,1048000,TRY,6,1,6 + 1,320,3960,Antalya,4065,Alanya,4086,Kestel
+313464,1436890,Sale,Daire,Konut,468000,TRY,468000,TRY,3,1,3 + 1,240,31676,Mersin,32049,Mezitli,32071,Yeni
+313465,2184223,Rent,Daire,Konut,12500,TRY,12500,TRY,4,1,4 + 1,240,1,İstanbul,66134,Eyüpsultan,66199,Göktürk Merkez
+313466,1624855,Sale,Daire,Konut,198000,TRY,198000,TRY,3,1,3 + 1,130,40596,Tekirdağ,40626,Çorlu,40634,Kemalettin
+313467,2256206,Rent,Daire,Konut,1000,TRY,1000,TRY,2,1,2 + 1,125,41649,Trabzon,42456,Ortahisar,42485,Gazipaşa
+313468,1759900,Sale,Daire,Konut,250000,TRY,250000,TRY,3,1,3 + 1,160,9494,Aksaray,9593,Aksaray Merkez,70725,Şifahane
+313469,2037945,Sale,Müstakil Ev,Konut,200000,TRY,200000,TRY,2,1,2 + 1,430,2554,İzmir,2684,Bergama,2820,Talatpaşa
+313470,1488668,Sale,Daire,Konut,260000,TRY,260000,TRY,1,1,1 + 1,75,1,İstanbul,287,Büyükçekmece,312,Mimaroba
+313471,1397265,Sale,Daire,Konut,320000,TRY,320000,TRY,3,1,3 + 1,200,31676,Mersin,32049,Mezitli,32063,Atatürk
+313472,1697026,Sale,Daire,Konut,145000,TRY,145000,TRY,3,1,3 + 1,110,1012,Ankara,2071,Mamak,2090,Çağlayan
+313473,1100550,Sale,Daire,Konut,950000,TRY,950000,TRY,5,2,5 + 2,200,1,İstanbul,601,Küçükçekmece,604,Cennet
+313474,1811587,Sale,Daire,Konut,210000,TRY,210000,TRY,2,1,2 + 1,100,5092,Bursa,6182,Yıldırım,6190,Değirmenlikızık
+313475,2240624,Rent,Villa,Konut,3500,TRY,3500,TRY,4,1,4 + 1,175,2554,İzmir,3921,Urla,3925,Çamlıçay
+313476,2172441,Sale,Daire,Konut,158000,TRY,158000,TRY,2,1,2 + 1,100,11210,Balıkesir,11609,Edremit,11640,Akçay
+313477,1085342,Sale,Daire,İşyeri,3500000,TRY,3500000,TRY,4,1,4 + 1,240,1,İstanbul,537,Kadıköy,549,Caddebostan
+313478,1399582,Sale,Daire,Konut,340000,TRY,340000,TRY,3,1,3 + 1,130,32637,Muğla,32746,Fethiye,32753,Foça
+313479,1588351,Rent,Daire,Konut,1000,TRY,1000,TRY,1,1,1 + 1,55,36701,Samsun,36803,Atakum,36826,Yenimahalle
+313480,1992905,Rent,Daire,Konut,900,TRY,900,TRY,2,1,2 + 1,155,6826,Adana,7452,Seyhan,7515,İsmetpaşa
+313481,2050576,Sale,Daire,Konut,359000,TRY,359000,TRY,4,1,4 + 1,235,1,İstanbul,644,Pendik,648,Güzelyalı
+313482,1781524,Sale,Konut İmarlı,Arsa,330000,TRY,330000,TRY,,,,236,26208,Kırklareli,26273,Lüleburgaz,26277,Özerler
+313483,500906,Sale,Ticari İmarlı,Arsa,1600000,TRY,1600000,TRY,,,,922,1,İstanbul,287,Büyükçekmece,300,Hürriyet
+313484,2193731,Rent,Daire,Konut,1500,TRY,1500,TRY,3,1,3 + 1,180,6826,Adana,7452,Seyhan,7495,Yenibaraj
+313485,939106,Sale,Daire,Konut,129000,TRY,129000,TRY,2,1,2 + 1,100,1,İstanbul,229,Beylikdüzü,232,Cumhuriyet
+313486,1607282,Sale,Daire,Konut,153000,TRY,153000,TRY,2,1,2 + 1,100,3960,Antalya,4816,Manavgat,4934,Sarılar
+313487,2013029,Rent,Daire,Konut,1000,TRY,1000,TRY,3,1,3 + 1,110,1,İstanbul,644,Pendik,655,Ahmet Yesevi
+313488,1635752,Sale,Çiftlik,Arsa,1000000,TRY,1000000,TRY,,,,5085,10423,Aydın,10831,Kuşadası,10832,Türkmen
+313489,1723962,Sale,Daire,Konut,290000,TRY,290000,TRY,3,1,3 + 1,150,10423,Aydın,10576,Didim,10579,Efeler
+313490,2191543,Sale,Konut İmarlı,Arsa,650000,TRY,650000,TRY,,,,1831,32637,Muğla,32917,Marmaris,32950,Söğüt
+313491,1922513,Sale,Daire,Konut,155000,TRY,155000,TRY,2,1,2 + 1,95,1,İstanbul,394,Esenyurt,402,Ardıçlı
+313492,1718132,Sale,Daire,Konut,239000,TRY,239000,TRY,3,1,3 + 1,155,25014,Kayseri,25366,Melikgazi,25397,Battalgazi
+313493,1924259,Rent,Daire,Konut,1000,TRY,1000,TRY,2,1,2 + 1,55,2554,İzmir,2957,Çeşme,2974,Musalla
+313494,2310987,Sale,Daire,Konut,525000,TRY,525000,TRY,3,1,3 + 1,135,1,İstanbul,537,Kadıköy,540,Kozyatağı
+313495,1388767,Sale,Konut İmarlı,Arsa,1595000,TRY,1595000,TRY,,,,2280,1,İstanbul,742,Şile,745,Çavuş
+313496,1669009,Rent,Komple Bina,Konut,300000,TRY,300000,TRY,,,,260,1,İstanbul,507,Gaziosmanpaşa,508,Bağlarbaşı
+313497,1642255,Sale,Daire,Konut,153000,TRY,153000,TRY,3,1,3 + 1,115,8229,Afyonkarahisar,8669,Afyonkarahisar Merkez,71566,Mecidiye
+313498,719034,Sale,Daire,Konut,185000,TRY,185000,TRY,2,1,2 + 1,100,43620,Yalova,43662,Çınarcık,43665,Harmanlar
+313499,1111050,Sale,Daire,Konut,215000,TRY,215000,TRY,2,1,2 + 1,100,11210,Balıkesir,11609,Edremit,11640,Akçay
+313500,2074651,Sale,Daire,Konut,245000,TRY,245000,TRY,2,1,2 + 1,90,1,İstanbul,101,Bahçelievler,108,Siyavuşpaşa
+313501,1681885,Sale,Daire,Konut,172000,TRY,172000,TRY,2,1,2 + 1,115,13752,Bolu,13823,Bolu Merkez,70180,İzzet Baysal
+313502,1702286,Sale,Daire,Konut,190000,TRY,190000,TRY,3,1,3 + 1,135,40596,Tekirdağ,40626,Çorlu,40643,Reşadiye
+313503,1641172,Sale,Daire,Konut,535000,TRY,535000,TRY,4,1,4 + 1,200,32637,Muğla,32917,Marmaris,32923,Kemeraltı
+313504,2158950,Sale,Daire,Konut,210000,TRY,210000,TRY,3,1,3 + 1,145,29689,Manisa,30695,Turgutlu,30704,Cumhuriyet
+313505,2213318,Rent,Daire,Konut,1000,TRY,1000,TRY,2,1,2 + 1,100,26630,Konya,26665,Akşehir,26670,Kozağaç
+313506,1115542,Sale,Dükkan / Mağaza,İşyeri,8500000,TRY,8500000,TRY,,,,200,2554,İzmir,3366,Konak,3468,Kahramanlar
+313507,2177888,Rent,Çiftlik Evi,Konut,2200,TRY,2200,TRY,2,1,2 + 1,110,32637,Muğla,33132,Ula,33141,Akyaka
+313508,2007350,Rent,Daire,Konut,12500,TRY,12500,TRY,4,1,4 + 1,220,1,İstanbul,156,Beşiktaş,161,Ortaköy
+313509,1895534,Sale,Bağ,Arsa,38000,TRY,38000,TRY,,,,234,1,İstanbul,806,Silivri,832,Çayırdere
+313510,1306665,Sale,Tarla,Arsa,390000,TRY,390000,TRY,,,,17400,5092,Bursa,6109,Yenişehir,6135,İncirli
+313511,1727343,Sale,Villa,Konut,925000,TRY,925000,TRY,2,1,2 + 1,149,2554,İzmir,3088,Güzelbahçe,3097,Yelki
+313512,299432,Sale,Ticari İmarlı,Arsa,18780000,TRY,18780000,TRY,,,,10000,40596,Tekirdağ,40597,Çerkezköy,40605,İstasyon
+313513,1217708,Rent,Villa,Konut,5850,TRY,5850,TRY,5,1,5 + 1,233,1,İstanbul,682,Sancaktepe,684,Abdurrahmangazi
+313514,1062393,Rent,Daire,Konut,4250,TRY,4250,TRY,1,1,1 + 1,55,1,İstanbul,241,Beyoğlu,267,Kılıçali Paşa
+313515,1898678,Sale,Daire,Konut,950000,TRY,950000,TRY,4,1,4 + 1,150,1,İstanbul,537,Kadıköy,557,19 Mayıs
+313516,1840035,Sale,Daire,Konut,170000,TRY,170000,TRY,3,1,3 + 1,138,9494,Aksaray,9593,Aksaray Merkez,70054,Hacı Hasanlı
+313517,2292397,Sale,Daire,Konut,265000,TRY,265000,TRY,3,1,3 + 1,175,6826,Adana,6995,Çukurova,7008,Toros
+313518,1974401,Sale,Daire,Konut,175000,TRY,175000,TRY,2,1,2 + 1,135,1,İstanbul,67,Avcılar,69,Cihangir
+313519,2248846,Rent,Daire,Konut,3600,TRY,3600,TRY,3,1,3 + 1,140,1,İstanbul,560,Kağıthane,573,Merkez
+313520,1390389,Sale,Tarla,Arsa,42000,TRY,42000,TRY,,,,3625,5092,Bursa,6109,Yenişehir,6173,Paşayayla
+313521,1885897,Rent,Daire,Konut,800,TRY,800,TRY,1,1,1 + 1,50,5092,Bursa,6182,Yıldırım,6213,Ortabağlar
+313522,1828730,Sale,Daire,Konut,205000,TRY,205000,TRY,1,1,1 + 1,70,3960,Antalya,4947,Muratpaşa,4962,Çaybaşı
+313523,2165187,Sale,Daire,Konut,185000,TRY,185000,TRY,3,1,3 + 1,125,8229,Afyonkarahisar,8669,Afyonkarahisar Merkez,70203,Yenice
+313524,2177695,Sale,Daire,Konut,615000,TRY,615000,TRY,4,1,4 + 1,175,1012,Ankara,1041,Altındağ,1043,Güneşevler
+313525,1863805,Sale,Müstakil Ev,Konut,450000,TRY,450000,TRY,3,1,3 + 1,110,32637,Muğla,33132,Ula,33143,Çıtlık
+313526,709359,Rent,Rezidans,Konut,11000,TRY,11000,TRY,4,1,4 + 1,255,1,İstanbul,703,Sarıyer,704,Maslak
+313527,1969962,Rent,Daire,Konut,1750,TRY,1750,TRY,3,1,3 + 1,120,1,İstanbul,101,Bahçelievler,108,Siyavuşpaşa
+313528,1653487,Sale,Daire,Konut,220000,TRY,220000,TRY,2,1,2 + 1,125,31676,Mersin,32049,Mezitli,32059,Tece
+313529,2160613,Rent,Daire,Konut,1400,TRY,1400,TRY,2,1,2 + 1,87,1,İstanbul,131,Başakşehir,135,Başak
+313530,2259205,Sale,Tarla,Arsa,79000,TRY,79000,TRY,,,,2520,29689,Manisa,29716,Akhisar,29723,Dayıoğlu
+313531,697004,Sale,Daire,Konut,305000,TRY,305000,TRY,1,1,1 + 1,60,3960,Antalya,4065,Alanya,4087,Mahmutlar
+313532,1753849,Rent,Daire,Konut,650,TRY,650,TRY,3,1,3 + 1,147,35966,Sakarya,36305,Hendek,36321,Yeni
+313533,2256600,Sale,Daire,Konut,240000,TRY,240000,TRY,2,1,2 + 1,120,11210,Balıkesir,11609,Edremit,11641,Altınoluk
+313534,1976915,Sale,Daire,Konut,165000,TRY,165000,TRY,2,1,2 + 1,125,1,İstanbul,67,Avcılar,69,Cihangir
+313535,1423403,Sale,Daire,Konut,170000,TRY,170000,TRY,2,1,2 + 1,90,34286,Ordu,34464,Fatsa,34522,Mustafakemalpaşa
+313536,1620478,Sale,Müstakil Ev,Konut,450000,TRY,450000,TRY,3,1,3 + 1,130,32637,Muğla,32638,Bodrum,32687,Güvercinlik
+313537,1970203,Sale,Bahçe,Arsa,165000,TRY,165000,TRY,,,,271,21009,Giresun,21021,Bulancak,49449,Güzelyalı
+313538,2232171,Sale,Daire,Konut,150000,TRY,150000,TRY,2,1,2 + 1,90,17102,Düzce,17250,Düzce Merkez,72914,Hamidiye
+313539,1534009,Rent,Ofis,İşyeri,750,TRY,750,TRY,,,,60,1,İstanbul,394,Esenyurt,49097,Sultaniye
+313540,1320841,Sale,Daire,Konut,335000,TRY,335000,TRY,2,1,2 + 1,105,1,İstanbul,101,Bahçelievler,105,Cumhuriyet
+313541,1737332,Rent,Daire,Konut,1000,TRY,1000,TRY,2,1,2 + 1,100,10423,Aydın,11113,Efeler,11129,Kurtuluş
+313542,2015859,Sale,Daire,Konut,355000,TRY,355000,TRY,3,1,3 + 1,120,29689,Manisa,30838,Yunusemre,30848,Tevfikiye
+313543,1719209,Sale,Daire,Konut,195000,TRY,195000,TRY,2,1,2 + 1,110,2554,İzmir,3529,Menemen,3572,9 Eylül
+313544,1610061,Rent,Daire,Konut,800,TRY,800,TRY,3,1,3 + 1,120,5092,Bursa,5138,Gemlik,5155,Osmaniye
+313545,1773895,Sale,Dükkan / Mağaza,İşyeri,250000,TRY,250000,TRY,,,,60,26208,Kırklareli,26273,Lüleburgaz,26286,İnönü
+313546,770982,Sale,Daire,Konut,175000,TRY,175000,TRY,3,1,3 + 1,130,1012,Ankara,1912,Keçiören,1942,Karakaya
+313547,1690502,Sale,Villa,Konut,315000,TRY,315000,TRY,3,1,3 + 1,130,17102,Düzce,17103,Akçakoca,17109,Yalı
+313548,1799976,Sale,Daire,Konut,350000,TRY,350000,TRY,4,1,4 + 1,150,1012,Ankara,1322,Çankaya,1341,Akpınar
+313549,1965826,Sale,Daire,Konut,175000,TRY,175000,TRY,1,1,1 + 1,60,40596,Tekirdağ,40950,Süleymanpaşa,41023,Hürriyet
+313550,1043525,Sale,Tarla,Arsa,145000,TRY,145000,TRY,,,,500,36701,Samsun,37684,Tekkeköy,37701,Kirazlık
+313551,2113379,Sale,Tarla,Arsa,91000,TRY,91000,TRY,,,,384,1,İstanbul,806,Silivri,74438,Fener
+313552,1805654,Rent,Daire,Konut,2500,TRY,2500,TRY,1,1,1 + 1,76,2554,İzmir,3183,Karşıyaka,3184,Mavişehir
+313553,2029622,Sale,Yazlık,Konut,2000000,TRY,2000000,TRY,6,1,6 + 1,280,10423,Aydın,10831,Kuşadası,10857,Soğucak
+313554,2205967,Sale,Daire,Konut,350000,TRY,350000,TRY,1,1,1 + 1,40,2554,İzmir,2957,Çeşme,2983,16 Eylül
+313555,1099577,Sale,Daire,Konut,190000,TRY,190000,TRY,3,1,3 + 1,120,14827,Çorum,15038,Çorum Merkez,70358,Bahçelievler
+313556,1310275,Sale,Konut İmarlı,Arsa,100000,TRY,100000,TRY,,,,2531,5092,Bursa,6109,Yenişehir,6181,Yıldırım
+313557,1782307,Rent,Daire,Konut,800,TRY,800,TRY,3,1,3 + 1,140,34286,Ordu,35185,Altınordu,35228,Karşıyaka
+313558,2044540,Sale,Daire,Konut,285000,TRY,285000,TRY,2,1,2 + 1,95,3960,Antalya,4947,Muratpaşa,4949,Fener
+313559,2282263,Sale,Müstakil Ev,Konut,330000,TRY,330000,TRY,5,3,5 + 3,780,32637,Muğla,32956,Milas,32958,Beyciler
+313560,1743863,Sale,Daire,Konut,135000,TRY,135000,TRY,3,1,3 + 1,145,2554,İzmir,3858,Torbalı,3880,Muratbey
+313561,1674451,Sale,Konut İmarlı,Arsa,850000,TRY,850000,TRY,,,,930,6253,Kocaeli,6661,Karamürsel,6674,Kayacık
+313562,1414367,Sale,Daire,Konut,218000,TRY,218000,TRY,2,1,2 + 1,85,1,İstanbul,682,Sancaktepe,684,Abdurrahmangazi
+313563,2126102,Sale,Daire,Konut,165000,TRY,165000,TRY,2,1,2 + 1,100,19584,Eskişehir,19836,Odunpazarı,19854,Kırmızıtoprak
+313564,2028672,Rent,Daire,Konut,1900,TRY,1900,TRY,3,1,3 + 1,135,1,İstanbul,537,Kadıköy,547,Sahrayı Cedit
+313565,1995558,Sale,Çiftlik Evi,Konut,275000,TRY,275000,TRY,5,1,5 + 1,170,10423,Aydın,10831,Kuşadası,10844,Yavansu
+313566,1979191,Sale,Daire,Konut,250000,TRY,250000,TRY,3,1,3 + 1,140,43620,Yalova,43662,Çınarcık,60462,Koru Bld. (Cumhuriyet)
+313567,2082270,Sale,Daire,Konut,150000,TRY,150000,TRY,2,1,2 + 1,115,36701,Samsun,36803,Atakum,36812,Denizevleri
+313568,1690355,Rent,Villa,Konut,4000,TRY,4000,TRY,7,2,7 + 2,300,1,İstanbul,903,Tuzla,918,Tepeören
+313569,1812776,Sale,Daire,Konut,170000,TRY,170000,TRY,2,1,2 + 1,90,1,İstanbul,229,Beylikdüzü,235,Yakuplu
+313570,1229316,Rent,Rezidans,Konut,850,TRY,850,TRY,1,0,1 + 0,45,1,İstanbul,394,Esenyurt,403,Cumhuriyet
+313571,1644147,Rent,Daire,Konut,1000,TRY,1000,TRY,3,1,3 + 1,130,35966,Sakarya,35967,Adapazarı,36011,Kurtuluş
+313572,1916390,Sale,Daire,Konut,3000000,TRY,3000000,TRY,5,1,5 + 1,360,1,İstanbul,156,Beşiktaş,173,Ulus
+313573,1310636,Rent,Daire,Konut,40000,TRY,40000,TRY,4,1,4 + 1,300,6826,Adana,6995,Çukurova,7000,Güzelyalı
+313574,1932953,Sale,Daire,Konut,165000,TRY,165000,TRY,2,1,2 + 1,120,20173,Gaziantep,20627,Şahinbey,20665,Kavaklık
+313575,1627028,Sale,Daire,Konut,650000,TRY,650000,TRY,3,1,3 + 1,140,2554,İzmir,3183,Karşıyaka,3196,Yalı
+313576,553508,Sale,Bağ,Arsa,675000,TRY,675000,TRY,,,,7320,29689,Manisa,29832,Alaşehir,29926,Fatih
+313577,2040133,Sale,Daire,Konut,185000,TRY,185000,TRY,1,1,1 + 1,55,10423,Aydın,10831,Kuşadası,10849,Değirmendere
+313578,1983039,Sale,Müstakil Ev,Konut,750000,TRY,750000,TRY,3,1,3 + 1,120,1,İstanbul,448,Fatih,74418,Koca Mustafapaşa
+313579,2287160,Rent,Daire,Konut,750,TRY,750,TRY,1,1,1 + 1,75,1,İstanbul,182,Beykoz,183,Kavacık
+313580,804706,Rent,Daire,Konut,2000,TRY,2000,TRY,3,1,3 + 1,140,5092,Bursa,5969,Osmangazi,5990,Dikkaldırım
+313581,1530817,Sale,Daire,Konut,515000,TRY,515000,TRY,2,1,2 + 1,100,1,İstanbul,144,Bayrampaşa,146,Kartaltepe
+313582,1324867,Sale,Daire,Konut,160000,TRY,160000,TRY,3,1,3 + 1,115,26630,Konya,27935,Selçuklu,27997,Şeyh Şamil
+313583,849170,Sale,Daire,Konut,165000,TRY,165000,TRY,2,1,2 + 1,120,28777,Malatya,28986,Battalgazi,29041,Çamurlu
+313584,1862853,Sale,Daire,Konut,265000,TRY,265000,TRY,3,1,3 + 1,160,20173,Gaziantep,20817,Şehitkamil,20951,Burak
+313585,1150339,Sale,Daire,Konut,135000,TRY,135000,TRY,1,1,1 + 1,55,2554,İzmir,2989,Çiğli,2998,Evka-5
+313586,2070762,Sale,Daire,Konut,2200000,TRY,2200000,TRY,4,1,4 + 1,180,1,İstanbul,580,Kartal,594,Kordonboyu
+313587,1156347,Sale,Daire,Konut,108000,TRY,108000,TRY,1,1,1 + 1,60,5092,Bursa,5776,Nilüfer,74521,Görükle
+313588,2158147,Sale,Daire,Konut,290000,TRY,290000,TRY,4,1,4 + 1,185,1012,Ankara,1041,Altındağ,1092,Karacaören
+313589,1641997,Rent,Daire,Konut,2000,TRY,2000,TRY,4,1,4 + 1,230,25014,Kayseri,25366,Melikgazi,25411,Melikgazi
+313590,1619962,Sale,Daire,Konut,148000,TRY,148000,TRY,2,1,2 + 1,110,31676,Mersin,32049,Mezitli,32062,Akdeniz
+313591,2072402,Sale,Otel,Turizm,585000000,TRY,585000000,TRY,,,,1450,1,İstanbul,963,Üsküdar,975,Selimiye
+313592,1008591,Sale,Rezidans,Konut,265000,TRY,265000,TRY,2,1,2 + 1,97,1,İstanbul,394,Esenyurt,413,Yeşilkent
+313593,1552427,Sale,Daire,Konut,395000,TRY,395000,TRY,2,1,2 + 1,135,41649,Trabzon,42456,Ortahisar,42495,2 Nolu Beşirli
+313594,2251559,Rent,Daire,Konut,1500,TRY,1500,TRY,3,1,3 + 1,180,6826,Adana,7452,Seyhan,7495,Yenibaraj
+313595,2171780,Rent,Daire,Konut,950,TRY,950,TRY,2,1,2 + 1,97,14264,Çanakkale,14532,Çanakkale Merkez,70797,Barbaros
+313596,2172079,Sale,Konut İmarlı,Arsa,365000,TRY,365000,TRY,,,,421,36701,Samsun,36803,Atakum,36822,İstiklal
+313597,1943735,Rent,Daire,Konut,900,TRY,900,TRY,3,1,3 + 1,115,2554,İzmir,2907,Buca,2929,İnkılap
+313598,2152826,Sale,Daire,Konut,350000,TRY,350000,TRY,3,1,3 + 1,180,6826,Adana,6995,Çukurova,7008,Toros
+313599,1886600,Sale,Daire,Konut,525000,TRY,525000,TRY,3,1,3 + 1,116,1,İstanbul,101,Bahçelievler,103,Şirinevler
+313600,1483792,Sale,Ticari İmarlı,Arsa,8500000,TRY,8500000,TRY,,,,10746,15241,Denizli,15957,Merkezefendi,15964,Bozburun
+313601,2195535,Sale,Daire,Konut,249000,TRY,249000,TRY,2,1,2 + 1,80,1,İstanbul,78,Bağcılar,80,Mahmutbey
+313602,2141291,Rent,Rezidans,Konut,1000,TRY,1000,TRY,2,1,2 + 1,120,3960,Antalya,4065,Alanya,4087,Mahmutlar
+313603,626632,Rent,Daire,Konut,950,TRY,950,TRY,1,1,1 + 1,45,43717,Yozgat,43929,Yozgat Merkez,70724,Şeyh Osman
+313604,1835280,Rent,Daire,Konut,600,TRY,600,TRY,2,1,2 + 1,100,17102,Düzce,17250,Düzce Merkez,69759,Uzun Mustafa
+313605,1940683,Daily Rent,Daire,Konut,59,TRY,59,TRY,1,1,1 + 1,80,1,İstanbul,394,Esenyurt,395,Esenkent
+313606,2292153,Sale,Daire,Konut,45000,TRY,45000,TRY,2,1,2 + 1,45,35287,Osmaniye,35463,Osmaniye Merkez,69873,Fakıuşağı
+313607,1878339,Rent,Daire,Konut,1000,TRY,1000,TRY,2,1,2 + 1,90,2554,İzmir,2907,Buca,2933,Kuruçeşme
+313608,1895933,Sale,Daire,Konut,680000,TRY,680000,TRY,2,1,2 + 1,80,1,İstanbul,963,Üsküdar,994,Selami Ali
+313609,1517513,Sale,Daire,Konut,6000000,TRY,6000000,TRY,1149,0,10 ve üzeri,167,1,İstanbul,156,Beşiktaş,159,Etiler
+313610,1012041,Rent,Rezidans,Konut,1200,TRY,1200,TRY,1,1,1 + 1,86,1,İstanbul,229,Beylikdüzü,235,Yakuplu
+313611,1242507,Rent,Daire,Konut,630,TRY,630,TRY,2,2,2 + 2,98,1012,Ankara,1041,Altındağ,1049,Altınpark
+313612,1167079,Sale,Konut İmarlı,Arsa,1260000,TRY,1260000,TRY,,,,438,1,İstanbul,394,Esenyurt,401,Akçaburgaz
+313613,1872447,Sale,Villa,Konut,1200000,TRY,1200000,TRY,3,1,3 + 1,135,32637,Muğla,32638,Bodrum,32674,Akyarlar
+313614,751226,Sale,Daire,Konut,520000,TRY,520000,TRY,3,1,3 + 1,186,5092,Bursa,5776,Nilüfer,5779,29 Ekim
+313615,2028615,Sale,Daire,Konut,325000,TRY,325000,TRY,4,1,4 + 1,225,23133,Kahramanmaraş,23817,Onikişubat,23858,Haydar Bey
+313616,1844298,Rent,Daire,Konut,2350,TRY,2350,TRY,3,1,3 + 1,155,1,İstanbul,926,Ümraniye,949,Tatlısu
+313617,830522,Sale,Daire,Konut,225000,TRY,225000,TRY,2,1,2 + 1,100,39689,Sinop,39791,Sinop Merkez,70819,Gelincik
+313618,1514345,Sale,Daire,Konut,229000,TRY,229000,TRY,3,1,3 + 1,140,1012,Ankara,1912,Keçiören,1918,Etlik
+313619,508025,Rent,Daire,Konut,1000,TRY,1000,TRY,1,1,1 + 1,50,36701,Samsun,36803,Atakum,36818,Cumhuriyet
+313620,2287573,Rent,Daire,Konut,480,TRY,480,TRY,3,1,3 + 1,110,34018,Niğde,34149,Niğde Merkez,70904,Efendibey
+313621,2235259,Rent,Daire,Konut,800,TRY,800,TRY,3,1,3 + 1,130,8229,Afyonkarahisar,8669,Afyonkarahisar Merkez,71091,Hattat Karahisar
+313622,1995718,Sale,Özel Kullanım,Arsa,44000,TRY,44000,TRY,,,,1230,22677,Isparta,22847,Isparta Merkez,67349,Bozanönü Köyü
+313623,2282970,Sale,Daire,Konut,150000,TRY,150000,TRY,2,1,2 + 1,100,8229,Afyonkarahisar,8669,Afyonkarahisar Merkez,69927,Eşrefpaşa
+313624,1239324,Rent,Daire,Konut,1600,TRY,1600,TRY,3,1,3 + 1,188,15241,Denizli,15759,Pamukkale,15776,Zeytinköy
+313625,2307681,Rent,Daire,Konut,2600,TRY,2600,TRY,3,2,3 + 2,150,1,İstanbul,625,Maltepe,626,Küçükyalı
+313626,1473555,Sale,Daire,Konut,249000,TRY,249000,TRY,3,1,3 + 1,170,11210,Balıkesir,11609,Edremit,11640,Akçay
+313627,1711844,Sale,Villa,Konut,650000,TRY,650000,TRY,4,1,4 + 1,180,10423,Aydın,10576,Didim,10586,Mavişehir
+313628,1686224,Rent,Daire,Konut,1100,TRY,1100,TRY,1,1,1 + 1,60,31676,Mersin,32601,Yenişehir,32605,Çiftlikköy
+313629,1295266,Sale,Daire,Konut,190000,TRY,190000,TRY,2,1,2 + 1,100,31676,Mersin,31885,Erdemli,31897,Arpaçbahşiş
+313630,1677041,Sale,Daire,Konut,155000,TRY,155000,TRY,3,1,3 + 1,135,29689,Manisa,30838,Yunusemre,30880,Muradiye
+313631,2171193,Sale,Komple Bina,Konut,375000,TRY,375000,TRY,3,1,3 + 1,105,1,İstanbul,448,Fatih,486,Sümbül Efendi
+313632,2242842,Sale,Daire,Konut,292500,TRY,292500,TRY,3,1,3 + 1,160,5092,Bursa,5776,Nilüfer,5818,Beşevler
+313633,2243641,Sale,Daire,Konut,670000,TRY,670000,TRY,6,1,6 + 1,400,28777,Malatya,29593,Yeşilyurt,29606,Koyunoğlu
+313634,1890053,Rent,Daire,Konut,2700,TRY,2700,TRY,3,1,3 + 1,110,1,İstanbul,156,Beşiktaş,176,Konaklar
+313635,1778074,Rent,Daire,Konut,1050,TRY,1050,TRY,3,1,3 + 1,140,6253,Kocaeli,6455,İzmit,6480,Orhan
+313636,1855637,Sale,Daire,Konut,340000,TRY,340000,TRY,2,1,2 + 1,125,3960,Antalya,4947,Muratpaşa,4966,Doğuyaka
+313637,2148870,Rent,Daire,Konut,900,TRY,900,TRY,1,1,1 + 1,50,1,İstanbul,525,Güngören,529,Tozkoparan
+313638,1772340,Sale,Daire,Konut,425000,TRY,425000,TRY,2,1,2 + 1,80,1,İstanbul,66134,Eyüpsultan,66147,Esentepe
+313639,2165143,Rent,Daire,Konut,1200,TRY,1200,TRY,3,1,3 + 1,140,6253,Kocaeli,6403,Gölcük,6423,Yüzbaşılar
+313640,1330244,Sale,Komple Bina,Konut,775000,TRY,775000,TRY,4,1,4 + 1,175,1,İstanbul,448,Fatih,459,Balat
+313641,1918854,Sale,Daire,Konut,485000,TRY,485000,TRY,2,1,2 + 1,85,1,İstanbul,537,Kadıköy,558,Osmanağa
+313642,1611269,Rent,Daire,Konut,1250,TRY,1250,TRY,3,1,3 + 1,150,1012,Ankara,2482,Yenimahalle,2517,Kentkoop
+313643,1828910,Sale,Daire,Konut,220000,TRY,220000,TRY,2,1,2 + 1,120,11210,Balıkesir,11609,Edremit,11640,Akçay
+313644,1961352,Sale,Çok Amaçlı,Arsa,115000,TRY,115000,TRY,,,,350,1012,Ankara,1448,Çubuk,1453,Atatürk
+313645,2027455,Rent,Daire,Konut,1400,TRY,1400,TRY,3,1,3 + 1,118,1,İstanbul,131,Başakşehir,137,Kayabaşı
+313646,2216438,Rent,Daire,Konut,1500,TRY,1500,TRY,3,1,3 + 1,150,2554,İzmir,3529,Menemen,3572,9 Eylül
+313647,739456,Sale,Tarla,Arsa,420000,TRY,420000,TRY,,,,7478,32637,Muğla,33132,Ula,33155,Kızılyaka
+313648,1753571,Sale,Daire,Konut,225000,TRY,225000,TRY,2,1,2 + 1,90,11210,Balıkesir,11609,Edremit,11640,Akçay
+313649,2167010,Sale,Daire,Konut,1050000,TRY,1050000,TRY,4,1,4 + 1,230,6826,Adana,6995,Çukurova,7005,Mahfesığmaz
+313650,1759794,Sale,Daire,Konut,135000,TRY,135000,TRY,2,1,2 + 1,100,3960,Antalya,4574,Kepez,4603,Karşıyaka
+313651,1753052,Rent,Daire,Konut,11000,TRY,11000,TRY,4,1,4 + 1,200,1,İstanbul,156,Beşiktaş,161,Ortaköy
+313652,1620982,Sale,Daire,Konut,180000,TRY,180000,TRY,2,1,2 + 1,75,1,İstanbul,101,Bahçelievler,108,Siyavuşpaşa
+313653,1261780,Sale,Yazlık,Konut,130000,TRY,130000,TRY,3,1,3 + 1,120,10423,Aydın,10831,Kuşadası,10853,Davutlar
+313654,1870143,Sale,Daire,Konut,475000,TRY,475000,TRY,3,1,3 + 1,160,5092,Bursa,5969,Osmangazi,6021,Yunuseli
+313655,1791584,Sale,Daire,Konut,350000,TRY,350000,TRY,3,1,3 + 1,175,20173,Gaziantep,20817,Şehitkamil,66306,Fıstıklık
+313656,1960066,Rent,Daire,Konut,1200,TRY,1200,TRY,2,1,2 + 1,90,1,İstanbul,67,Avcılar,75,Merkez
+313657,1326325,Sale,Daire,Konut,135000,TRY,135000,TRY,2,1,2 + 1,125,15241,Denizli,15242,Acıpayam,15246,Yeni
+313658,1930768,Sale,Daire,Konut,260000,TRY,260000,TRY,3,1,3 + 1,120,29689,Manisa,30762,Şehzadeler,30788,Dere
+313659,1713823,Sale,Daire,Konut,209200,TRY,209200,TRY,2,1,2 + 1,110,1,İstanbul,394,Esenyurt,412,Yenikent
+313660,1650385,Sale,Daire,Konut,194000,TRY,194000,TRY,2,1,2 + 1,95,6253,Kocaeli,6661,Karamürsel,6690,4 Temmuz
+313661,1692074,Sale,Daire,Konut,213000,TRY,213000,TRY,3,1,3 + 1,185,6826,Adana,7452,Seyhan,7547,Tellidere
+313662,1081676,Sale,Ofis,İşyeri,520000,TRY,520000,TRY,,,,140,5092,Bursa,5776,Nilüfer,5842,Odunluk
+313663,2276341,Sale,Daire,Konut,230000,TRY,230000,TRY,2,1,2 + 1,95,32637,Muğla,32706,Dalaman,32710,Söğütlüyurt
+313664,1867197,Sale,Daire,Konut,315000,TRY,315000,TRY,3,1,3 + 1,120,6253,Kocaeli,6305,Darıca,6306,Abdi İpekçi
+313665,1573198,Rent,Daire,Konut,1100,TRY,1100,TRY,3,1,3 + 1,120,1,İstanbul,887,Sultangazi,895,İsmetpaşa
+313666,1975268,Sale,Daire,Konut,400000,TRY,400000,TRY,4,1,4 + 1,200,31676,Mersin,32049,Mezitli,32062,Akdeniz
+313667,678044,Sale,Konut İmarlı,Arsa,70000,TRY,70000,TRY,,,,331,11210,Balıkesir,11609,Edremit,11646,Çıkrıkçı
+313668,1917855,Rent,Daire,Konut,850,TRY,850,TRY,2,1,2 + 1,90,1,İstanbul,601,Küçükçekmece,616,Fevzi Çakmak
+313669,1727512,Sale,Daire,Konut,150000,TRY,150000,TRY,2,1,2 + 1,94,1012,Ankara,1615,Gölbaşı,1621,Eymir
+313670,1462015,Sale,Bahçe,Arsa,500000,TRY,500000,TRY,,,,1487,6253,Kocaeli,6455,İzmit,6468,Kozluca
+313671,1310886,Sale,Daire,Konut,700000,TRY,700000,TRY,3,1,3 + 1,140,1,İstanbul,66134,Eyüpsultan,66199,Göktürk Merkez
+313672,2209723,Sale,Daire,Konut,229000,TRY,229000,TRY,3,1,3 + 1,115,10423,Aydın,10576,Didim,10587,Yeni
+313673,1758418,Sale,Tarla,Arsa,26000,TRY,26000,TRY,,,,1291,6253,Kocaeli,6560,Kandıra,6570,Çalyer
+313674,703428,Sale,Daire,Konut,780000,TRY,780000,TRY,4,1,4 + 1,230,5092,Bursa,5776,Nilüfer,5852,Balat
+313675,2168634,Rent,Daire,Konut,900,TRY,900,TRY,3,1,3 + 1,155,20173,Gaziantep,20627,Şahinbey,61146,Mavikent
+313676,2286819,Sale,Tarla,Arsa,135000,TRY,135000,TRY,,,,1424,1,İstanbul,806,Silivri,74438,Fener
+313677,2113636,Sale,Daire,Konut,305000,TRY,305000,TRY,4,1,4 + 1,165,28229,Kütahya,28473,Kütahya Merkez,70111,30 Ağustos
+313678,1734953,Rent,Daire,Konut,1350,TRY,1350,TRY,2,1,2 + 1,85,1,İstanbul,101,Bahçelievler,108,Siyavuşpaşa
+313679,2202135,Sale,Daire,Konut,195000,TRY,195000,TRY,1,1,1 + 1,55,10423,Aydın,10576,Didim,10579,Efeler
+313680,1991686,Sale,Daire,Konut,215000,TRY,215000,TRY,2,1,2 + 1,90,1,İstanbul,903,Tuzla,904,Aydınlı
+313681,1615672,Sale,Villa,Konut,425000,TRY,425000,TRY,4,1,4 + 1,300,1,İstanbul,806,Silivri,829,Akören
+313682,1840009,Rent,Daire,Konut,1000,TRY,1000,TRY,3,1,3 + 1,135,36701,Samsun,36803,Atakum,36820,Güzelyalı
+313683,1480101,Sale,Daire,Konut,285000,TRY,285000,TRY,3,1,3 + 1,100,10423,Aydın,10576,Didim,10581,Altınkum
+313684,1711866,Sale,Daire,Konut,155000,TRY,155000,TRY,2,1,2 + 1,110,40596,Tekirdağ,40597,Çerkezköy,40603,Fevzi Paşa
+313685,1627452,Sale,Konut İmarlı,Arsa,1000000,TRY,1000000,TRY,,,,778,36701,Samsun,36803,Atakum,36822,İstiklal
+313686,1638954,Sale,Daire,Konut,215000,TRY,215000,TRY,2,1,2 + 1,85,1,İstanbul,377,Esenler,388,Namık Kemal
+313687,2107705,Rent,Daire,Konut,450,TRY,450,TRY,1,1,1 + 1,65,35966,Sakarya,35967,Adapazarı,35990,Korucuk
+313688,2301652,Rent,Daire,Konut,1750,TRY,1750,TRY,2,1,2 + 1,70,3960,Antalya,4641,Konyaaltı,4645,Hurma
+313689,1694512,Sale,Daire,Konut,245000,TRY,245000,TRY,4,1,4 + 1,200,10423,Aydın,10576,Didim,10579,Efeler
+313690,2234810,Rent,Rezidans,Konut,1250,TRY,1250,TRY,3,1,3 + 1,155,15241,Denizli,15957,Merkezefendi,15974,Selçuk Bey
+313691,1532260,Sale,Daire,Konut,135000,TRY,135000,TRY,3,1,3 + 1,130,28777,Malatya,28986,Battalgazi,29069,Paşaköşkü
+313692,1692679,Sale,Daire,Konut,290000,TRY,290000,TRY,3,1,3 + 1,140,8229,Afyonkarahisar,8669,Afyonkarahisar Merkez,70882,Dörtyol
+313693,675215,Sale,Daire,Konut,133000,TRY,133000,TRY,2,1,2 + 1,125,20173,Gaziantep,20817,Şehitkamil,20937,Merveşehir
+313694,842782,Sale,Daire,Konut,285000,TRY,285000,TRY,3,1,3 + 1,160,2554,İzmir,3858,Torbalı,74416,Ayrancılar
+313695,1557152,Sale,Dükkan / Mağaza,İşyeri,60000,TRY,60000,TRY,,,,30,5092,Bursa,6182,Yıldırım,6250,Hamamlıkızık
+313696,1905656,Sale,Daire,Konut,155000,TRY,155000,TRY,1,1,1 + 1,55,3960,Antalya,4574,Kepez,4628,Altınova Orta
+313697,2098638,Rent,Daire,Konut,1000,TRY,1000,TRY,2,1,2 + 1,100,1,İstanbul,887,Sultangazi,895,İsmetpaşa
+313698,2259409,Rent,Daire,Konut,800,TRY,800,TRY,2,1,2 + 1,110,11210,Balıkesir,11304,Bandırma,11321,İhsaniye
+313699,1317785,Rent,Daire,Konut,1250,TRY,1250,TRY,2,1,2 + 1,99,1,İstanbul,644,Pendik,652,Velibaba
+313700,1414690,Sale,Tarla,Arsa,125000,TRY,125000,TRY,,,,3250,5092,Bursa,5232,İnegöl,5355,Şehitler
+313701,2097479,Sale,Rezidans,Konut,10850000,TRY,10850000,TRY,5,1,5 + 1,317,1,İstanbul,113,Bakırköy,69751,Ataköy 2-5-6. Kısım
+313702,2255779,Rent,Daire,Konut,2100,TRY,2100,TRY,3,1,3 + 1,140,2554,İzmir,3102,Karabağlar,3119,Esenyalı
+313703,1751566,Sale,Daire,Konut,826000,TRY,826000,TRY,3,1,3 + 1,118,1,İstanbul,601,Küçükçekmece,605,Cumhuriyet
+313704,1740304,Sale,Daire,Konut,339000,TRY,339000,TRY,3,2,3 + 2,160,1,İstanbul,682,Sancaktepe,697,Osmangazi
+313705,1964245,Sale,Daire,Konut,225000,TRY,225000,TRY,3,1,3 + 1,170,36701,Samsun,36803,Atakum,36822,İstiklal
+313706,2066174,Sale,Daire,Konut,115000,TRY,115000,TRY,1,1,1 + 1,90,1,İstanbul,67,Avcılar,69,Cihangir
+313707,1990502,Sale,Villa,Konut,725000,TRY,725000,TRY,3,1,3 + 1,303,10423,Aydın,10576,Didim,10583,Çamlık
+313708,1752035,Sale,Daire,Konut,117000,TRY,117000,TRY,1,1,1 + 1,60,43620,Yalova,43662,Çınarcık,43665,Harmanlar
+313709,1721144,Rent,Daire,Konut,1000,TRY,1000,TRY,3,1,3 + 1,140,1012,Ankara,2071,Mamak,2076,Şahintepe
+313710,2221976,Sale,Daire,Konut,200000,TRY,200000,TRY,3,1,3 + 1,180,18260,Erzurum,19480,Yakutiye,19548,Muratpaşa
+313711,2064831,Sale,Daire,Konut,510000,TRY,510000,TRY,4,1,4 + 1,250,1012,Ankara,2482,Yenimahalle,2528,Turgut Özal
+313712,1732212,Sale,Daire,Konut,355000,TRY,355000,TRY,3,1,3 + 1,150,2554,İzmir,3071,Gaziemir,3073,Yeşil
+313713,2071812,Sale,Tarla,Arsa,197400,TRY,197400,TRY,,,,13160,31676,Mersin,32514,Toroslar,32561,Arslanköy
+313714,1729209,Sale,Daire,Konut,169000,TRY,169000,TRY,2,1,2 + 1,100,36701,Samsun,36803,Atakum,36826,Yenimahalle
+313715,1847502,Rent,Daire,Konut,800,TRY,800,TRY,2,1,2 + 1,65,10423,Aydın,11113,Efeler,11133,Orta
+313716,1505701,Sale,Daire,Konut,515000,TRY,515000,TRY,1,0,1 + 0,65,1,İstanbul,703,Sarıyer,704,Maslak
+313717,1194624,Rent,Daire,Konut,800,TRY,800,TRY,3,1,3 + 1,145,9806,Amasya,9865,Amasya Merkez,70193,Şeyhcui
+313718,2060350,Sale,Daire,Konut,210000,TRY,210000,TRY,2,1,2 + 1,110,5092,Bursa,5776,Nilüfer,5781,Akçalar
+313719,1635051,Sale,Rezidans,Konut,2100000,TRY,2100000,TRY,4,1,4 + 1,170,1,İstanbul,963,Üsküdar,981,Bahçelievler
+313720,1142492,Sale,Daire,Konut,135000,TRY,135000,TRY,3,1,3 + 1,145,5092,Bursa,5138,Gemlik,5149,Hamidiye
+313721,961104,Sale,Daire,Konut,550000,TRY,550000,TRY,4,2,4 + 2,120,39689,Sinop,39791,Sinop Merkez,70599,İncedayı
+313722,1980727,Sale,Daire,Konut,350000,TRY,350000,TRY,3,1,3 + 1,125,1,İstanbul,49,Ataşehir,52,İçerenköy
+313723,2154633,Sale,Tarla,Arsa,240000,TRY,240000,TRY,,,,2487,1,İstanbul,314,Çatalca,328,Celepköy
+313724,1903309,Sale,Daire,Konut,180000,TRY,180000,TRY,3,1,3 + 1,120,1012,Ankara,2482,Yenimahalle,2497,Çiğdemtepe
+313725,1491564,Sale,Daire,Konut,355000,TRY,355000,TRY,3,1,3 + 1,175,3960,Antalya,4065,Alanya,4150,Cikcilli
+313726,1996730,Rent,Daire,Konut,650,TRY,650,TRY,2,1,2 + 1,100,3960,Antalya,4574,Kepez,4632,Varsak Karşıyaka
+313727,2151768,Sale,Daire,Konut,165000,TRY,165000,TRY,2,1,2 + 1,85,32637,Muğla,33102,Ortaca,33105,Terzialiler
+313728,1646380,Rent,Daire,Konut,750,TRY,750,TRY,2,1,2 + 1,130,31676,Mersin,32049,Mezitli,32059,Tece
+313729,1871355,Rent,Daire,Konut,800,TRY,800,TRY,1,1,1 + 1,50,14264,Çanakkale,14393,Çan,14397,Cumhuriyet
+313730,1447063,Sale,Daire,Konut,240000,TRY,240000,TRY,3,1,3 + 1,130,44190,Zonguldak,44415,Ereğli,44483,Kestaneci
+313731,2088884,Sale,Daire,Konut,98000,TRY,98000,TRY,1,1,1 + 1,75,1,İstanbul,394,Esenyurt,402,Ardıçlı
+313732,1940974,Sale,Daire,Konut,300000,TRY,300000,TRY,3,1,3 + 1,165,32637,Muğla,32706,Dalaman,32711,Altıntas
+313733,2174325,Sale,Daire,Konut,780000,TRY,780000,TRY,3,1,3 + 1,156,1,İstanbul,131,Başakşehir,137,Kayabaşı
+313734,2202939,Sale,Daire,Konut,125000,TRY,125000,TRY,1,1,1 + 1,60,31676,Mersin,32601,Yenişehir,32605,Çiftlikköy
+313735,1332574,Sale,Daire,Konut,105000,TRY,105000,TRY,1,1,1 + 1,50,24121,Karaman,24214,Karaman Merkez,72331,Gevher Hatun
+313736,2263770,Sale,Daire,Konut,275000,TRY,275000,TRY,2,1,2 + 1,145,20173,Gaziantep,20627,Şahinbey,20812,Karataş
+313737,1294571,Sale,Tarla,Arsa,120000,TRY,120000,TRY,,,,153,1,İstanbul,8,Arnavutköy,29,Taşoluk
+313738,1664620,Rent,Daire,Konut,750,TRY,750,TRY,1,1,1 + 1,55,14264,Çanakkale,14532,Çanakkale Merkez,70797,Barbaros
+313739,2091639,Sale,Daire,Konut,162000,TRY,162000,TRY,2,1,2 + 1,120,31676,Mersin,32322,Tarsus,32389,Yeni Ömerli
+313740,1302315,Sale,Daire,Konut,128000,TRY,128000,TRY,2,1,2 + 1,110,31676,Mersin,32601,Yenişehir,32619,Dumlupınar
+313741,744216,Rent,Daire,Konut,1400,TRY,1400,TRY,3,1,3 + 1,145,1,İstanbul,229,Beylikdüzü,230,Barış
+313742,1217771,Sale,Daire,Konut,135000,TRY,135000,TRY,2,1,2 + 1,85,6826,Adana,7623,Yüreğir,7706,Yenidoğan
+313743,1725700,Sale,Daire,Konut,155000,TRY,155000,TRY,3,1,3 + 1,115,1012,Ankara,2482,Yenimahalle,2499,Demetlale
+313744,1345149,Sale,Daire,Konut,177000,TRY,177000,TRY,2,1,2 + 1,100,1,İstanbul,394,Esenyurt,412,Yenikent
+313745,1596970,Sale,Daire,Konut,199000,TRY,199000,TRY,3,1,3 + 1,135,29689,Manisa,29716,Akhisar,29824,Efendi
+313746,1553514,Rent,Yazlık,Konut,50000,TRY,50000,TRY,2,1,2 + 1,85,32637,Muğla,32638,Bodrum,32639,Ortakentyahşi
+313747,1256787,Sale,Daire,Konut,125000,TRY,125000,TRY,1,1,1 + 1,55,1,İstanbul,144,Bayrampaşa,146,Kartaltepe
+313748,1647733,Sale,Bağ,Arsa,160000,TRY,160000,TRY,,,,1612,25014,Kayseri,25366,Melikgazi,25410,Kıranardı Fatih
+313749,1979217,Sale,Komple Bina,Konut,10000000,TRY,10000000,TRY,,,,544,1,İstanbul,182,Beykoz,194,Kanlıca
+313750,2105980,Rent,Daire,Konut,1300,TRY,1300,TRY,3,1,3 + 1,160,32637,Muğla,32746,Fethiye,32760,Akarca
+313751,1307033,Sale,Rezidans,Konut,890000,TRY,890000,TRY,2,1,2 + 1,117,1,İstanbul,703,Sarıyer,704,Maslak
+313752,2128953,Sale,Villa,Konut,2100000,TRY,2100000,TRY,5,2,5 + 2,270,1,İstanbul,355,Çekmeköy,372,Merkez
+313753,1690652,Rent,Daire,Konut,900,TRY,900,TRY,2,1,2 + 1,75,6253,Kocaeli,6455,İzmit,6526,Akarca
+313754,2045024,Sale,Daire,Konut,115000,TRY,115000,TRY,3,1,3 + 1,148,6253,Kocaeli,6788,Körfez,6799,İlimtepe
+313755,968878,Sale,Tarla,Arsa,1850000,TRY,1850000,TRY,,,,19660,32637,Muğla,32746,Fethiye,72966,Faralya
+313756,1638678,Rent,Daire,Konut,1600,TRY,1600,TRY,2,1,2 + 1,100,1,İstanbul,625,Maltepe,627,Altıntepe
+313757,2038649,Rent,Dükkan / Mağaza,İşyeri,3500,TRY,3500,TRY,,,,130,1,İstanbul,998,Zeytinburnu,1001,Gökalp
+313758,1880321,Sale,Daire,Konut,420000,TRY,420000,TRY,4,1,4 + 1,225,28777,Malatya,29593,Yeşilyurt,29610,Şeyh Bayram
+313759,2129065,Rent,Daire,Konut,1100,TRY,1100,TRY,3,1,3 + 1,180,28777,Malatya,29593,Yeşilyurt,29623,Turgut Özal
+313760,1442427,Sale,Villa,Konut,3896000,TRY,3896000,TRY,3,2,3 + 2,420,65868,K.K.T.C,65877,Lefkoşa,66102,Hamitköy Köyü
+313761,2236509,Sale,Daire,Konut,235000,TRY,235000,TRY,1,1,1 + 1,55,1,İstanbul,843,Şişli,846,Mecidiyeköy
+313762,1778627,Sale,Daire,Konut,144000,TRY,144000,TRY,1,1,1 + 1,70,10423,Aydın,10576,Didim,10579,Efeler
+313763,2292925,Sale,Daire,Konut,260000,TRY,260000,TRY,3,1,3 + 1,120,2554,İzmir,2907,Buca,2940,Vali Rahmi Bey
+313764,2302020,Rent,Rezidans,Konut,1750,TRY,1750,TRY,1,1,1 + 1,60,1012,Ankara,1322,Çankaya,1422,Çukurambar
+313765,1794584,Rent,Daire,Konut,1600,TRY,1600,TRY,3,1,3 + 1,135,2554,İzmir,3529,Menemen,3560,30 Ağustos
+313766,1398801,Sale,Daire,Konut,159000,TRY,159000,TRY,3,1,3 + 1,130,14827,Çorum,15038,Çorum Merkez,70493,Kale
+313767,753077,Rent,Yalı Dairesi,Konut,30000,TRY,30000,TRY,3,1,3 + 1,175,1,İstanbul,703,Sarıyer,731,Rumeli Hisarı
+313768,2189655,Sale,Daire,Konut,320000,TRY,320000,TRY,3,1,3 + 1,155,13958,Burdur,14138,Burdur Merkez,70172,Şirinevler
+313769,1474013,Sale,Tarla,Arsa,1500000,TRY,1500000,TRY,,,,1500,1012,Ankara,1565,Etimesgut,1589,Yapracık
+313770,1834572,Sale,Daire,Konut,120000,TRY,120000,TRY,1,1,1 + 1,80,2554,İzmir,3102,Karabağlar,3133,Reis
+313771,1313161,Sale,Konut İmarlı,Arsa,885000,TRY,885000,TRY,,,,652,25014,Kayseri,25366,Melikgazi,25430,Mimarsinanşirintepe
+313772,2297207,Rent,Daire,Konut,1100,TRY,1100,TRY,3,1,3 + 1,155,2554,İzmir,3071,Gaziemir,3082,Irmak
+313773,502999,Sale,Rezidans,Konut,7250000,TRY,7250000,TRY,2,1,2 + 1,260,1,İstanbul,156,Beşiktaş,158,Levent
+313774,1636451,Sale,Bahçe,Arsa,56500,TRY,56500,TRY,,,,500,1012,Ankara,2228,Polatlı,2233,Gazi
+313775,1944477,Sale,Bahçe,Arsa,210000,TRY,210000,TRY,,,,7300,2554,İzmir,2598,Bayındır,2637,Kızılcaova
+313776,2096240,Sale,Villa,Konut,725000,TRY,725000,TRY,3,1,3 + 1,150,2554,İzmir,2957,Çeşme,2965,Cumhuriyet
+313777,2125150,Sale,Ofis,İşyeri,450000,TRY,450000,TRY,1,0,1 + 0,35,1,İstanbul,448,Fatih,467,Hacı Kadın
+313778,1617452,Sale,Daire,Konut,140000,TRY,140000,TRY,1,1,1 + 1,52,14264,Çanakkale,14532,Çanakkale Merkez,70797,Barbaros
+313779,2147136,Sale,Daire,Konut,283000,TRY,283000,TRY,1,1,1 + 1,85,14264,Çanakkale,14532,Çanakkale Merkez,71402,Kepez Bld. (Hamidiye)
+313780,1772256,Sale,Villa,Konut,474000,TRY,474000,TRY,3,1,3 + 1,140,10423,Aydın,10831,Kuşadası,10853,Davutlar
+313781,1723500,Sale,Daire,Konut,220000,TRY,220000,TRY,3,1,3 + 1,130,40596,Tekirdağ,40626,Çorlu,40627,Muhittin
+313782,1125425,Sale,Daire,Konut,430000,TRY,430000,TRY,3,1,3 + 1,190,41649,Trabzon,41650,Akçaabat,57497,Söğütlü
+313783,1661997,Rent,Daire,Konut,2100,TRY,2100,TRY,3,1,3 + 1,135,1,İstanbul,113,Bakırköy,119,Osmaniye
+313784,1464645,Sale,Daire,Konut,145000,TRY,145000,TRY,2,1,2 + 1,90,6253,Kocaeli,6661,Karamürsel,6674,Kayacık
+313785,1990124,Sale,Daire,Konut,50000,TRY,50000,TRY,2,1,2 + 1,95,12672,Batman,12834,Batman Merkez,70105,Kültür
+313786,789333,Sale,Dükkan / Mağaza,İşyeri,1400000,TRY,1400000,TRY,,,,67,5092,Bursa,5232,İnegöl,5308,Cuma
+313787,2176971,Sale,Daire,Konut,109000,TRY,109000,TRY,2,1,2 + 1,120,1,İstanbul,394,Esenyurt,57835,Süleymaniye
+313788,1258596,Sale,Daire,Konut,180000,TRY,180000,TRY,2,1,2 + 1,75,1,İstanbul,355,Çekmeköy,363,Cumhuriyet
+313789,1150211,Sale,Daire,Konut,900000,TRY,900000,TRY,3,1,3 + 1,241,5092,Bursa,5776,Nilüfer,5802,Demirci
+313790,1531411,Sale,Villa,Konut,2500000,TRY,2500000,TRY,3,1,3 + 1,170,32637,Muğla,32638,Bodrum,32702,Yalıkavak
+313791,1586113,Sale,Daire,Konut,115000,TRY,115000,TRY,3,1,3 + 1,120,17102,Düzce,17250,Düzce Merkez,72223,Bahçelievler
+313792,1479762,Sale,Daire,Konut,240000,TRY,240000,TRY,3,1,3 + 1,175,25014,Kayseri,25691,Talas,25706,Mevlana
+313793,1861951,Sale,Daire,Konut,200000,TRY,200000,TRY,1,1,1 + 1,65,11210,Balıkesir,11211,Ayvalık,47596,Küçükköy
+313794,2065213,Rent,Daire,Konut,830,TRY,830,TRY,2,1,2 + 1,90,6253,Kocaeli,6294,Çayırova,6296,Atatürk
+313795,2030238,Sale,Daire,Konut,325000,TRY,325000,TRY,2,1,2 + 1,95,1,İstanbul,644,Pendik,647,Esenyalı
+313796,1166327,Sale,Konut İmarlı,Arsa,185000,TRY,185000,TRY,,,,147,2554,İzmir,3161,Karaburun,3174,Anbarseki
+313797,1710112,Sale,Daire,Konut,380000,TRY,380000,TRY,3,1,3 + 1,132,5092,Bursa,5776,Nilüfer,5780,30 Ağustos Zafer
+313798,1654874,Sale,Daire,Konut,195000,TRY,195000,TRY,3,1,3 + 1,160,25014,Kayseri,25366,Melikgazi,71449,İldem Cumhuriyet
+313799,1624484,Sale,Daire,Konut,180000,TRY,180000,TRY,3,1,3 + 1,150,25014,Kayseri,25366,Melikgazi,25405,Mimarsinandemokrasi
+313800,1914586,Rent,Daire,Konut,1500,TRY,1500,TRY,2,1,2 + 1,140,6826,Adana,7452,Seyhan,7540,Pınar
+313801,1377811,Sale,Daire,Konut,365000,TRY,365000,TRY,4,1,4 + 1,185,8229,Afyonkarahisar,8669,Afyonkarahisar Merkez,70921,Selçuklu
+313802,2275016,Sale,Daire,Konut,120000,TRY,120000,TRY,1,1,1 + 1,65,43620,Yalova,43662,Çınarcık,43664,Çamlık
+313803,2133185,Sale,Daire,Konut,188000,TRY,188000,TRY,2,1,2 + 1,135,6826,Adana,7452,Seyhan,7528,Gürselpaşa
+313804,1942785,Rent,Daire,Konut,1850,TRY,1850,TRY,4,1,4 + 1,190,1012,Ankara,1912,Keçiören,1958,Yükseltepe
+313805,1223016,Sale,Daire,Konut,270000,TRY,270000,TRY,3,1,3 + 1,110,1012,Ankara,2482,Yenimahalle,2514,Kardelen
+313806,1396362,Sale,Daire,Konut,120000,TRY,120000,TRY,3,1,3 + 1,90,25014,Kayseri,25091,Develi,25106,Bahçelievler
+313807,1861394,Sale,Daire,Konut,743000,TRY,743000,TRY,3,1,3 + 1,125,1,İstanbul,537,Kadıköy,557,19 Mayıs
+313808,1545029,Rent,Daire,Konut,1850,TRY,1850,TRY,2,1,2 + 1,80,1012,Ankara,1322,Çankaya,1442,Topraklık
+313809,1992591,Rent,Daire,Konut,3400,TRY,3400,TRY,8,1,8 + 1,280,1012,Ankara,1322,Çankaya,1446,Yıldızevler
+313810,1033339,Rent,Daire,Konut,1400,TRY,1400,TRY,1,1,1 + 1,75,1,İstanbul,963,Üsküdar,976,Ünalan
+313811,1316853,Sale,Daire,Konut,575000,TRY,575000,TRY,5,2,5 + 2,350,36701,Samsun,36905,Bafra,36955,Altınyaprak
+313812,1569056,Sale,Daire,Konut,109000,TRY,109000,TRY,2,1,2 + 1,85,40596,Tekirdağ,40940,Kapaklı,59856,Cumhuriyet
+313813,1520816,Sale,Daire,Konut,258000,TRY,258000,TRY,3,1,3 + 1,170,20173,Gaziantep,20817,Şehitkamil,20955,Mücahitler
+313814,2305706,Sale,Yazlık,Konut,155000,TRY,155000,TRY,2,1,2 + 1,90,5092,Bursa,5138,Gemlik,74722,Küçükkumla
+313815,2126989,Sale,Konut + Ticaret,Arsa,88000,TRY,88000,TRY,,,,226,2554,İzmir,3858,Torbalı,3867,Ertuğrul
+313816,2293427,Sale,Daire,Konut,469000,TRY,469000,TRY,3,1,3 + 1,138,1,İstanbul,903,Tuzla,904,Aydınlı
+313817,1705302,Sale,Daire,Konut,415000,TRY,415000,TRY,2,1,2 + 1,70,1,İstanbul,625,Maltepe,627,Altıntepe
+313818,1947458,Sale,Daire,Konut,250000,TRY,250000,TRY,3,2,3 + 2,150,11210,Balıkesir,11304,Bandırma,11321,İhsaniye
+313819,2214560,Rent,Daire,Konut,1400,TRY,1400,TRY,2,1,2 + 1,110,10423,Aydın,10831,Kuşadası,10848,Cumhuriyet
+313820,1462326,Sale,Komple Bina,Konut,235000,TRY,235000,TRY,3,1,3 + 1,180,36701,Samsun,36803,Atakum,36826,Yenimahalle
+313821,1985336,Sale,Konut İmarlı,Arsa,100000,TRY,100000,TRY,,,,250,1,İstanbul,806,Silivri,809,Alipaşa
+313822,2149501,Sale,Daire,Konut,155000,TRY,155000,TRY,2,1,2 + 1,95,1,İstanbul,394,Esenyurt,57835,Süleymaniye
+313823,1603522,Rent,Daire,Konut,850,TRY,850,TRY,3,1,3 + 1,90,1012,Ankara,2482,Yenimahalle,2547,25 Mart
+313824,1579972,Sale,Daire,Konut,150000,TRY,150000,TRY,3,1,3 + 1,150,25014,Kayseri,25366,Melikgazi,25393,Selçuklu
+313825,1677627,Rent,Rezidans,Konut,8000,TRY,8000,TRY,1,1,1 + 1,140,1,İstanbul,156,Beşiktaş,158,Levent
+313826,194226,Sale,Daire,Konut,235000,TRY,235000,TRY,2,1,2 + 1,75,1,İstanbul,601,Küçükçekmece,604,Cennet
+313827,2135358,Sale,Daire,Konut,180000,TRY,180000,TRY,2,1,2 + 1,100,1,İstanbul,525,Güngören,531,Gençosman
+313828,1915145,Sale,Daire,Konut,165000,TRY,165000,TRY,3,1,3 + 1,125,1012,Ankara,2071,Mamak,2122,Yeşilbayır
+313829,1288116,Sale,Daire,Konut,570000,TRY,570000,TRY,3,1,3 + 1,160,10423,Aydın,10831,Kuşadası,10842,Kadınlar Denizi
+313830,2163318,Sale,Daire,Konut,300000,TRY,300000,TRY,4,1,4 + 1,200,10423,Aydın,10576,Didim,10579,Efeler
+313831,1976076,Sale,Daire,Konut,245000,TRY,245000,TRY,2,1,2 + 1,120,40596,Tekirdağ,40950,Süleymanpaşa,40952,Eskicami-Ortacami
+313832,1170564,Sale,Daire,Konut,120000,TRY,120000,TRY,1,1,1 + 1,60,14264,Çanakkale,14532,Çanakkale Merkez,70797,Barbaros
+313833,2263900,Rent,Daire,Konut,750,TRY,750,TRY,2,1,2 + 1,115,3960,Antalya,4816,Manavgat,4934,Sarılar
+313834,2252507,Sale,Daire,Konut,475000,TRY,475000,TRY,4,1,4 + 1,175,19584,Eskişehir,20081,Tepebaşı,20150,Batıkent
+313835,1157837,Sale,Daire,Konut,485000,TRY,485000,TRY,2,1,2 + 1,85,1,İstanbul,843,Şişli,74395,Halide Edip Adıvar
+313836,2300916,Sale,Müstakil Ev,Konut,375000,TRY,375000,TRY,3,1,3 + 1,160,31676,Mersin,32601,Yenişehir,74308,Bahçelievler
+313837,1650266,Sale,Müstakil Ev,Konut,155000,TRY,155000,TRY,2,1,2 + 1,95,19584,Eskişehir,20081,Tepebaşı,20136,Esentepe
+313838,2119212,Sale,Daire,Konut,210000,TRY,210000,TRY,2,1,2 + 1,75,2554,İzmir,2907,Buca,2911,Çamlıkule
+313839,1627331,Sale,Daire,Konut,235000,TRY,235000,TRY,2,1,2 + 1,95,1,İstanbul,682,Sancaktepe,684,Abdurrahmangazi
+313840,1568243,Rent,Daire,Konut,500,TRY,500,TRY,2,1,2 + 1,90,1,İstanbul,229,Beylikdüzü,232,Cumhuriyet
+313841,784776,Sale,Ofis,İşyeri,400000,TRY,400000,TRY,2,1,2 + 1,200,35966,Sakarya,36595,Sapanca,36597,Camicedit
+313842,1685710,Sale,Villa,Konut,619000,TRY,619000,TRY,3,1,3 + 1,140,32637,Muğla,33294,Menteşe,33349,Ortaköy
+313843,1495569,Sale,Dükkan / Mağaza,İşyeri,275000,TRY,275000,TRY,,,,120,41649,Trabzon,41650,Akçaabat,57497,Söğütlü
+313844,1679607,Sale,Daire,Konut,345000,TRY,345000,TRY,2,1,2 + 1,80,10423,Aydın,10831,Kuşadası,10833,İkiçeşmelik
+313845,1682211,Rent,Cafe / Restoran / Bar,İşyeri,20000,TRY,20000,TRY,,,,70,41649,Trabzon,42456,Ortahisar,42486,Boztepe
+313846,1997721,Sale,Daire,Konut,145000,TRY,145000,TRY,3,1,3 + 1,130,1012,Ankara,1565,Etimesgut,1566,Alsancak
+313847,2012032,Rent,Daire,Konut,2350,TRY,2350,TRY,3,1,3 + 1,145,1,İstanbul,537,Kadıköy,545,Bostancı
+313848,2257563,Rent,Daire,Konut,750,TRY,750,TRY,1,1,1 + 1,70,6826,Adana,7381,Sarıçam,7389,Çarkıpare
+313849,1656204,Rent,Daire,Konut,1000,TRY,1000,TRY,3,1,3 + 1,160,31676,Mersin,31885,Erdemli,31959,Alata
+313850,1215835,Sale,Daire,Konut,315000,TRY,315000,TRY,3,1,3 + 1,110,6253,Kocaeli,6357,Gebze,6370,Köşklü Çeşme
+313851,1575328,Rent,Daire,Konut,13000,TRY,13000,TRY,3,1,3 + 1,180,6826,Adana,6995,Çukurova,6996,Belediye Evleri
+313852,1786898,Sale,Daire,Konut,525000,TRY,525000,TRY,5,1,5 + 1,215,31676,Mersin,32049,Mezitli,32062,Akdeniz
+313853,1877983,Sale,Daire,Konut,270000,TRY,270000,TRY,3,1,3 + 1,120,6253,Kocaeli,6294,Çayırova,6301,Özgürlük
+313854,1495315,Rent,Fabrika / İmalathane,İşyeri,1100,TRY,1100,TRY,,,,120,8229,Afyonkarahisar,8669,Afyonkarahisar Merkez,70189,Sahipata
+313855,1964635,Sale,Daire,Konut,455000,TRY,455000,TRY,3,1,3 + 1,155,1,İstanbul,229,Beylikdüzü,230,Barış
+313856,1784662,Sale,Konut İmarlı,Arsa,245000,TRY,245000,TRY,,,,416,32637,Muğla,33294,Menteşe,33340,Gülağzı
+313857,2027311,Sale,Daire,Konut,175000,TRY,175000,TRY,2,1,2 + 1,100,1,İstanbul,394,Esenyurt,399,Pınar
+313858,1564023,Sale,Daire,Konut,1065000,TRY,1065000,TRY,3,1,3 + 1,135,1,İstanbul,537,Kadıköy,541,Suadiye
+313859,996474,Sale,Müstakil Ev,Konut,370000,TRY,370000,TRY,3,1,3 + 1,180,10423,Aydın,10831,Kuşadası,10842,Kadınlar Denizi
+313860,1886230,Sale,Çiftlik,Arsa,650000,TRY,650000,TRY,,,,7500,11210,Balıkesir,11609,Edremit,11621,Tuzcumurat
+313861,2304606,Sale,Daire,Konut,165000,TRY,165000,TRY,3,1,3 + 1,125,29689,Manisa,30838,Yunusemre,30880,Muradiye
+313862,2177503,Sale,Daire,Konut,277000,TRY,277000,TRY,3,1,3 + 1,130,1012,Ankara,2326,Pursaklar,2328,Yunus Emre
+313863,1226837,Sale,Daire,Konut,417000,TRY,417000,TRY,6,3,6 + 3,245,32637,Muğla,32886,Köyceğiz,32890,Yeni
+313864,2040753,Sale,Daire,Konut,150000,TRY,150000,TRY,3,1,3 + 1,115,11210,Balıkesir,11455,Burhaniye,11457,Kocacami
+313865,1588206,Rent,Daire,Konut,1500,TRY,1500,TRY,2,1,2 + 1,100,2554,İzmir,3729,Seferihisar,3730,Sığacık
+313866,1756773,Sale,Daire,Konut,535000,TRY,535000,TRY,3,1,3 + 1,125,1,İstanbul,580,Kartal,595,Petroliş
+313867,2071765,Rent,Villa,Konut,2250,TRY,2250,TRY,2,1,2 + 1,120,3960,Antalya,4491,Kaş,4521,Kalkan
+313868,1847467,Sale,Daire,Konut,75000,TRY,75000,TRY,3,1,3 + 1,110,5092,Bursa,6182,Yıldırım,6194,Emirsultan
+313869,1966716,Rent,Dükkan / Mağaza,İşyeri,1000,TRY,1000,TRY,,,,100,5092,Bursa,5969,Osmangazi,5981,Demirtaş Dumlupınar
+313870,733120,Sale,Zeytinlik,Arsa,100000,TRY,100000,TRY,,,,1479,2554,İzmir,3729,Seferihisar,3742,Beyler
+313871,1959632,Sale,Daire,Konut,167000,TRY,167000,TRY,2,1,2 + 1,95,1,İstanbul,67,Avcılar,75,Merkez
+313872,2100345,Sale,Daire,Konut,220000,TRY,220000,TRY,2,1,2 + 1,115,14264,Çanakkale,14532,Çanakkale Merkez,70797,Barbaros
+313873,248283,Sale,Sanayi İmarlı,Arsa,12000000,TRY,12000000,TRY,,,,6000,1,İstanbul,8,Arnavutköy,15,Deliklikaya
+313874,2239652,Rent,Daire,Konut,1350,TRY,1350,TRY,1,1,1 + 1,90,6826,Adana,7452,Seyhan,7535,Çınarlı
+313875,1789723,Sale,Daire,Konut,209000,TRY,209000,TRY,3,1,3 + 1,145,18260,Erzurum,18336,Aziziye,18414,Saltuklu
+313876,1587834,Sale,Daire,Konut,295000,TRY,295000,TRY,4,1,4 + 1,180,6253,Kocaeli,6305,Darıca,74309,Kazım Karabekir
+313877,1125613,Sale,Bahçe,Arsa,120000,TRY,120000,TRY,,,,1750,5092,Bursa,5232,İnegöl,5257,Karagölet
+313878,1594963,Sale,Daire,Konut,135000,TRY,135000,TRY,3,1,3 + 1,150,1012,Ankara,2482,Yenimahalle,2526,Susuz
+313879,706711,Sale,Daire,Konut,260000,TRY,260000,TRY,3,1,3 + 1,140,1012,Ankara,2482,Yenimahalle,2540,Avcılar
+313880,1940076,Sale,Villa,Konut,1350000,TRY,1350000,TRY,5,2,5 + 2,360,1,İstanbul,131,Başakşehir,141,Bahçeşehir 2. Kısım
+313881,1928565,Sale,Villa,Konut,1275000,TRY,1275000,TRY,5,3,5 + 3,550,6253,Kocaeli,6403,Gölcük,6420,Topçular
+313882,1958657,Rent,Daire,Konut,1500,TRY,1500,TRY,3,1,3 + 1,130,2554,İzmir,2589,Balçova,2593,Onur
+313883,1722577,Sale,Müstakil Ev,Konut,500000,TRY,500000,TRY,3,1,3 + 1,200,10423,Aydın,10831,Kuşadası,10844,Yavansu
+313884,1352973,Sale,Daire,Konut,160000,TRY,160000,TRY,2,1,2 + 1,100,40596,Tekirdağ,40597,Çerkezköy,40623,Kızılpınar
+313885,1549216,Rent,Daire,Konut,1550,TRY,1550,TRY,1,1,1 + 1,75,2554,İzmir,2860,Bornova,2883,Mevlana
+313886,950880,Sale,Konut İmarlı,Arsa,185000,TRY,185000,TRY,,,,236,31676,Mersin,32601,Yenişehir,32610,Menteş
+313887,1974475,Rent,Daire,Konut,1150,TRY,1150,TRY,2,1,2 + 1,90,2554,İzmir,3183,Karşıyaka,3199,Dedebaşı
+313888,1982724,Sale,Villa,Konut,349000,TRY,349000,TRY,3,1,3 + 1,220,10423,Aydın,10576,Didim,10586,Mavişehir
+313889,2125180,Sale,Daire,Konut,450000,TRY,450000,TRY,3,1,3 + 1,135,2554,İzmir,2589,Balçova,2594,Teleferik
+313890,2209600,Sale,Zeytinlik,Arsa,35000,TRY,35000,TRY,,,,3000,2554,İzmir,2684,Bergama,2711,Gaylan
+313891,1619670,Sale,Daire,Konut,360000,TRY,360000,TRY,2,1,2 + 1,95,1,İstanbul,66134,Eyüpsultan,66157,Yeşilpınar
+313892,2248098,Sale,Daire,Konut,325000,TRY,325000,TRY,2,1,2 + 1,135,36701,Samsun,36803,Atakum,36826,Yenimahalle
+313893,356229,Sale,Daire,Konut,485000,TRY,485000,TRY,2,1,2 + 1,90,1,İstanbul,537,Kadıköy,541,Suadiye
+313894,1684304,Sale,Daire,Konut,249000,TRY,249000,TRY,2,1,2 + 1,85,1012,Ankara,1565,Etimesgut,1569,Eryaman
+313895,660839,Sale,Daire,Konut,300000,TRY,300000,TRY,3,1,3 + 1,180,36701,Samsun,37367,İlkadım,37377,Kalkancı
+313896,2141038,Daily Rent,Daire,Konut,70,TRY,70,TRY,1,1,1 + 1,80,1012,Ankara,1565,Etimesgut,1576,Altay
+313897,1782817,Sale,Daire,Konut,170000,TRY,170000,TRY,2,1,2 + 1,105,26208,Kırklareli,26393,Pınarhisar,75989,Kurudere Köyü
+313898,2114288,Rent,Daire,Konut,650,TRY,650,TRY,1,1,1 + 1,70,14264,Çanakkale,14532,Çanakkale Merkez,70772,Kepez Bld. (Cumhuriyet)
+313899,2261092,Sale,Rezidans,Konut,270000,TRY,270000,TRY,2,1,2 + 1,117,10423,Aydın,11001,Söke,69810,Yenicamii
+313900,1398934,Rent,Daire,Konut,1750,TRY,1750,TRY,3,1,3 + 1,130,1,İstanbul,926,Ümraniye,949,Tatlısu
+313901,1608290,Sale,Daire,Konut,240000,TRY,240000,TRY,2,1,2 + 1,100,1,İstanbul,287,Büyükçekmece,308,Murat Çeşme
+313902,1650380,Rent,Rezidans,Konut,1250,TRY,1250,TRY,1,1,1 + 1,60,1,İstanbul,394,Esenyurt,47880,Zafer
+313903,1618490,Sale,Daire,Konut,745000,TRY,745000,TRY,7,2,7 + 2,490,20173,Gaziantep,20817,Şehitkamil,20877,Emek
+313904,1722498,Sale,Daire,Konut,250000,TRY,250000,TRY,3,1,3 + 1,135,29689,Manisa,30695,Turgutlu,30711,Subaşı
+313905,2179441,Sale,Komple Bina,İşyeri,25000000,TRY,25000000,TRY,,,,6000,2554,İzmir,3183,Karşıyaka,3184,Mavişehir
+313906,2223750,Sale,Daire,Konut,175000,TRY,175000,TRY,2,1,2 + 1,100,1,İstanbul,887,Sultangazi,898,Yunus Emre
+313907,2286833,Rent,Daire,Konut,1550,TRY,1550,TRY,2,1,2 + 1,136,1,İstanbul,229,Beylikdüzü,236,Adnan Kahveci
+313908,1340249,Rent,Daire,Konut,750,TRY,750,TRY,2,1,2 + 1,100,1,İstanbul,394,Esenyurt,412,Yenikent
+313909,1747543,Sale,Daire,Konut,245000,TRY,245000,TRY,2,1,2 + 1,80,1,İstanbul,625,Maltepe,634,Fındıklı
+313910,2200871,Sale,Yazlık,Konut,580000,TRY,580000,TRY,2,1,2 + 1,2200,25014,Kayseri,25366,Melikgazi,25417,Hisarcık Bahçelievler
+313911,1752067,Sale,Daire,Konut,149000,TRY,149000,TRY,2,1,2 + 1,100,43620,Yalova,43662,Çınarcık,43665,Harmanlar
+313912,1881302,Sale,Daire,Konut,2788600,TRY,2788600,TRY,9,2,9 + 2,382,1,İstanbul,537,Kadıköy,552,Fenerbahçe
+313913,2012712,Sale,Cafe / Restoran / Bar,İşyeri,3350000,TRY,3350000,TRY,,,,700,1012,Ankara,1322,Çankaya,74482,Prof. Dr. Ahmet Taner Kışlalı
+313914,2020646,Sale,Daire,Konut,360000,TRY,360000,TRY,3,1,3 + 1,130,11210,Balıkesir,11609,Edremit,11640,Akçay
+313915,1542170,Sale,Daire,Konut,340000,TRY,340000,TRY,2,1,2 + 1,120,5092,Bursa,5583,Mudanya,5601,Yeni
+313916,2104733,Rent,Daire,Konut,1400,TRY,1400,TRY,2,1,2 + 1,85,1,İstanbul,625,Maltepe,639,Çınar
+313917,823401,Sale,Daire,Konut,240000,TRY,240000,TRY,3,1,3 + 1,120,1012,Ankara,1041,Altındağ,1060,Gülpınar
+313918,1820004,Rent,Dükkan / Mağaza,İşyeri,2250,TRY,2250,TRY,,,,100,6253,Kocaeli,6254,Başiskele,6259,Barbaros
+313919,2293713,Sale,Tarla,Arsa,2500000,TRY,2500000,TRY,,,,166000,29689,Manisa,30335,Salihli,30409,Kemerdamları
+313920,806674,Sale,Daire,Konut,430000,TRY,430000,TRY,3,1,3 + 1,150,1012,Ankara,1912,Keçiören,1915,Bademlik
+313921,1786606,Sale,Daire,Konut,190000,TRY,190000,TRY,2,1,2 + 1,120,26630,Konya,27615,Karatay,27659,Fevziçakmak
+313922,1943634,Rent,Daire,Konut,600,TRY,600,TRY,2,1,2 + 1,80,1,İstanbul,394,Esenyurt,399,Pınar
+313923,1842731,Sale,Daire,Konut,155000,TRY,155000,TRY,2,1,2 + 1,85,35966,Sakarya,36419,Karasu,36420,İncilli
+313924,2119482,Sale,Daire,Konut,195000,TRY,195000,TRY,2,1,2 + 1,138,5092,Bursa,5969,Osmangazi,5984,Demirtaş Sakarya
+313925,2021085,Rent,Daire,Konut,850,TRY,850,TRY,2,1,2 + 1,90,1,İstanbul,580,Kartal,582,Cevizli
+313926,2271445,Sale,Daire,Konut,255000,TRY,255000,TRY,1,1,1 + 1,75,3960,Antalya,4065,Alanya,4087,Mahmutlar
+313927,2035531,Rent,Cafe / Restoran / Bar,İşyeri,460000,TRY,460000,TRY,,,,320,5092,Bursa,5776,Nilüfer,74521,Görükle
+313928,1993603,Sale,Daire,Konut,88000,TRY,88000,TRY,2,1,2 + 1,105,1,İstanbul,394,Esenyurt,74543,Bağlarçeşme
+313929,2233425,Sale,Daire,Konut,360000,TRY,360000,TRY,3,1,3 + 1,150,5092,Bursa,5776,Nilüfer,5813,Kültür
+313930,1268370,Sale,Daire,Konut,750000,TRY,750000,TRY,2,1,2 + 1,117,1,İstanbul,448,Fatih,479,Molla Gürani
+313931,1720529,Rent,Daire,Konut,1000,TRY,1000,TRY,2,1,2 + 1,95,1,İstanbul,229,Beylikdüzü,235,Yakuplu
+313932,1781257,Sale,Daire,Konut,95000,TRY,95000,TRY,1,1,1 + 1,40,10423,Aydın,10831,Kuşadası,10853,Davutlar
+313933,1404404,Sale,Daire,Konut,350000,TRY,350000,TRY,3,1,3 + 1,130,2554,İzmir,3102,Karabağlar,3153,Poligon
+313934,2259981,Sale,Dükkan / Mağaza,İşyeri,450000,TRY,450000,TRY,,,,130,34286,Ordu,34464,Fatsa,34522,Mustafakemalpaşa
+313935,2045491,Sale,Daire,Konut,95000,TRY,95000,TRY,2,1,2 + 1,110,20173,Gaziantep,20627,Şahinbey,20704,Onur
+313936,1960435,Sale,Daire,Konut,430000,TRY,430000,TRY,3,1,3 + 1,160,11210,Balıkesir,12277,Altıeylül,12344,Gaziosmanpaşa
+313937,1954764,Rent,Ofis,İşyeri,3000,TRY,3000,TRY,,,,90,5092,Bursa,5776,Nilüfer,5842,Odunluk
+313938,2045012,Rent,Daire,Konut,850,TRY,850,TRY,2,1,2 + 1,84,1,İstanbul,644,Pendik,651,Şeyhli
+313939,1745238,Sale,Tarla,Arsa,1400000,TRY,1400000,TRY,,,,12457,14264,Çanakkale,14510,Lapseki,14513,Cumhuriyet
+313940,2285196,Sale,Daire,Konut,230000,TRY,230000,TRY,2,1,2 + 1,90,3960,Antalya,4947,Muratpaşa,4974,Güzelbağ
+313941,2191579,Sale,Daire,Konut,360000,TRY,360000,TRY,1,1,1 + 1,60,1,İstanbul,963,Üsküdar,979,Beylerbeyi
+313942,1381746,Sale,Yazlık,Konut,240000,TRY,240000,TRY,1149,0,10 ve üzeri,120,10423,Aydın,10576,Didim,10589,Akbük
+313943,1754343,Sale,Dükkan / Mağaza,İşyeri,800000,TRY,800000,TRY,,,,440,18260,Erzurum,19480,Yakutiye,74501,Lalapaşa
+313944,1389267,Sale,Daire,Konut,580000,TRY,580000,TRY,4,1,4 + 1,165,1,İstanbul,144,Bayrampaşa,154,Terazidere
+313945,1668865,Rent,Daire,Konut,900,TRY,900,TRY,1,1,1 + 1,66,1,İstanbul,644,Pendik,645,Kurtköy
+313946,1976536,Sale,Daire,Konut,215000,TRY,215000,TRY,2,1,2 + 1,100,14264,Çanakkale,14532,Çanakkale Merkez,70108,İsmetpaşa
+313947,2206744,Sale,Daire,Konut,216000,TRY,216000,TRY,2,1,2 + 1,82,32637,Muğla,32638,Bodrum,32693,Mumcular
+313948,1279344,Sale,Daire,Konut,290000,TRY,290000,TRY,2,1,2 + 1,90,11210,Balıkesir,11609,Edremit,11640,Akçay
+313949,1786703,Sale,Daire,Konut,115000,TRY,115000,TRY,2,1,2 + 1,75,35966,Sakarya,36419,Karasu,36424,Yalı
+313950,2060677,Sale,Daire,Konut,225000,TRY,225000,TRY,2,1,2 + 1,110,11210,Balıkesir,11609,Edremit,11640,Akçay
+313951,2162293,Rent,Dükkan / Mağaza,İşyeri,4000,TRY,4000,TRY,,,,170,17436,Edirne,17607,Edirne Merkez,70915,Şükrüpaşa
+313952,2287755,Sale,Daire,Konut,269000,TRY,269000,TRY,3,1,3 + 1,135,1,İstanbul,229,Beylikdüzü,230,Barış
+313953,1713731,Sale,Daire,Konut,300000,TRY,300000,TRY,2,1,2 + 1,97,2554,İzmir,3752,Selçuk,3756,14 Mayıs
+313954,1524854,Sale,Daire,Konut,200000,TRY,200000,TRY,1,1,1 + 1,50,1,İstanbul,887,Sultangazi,900,Eski Habipler
+313955,2176793,Rent,Daire,Konut,1600,TRY,1600,TRY,2,1,2 + 1,90,1,İstanbul,101,Bahçelievler,104,Bahçelievler
+313956,1779811,Rent,Daire,Konut,850,TRY,850,TRY,2,1,2 + 1,75,10423,Aydın,11113,Efeler,11119,Adnan Menderes
+313957,1489528,Sale,Rezidans,Konut,680000,TRY,680000,TRY,4,1,4 + 1,215,3960,Antalya,4641,Konyaaltı,4652,Uncalı
+313958,1190314,Sale,Daire,Konut,369000,TRY,369000,TRY,3,1,3 + 1,160,29689,Manisa,30838,Yunusemre,30858,Güzelyurt
+313959,1998020,Sale,Daire,Konut,185000,TRY,185000,TRY,1,1,1 + 1,65,10423,Aydın,10831,Kuşadası,10833,İkiçeşmelik
+313960,1654253,Sale,Tarla,Arsa,18000,TRY,18000,TRY,,,,950,26208,Kırklareli,26331,Kırklareli Merkez,71938,Paşayeri Köyü
+313961,1979230,Sale,Villa,Konut,1000000,TRY,1000000,TRY,3,1,3 + 1,150,2554,İzmir,2957,Çeşme,2984,Alaçatı
+313962,1954810,Sale,Villa,Konut,2500000,TRY,2500000,TRY,4,1,4 + 1,250,1,İstanbul,182,Beykoz,189,Çengeldere
+313963,1363067,Sale,Daire,Konut,230000,TRY,230000,TRY,2,1,2 + 1,130,1,İstanbul,66134,Eyüpsultan,66197,Akşemsettin
+313964,2027924,Rent,Daire,Konut,1150,TRY,1150,TRY,2,1,2 + 1,100,1,İstanbul,926,Ümraniye,936,Çamlık
+313965,1757629,Sale,Daire,Konut,180000,TRY,180000,TRY,3,1,3 + 1,118,1012,Ankara,1912,Keçiören,1949,Osmangazi
+313966,1085000,Rent,Daire,Konut,1150,TRY,1150,TRY,2,1,2 + 1,95,1,İstanbul,625,Maltepe,637,Zümrütevler
+313967,1912970,Sale,Daire,Konut,595000,TRY,595000,TRY,3,1,3 + 1,172,1,İstanbul,131,Başakşehir,140,Bahçeşehir 1. Kısım
+313968,2311515,Sale,Daire,Konut,249000,TRY,249000,TRY,2,1,2 + 1,92,10423,Aydın,10576,Didim,10583,Çamlık
+313969,421473,Sale,Rezidans,Konut,515000,TRY,515000,TRY,4,1,4 + 1,180,10423,Aydın,10831,Kuşadası,10850,Ege
+313970,1539321,Sale,Daire,Konut,120000,TRY,120000,TRY,3,1,3 + 1,110,40100,Sivas,40310,Sivas Merkez,70329,Alibaba
+313971,1833865,Sale,Konut İmarlı,Arsa,265000,TRY,265000,TRY,,,,215,10423,Aydın,10576,Didim,10579,Efeler
+313972,2184864,Sale,Ofis,İşyeri,420000,TRY,420000,TRY,1,1,1 + 1,111,6253,Kocaeli,6357,Gebze,6360,Arapçeşme
+313973,765813,Rent,Komple Bina,İşyeri,202000,TRY,202000,TRY,,,,3250,1,İstanbul,78,Bağcılar,80,Mahmutbey
+313974,254588,Sale,Daire,Konut,149000,TRY,149000,TRY,1,1,1 + 1,56,1,İstanbul,394,Esenyurt,54738,Piri Reis
+313975,1527980,Sale,Bahçe,Arsa,480000,TRY,480000,TRY,,,,53000,11210,Balıkesir,11714,Gönen,11780,Bayramiç
+313976,2007573,Sale,Daire,Konut,308000,TRY,308000,TRY,3,1,3 + 1,175,25014,Kayseri,25366,Melikgazi,25428,Hürriyet
+313977,2182545,Sale,Dükkan / Mağaza,İşyeri,3000000,TRY,3000000,TRY,,,,560,5092,Bursa,5969,Osmangazi,6036,Ulu
+313978,776163,Sale,Daire,Konut,135000,TRY,135000,TRY,2,1,2 + 1,90,31676,Mersin,32514,Toroslar,32535,Mevlana
+313979,1243126,Sale,Daire,Konut,125000,TRY,125000,TRY,3,1,3 + 1,135000,43620,Yalova,43662,Çınarcık,43666,Taşliman
+313980,2042345,Sale,Daire,Konut,169000,TRY,169000,TRY,3,1,3 + 1,135,8229,Afyonkarahisar,8669,Afyonkarahisar Merkez,69704,İstiklal
+313981,1188956,Sale,Daire,Konut,400000,TRY,400000,TRY,3,2,3 + 2,220,39689,Sinop,39791,Sinop Merkez,66344,Zeytinlik
+313982,1951747,Sale,Daire,Konut,230000,TRY,230000,TRY,1,1,1 + 1,50,2554,İzmir,3019,Dikili,3023,İsmetpaşa
+313983,1033700,Sale,Yazlık,Konut,650000,TRY,650000,TRY,3,1,3 + 1,145,10423,Aydın,10831,Kuşadası,10857,Soğucak
+313984,585515,Sale,Çok Amaçlı,Arsa,50000,TRY,50000,TRY,,,,500,34018,Niğde,34149,Niğde Merkez,67319,Yeşilburç Köyü
+313985,1602897,Sale,Daire,Konut,249000,TRY,249000,TRY,2,1,2 + 1,100,1012,Ankara,1565,Etimesgut,1586,Şehit Osman Avcı
+313986,1558057,Sale,Daire,Konut,290000,TRY,290000,TRY,2,1,2 + 1,100,1,İstanbul,229,Beylikdüzü,233,Gürpınar
+313987,2254366,Rent,Daire,Konut,1300,TRY,1300,TRY,2,1,2 + 1,115,26025,Kırıkkale,26116,Kırıkkale Merkez,72143,Bağlarbaşı
+313988,2171590,Rent,Rezidans,Konut,2100,TRY,2100,TRY,1,1,1 + 1,48,1,İstanbul,113,Bakırköy,69723,Ataköy 7-8-9-10. Kısım
+313989,1787845,Sale,Müstakil Ev,Konut,400000,TRY,400000,TRY,2,1,2 + 1,350,1,İstanbul,644,Pendik,676,Ertuğrul Gazi
+313990,1626660,Rent,Daire,Konut,650,TRY,650,TRY,2,1,2 + 1,80,34018,Niğde,34149,Niğde Merkez,70668,Sırali
+313991,1736747,Sale,Daire,Konut,25000,TRY,25000,TRY,3,2,3 + 2,100,1012,Ankara,2419,Sincan,2449,Tandoğan
+313992,1213455,Sale,Villa,Konut,1925000,TRY,1925000,TRY,6,1,6 + 1,405,2554,İzmir,3088,Güzelbahçe,3091,Kahramandere
+313993,1929811,Rent,Dükkan / Mağaza,İşyeri,14000,TRY,14000,TRY,,,,122,1,İstanbul,49,Ataşehir,52,İçerenköy
+313994,1420633,Sale,Tarla,Arsa,710000,TRY,710000,TRY,,,,3620,32637,Muğla,32917,Marmaris,32941,Çamlı
+313995,1593021,Sale,Daire,Konut,210000,TRY,210000,TRY,2,1,2 + 1,120,31676,Mersin,32049,Mezitli,32062,Akdeniz
+313996,980074,Sale,Daire,Konut,143000,TRY,143000,TRY,3,1,3 + 1,110,1012,Ankara,2419,Sincan,2449,Tandoğan
+313997,2098305,Sale,Daire,Konut,99000,TRY,99000,TRY,2,1,2 + 1,105,1012,Ankara,1912,Keçiören,1931,Ayvalı
+313998,1813218,Sale,Konut İmarlı,Arsa,85000,TRY,85000,TRY,,,,250,40596,Tekirdağ,40880,Şarköy,40896,Kocaali
+313999,2301764,Rent,Daire,Konut,1000,TRY,1000,TRY,1,1,1 + 1,85,1,İstanbul,78,Bağcılar,94,Kirazlı
