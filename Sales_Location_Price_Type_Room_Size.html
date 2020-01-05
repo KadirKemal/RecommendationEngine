@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>Rent_Location_Price</title>
+<title>Sales_Location_Price_Type_Room_Size</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13181,8 +13181,8 @@ div#notebook {
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">eventDataSet</span> <span class="o">=</span> <span class="n">eventDataSet</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">to_replace</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;Kiralık&quot;</span><span class="p">,</span> <span class="s2">&quot;Satılik&quot;</span><span class="p">,</span> <span class="s2">&quot;Satılık&quot;</span><span class="p">],</span> <span class="n">value</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;Kiralik&quot;</span><span class="p">,</span> <span class="s2">&quot;Satilik&quot;</span><span class="p">,</span> <span class="s2">&quot;Satilik&quot;</span><span class="p">])</span>
 <span class="n">eventDataSet</span> <span class="o">=</span> <span class="n">eventDataSet</span><span class="p">[(</span><span class="n">eventDataSet</span><span class="o">.</span><span class="n">districtName</span><span class="o">.</span><span class="n">notnull</span><span class="p">())]</span>
 
-<span class="c1">#salesEventDataSet = eventDataSet[(eventDataSet.listingTypeId == 1)]</span>
-<span class="n">rentEventDataSet</span> <span class="o">=</span> <span class="n">eventDataSet</span><span class="p">[(</span><span class="n">eventDataSet</span><span class="o">.</span><span class="n">listingTypeId</span> <span class="o">==</span> <span class="mi">2</span><span class="p">)]</span>
+<span class="n">salesEventDataSet</span> <span class="o">=</span> <span class="n">eventDataSet</span><span class="p">[(</span><span class="n">eventDataSet</span><span class="o">.</span><span class="n">listingTypeId</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)]</span>
+<span class="c1">#rentEventDataSet = eventDataSet[(eventDataSet.listingTypeId == 2)]</span>
 </pre></div>
 
     </div>
@@ -13195,7 +13195,8 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ds</span> <span class="o">=</span> <span class="n">rentEventDataSet</span><span class="p">[(</span><span class="n">rentEventDataSet</span><span class="o">.</span><span class="n">cityId</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">rentEventDataSet</span><span class="o">.</span><span class="n">subPropertyType</span><span class="o">.</span><span class="n">notnull</span><span class="p">())</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">rentEventDataSet</span><span class="o">.</span><span class="n">subPropertyType</span> <span class="o">==</span> <span class="s1">&#39;Daire&#39;</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">rentEventDataSet</span><span class="o">.</span><span class="n">listingId</span><span class="o">.</span><span class="n">notnull</span><span class="p">())]</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ds</span> <span class="o">=</span> <span class="n">salesEventDataSet</span>
+<span class="n">ds</span> <span class="o">=</span> <span class="n">ds</span><span class="p">[(</span><span class="n">ds</span><span class="o">.</span><span class="n">cityId</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">ds</span><span class="o">.</span><span class="n">subPropertyType</span><span class="o">.</span><span class="n">notnull</span><span class="p">())</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">ds</span><span class="o">.</span><span class="n">listingId</span><span class="o">.</span><span class="n">notnull</span><span class="p">())]</span>
 <span class="n">ds</span> <span class="o">=</span> <span class="n">ds</span><span class="o">.</span><span class="n">filter</span><span class="p">([</span><span class="s1">&#39;event_date&#39;</span><span class="p">,</span> <span class="s1">&#39;event_timestamp&#39;</span><span class="p">,</span> <span class="s1">&#39;user_pseudo_id&#39;</span><span class="p">,</span> <span class="s1">&#39;event_name&#39;</span><span class="p">,</span> <span class="s1">&#39;listingId&#39;</span><span class="p">])</span>
 
 <span class="n">ds</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -13243,44 +13244,44 @@ div#notebook {
   </thead>
   <tbody>
     <tr>
-      <th>133</th>
+      <th>72</th>
       <td>20180701</td>
-      <td>1530476403832031</td>
-      <td>804947ac621b45f4994b01c2026a6d5c</td>
+      <td>1530478077640000</td>
+      <td>bd5e859d0ca2e93dce3dbd2fe6b596f7</td>
       <td>ListingView</td>
-      <td>1464629.0</td>
+      <td>1548096.0</td>
     </tr>
     <tr>
-      <th>134</th>
+      <th>73</th>
       <td>20180701</td>
-      <td>1530476495590000</td>
-      <td>804947ac621b45f4994b01c2026a6d5c</td>
+      <td>1530478122579005</td>
+      <td>bd5e859d0ca2e93dce3dbd2fe6b596f7</td>
       <td>ListingView</td>
-      <td>1440722.0</td>
+      <td>1615245.0</td>
     </tr>
     <tr>
-      <th>135</th>
+      <th>74</th>
       <td>20180701</td>
-      <td>1530476527232005</td>
-      <td>804947ac621b45f4994b01c2026a6d5c</td>
+      <td>1530478217269000</td>
+      <td>bd5e859d0ca2e93dce3dbd2fe6b596f7</td>
       <td>ListingView</td>
-      <td>1110019.0</td>
+      <td>1615167.0</td>
     </tr>
     <tr>
-      <th>136</th>
+      <th>75</th>
       <td>20180701</td>
-      <td>1530476727967011</td>
-      <td>804947ac621b45f4994b01c2026a6d5c</td>
+      <td>1530478372156005</td>
+      <td>bd5e859d0ca2e93dce3dbd2fe6b596f7</td>
       <td>ListingView</td>
-      <td>1132440.0</td>
+      <td>1421065.0</td>
     </tr>
     <tr>
-      <th>137</th>
+      <th>107</th>
       <td>20180701</td>
-      <td>1530476791836016</td>
-      <td>804947ac621b45f4994b01c2026a6d5c</td>
+      <td>1530477950508000</td>
+      <td>39e96f9573ce4a318cc5553cc4c2f066</td>
       <td>ListingView</td>
-      <td>1254301.0</td>
+      <td>1421065.0</td>
     </tr>
   </tbody>
 </table>
@@ -13377,124 +13378,124 @@ div#notebook {
   </thead>
   <tbody>
     <tr>
-      <th>4629.0</th>
-      <td>20190301</td>
-      <td>1551388568096023</td>
-      <td>858aa504d1c8c13d18127d1dbaa942fb</td>
+      <th>7595.0</th>
+      <td>20190311</td>
+      <td>1552269264385024</td>
+      <td>098a53e60e22692e2f0b3084b663a05b</td>
       <td>ListingView</td>
-      <td>593068.0</td>
-      <td>Rent</td>
-      <td>Daire</td>
+      <td>659554.0</td>
+      <td>Sale</td>
+      <td>Villa</td>
       <td>Konut</td>
-      <td>5750.0</td>
+      <td>3480000.0</td>
       <td>TRY</td>
       <td>...</td>
-      <td>3.0</td>
-      <td>1.0</td>
-      <td>3 + 1</td>
-      <td>140.0</td>
-      <td>1.0</td>
-      <td>İstanbul</td>
-      <td>903.0</td>
-      <td>Tuzla</td>
-      <td>907.0</td>
-      <td>İstasyon</td>
-    </tr>
-    <tr>
-      <th>4629.0</th>
-      <td>20190418</td>
-      <td>1555619270058023</td>
-      <td>858aa504d1c8c13d18127d1dbaa942fb</td>
-      <td>ListingView</td>
-      <td>593068.0</td>
-      <td>Rent</td>
-      <td>Daire</td>
-      <td>Konut</td>
-      <td>5750.0</td>
-      <td>TRY</td>
-      <td>...</td>
-      <td>3.0</td>
-      <td>1.0</td>
-      <td>3 + 1</td>
-      <td>140.0</td>
-      <td>1.0</td>
-      <td>İstanbul</td>
-      <td>903.0</td>
-      <td>Tuzla</td>
-      <td>907.0</td>
-      <td>İstasyon</td>
-    </tr>
-    <tr>
-      <th>4629.0</th>
-      <td>20190427</td>
-      <td>1556355770050023</td>
-      <td>858aa504d1c8c13d18127d1dbaa942fb</td>
-      <td>ListingView</td>
-      <td>593068.0</td>
-      <td>Rent</td>
-      <td>Daire</td>
-      <td>Konut</td>
-      <td>5750.0</td>
-      <td>TRY</td>
-      <td>...</td>
-      <td>3.0</td>
-      <td>1.0</td>
-      <td>3 + 1</td>
-      <td>140.0</td>
-      <td>1.0</td>
-      <td>İstanbul</td>
-      <td>903.0</td>
-      <td>Tuzla</td>
-      <td>907.0</td>
-      <td>İstasyon</td>
-    </tr>
-    <tr>
-      <th>52487.0</th>
-      <td>20190301</td>
-      <td>1551472313903033</td>
-      <td>edabfe954f426dbe31132823e4122474</td>
-      <td>ListingView</td>
-      <td>268896.0</td>
-      <td>Rent</td>
-      <td>Daire</td>
-      <td>Konut</td>
-      <td>900.0</td>
-      <td>TRY</td>
-      <td>...</td>
+      <td>4.0</td>
       <td>2.0</td>
-      <td>1.0</td>
-      <td>2 + 1</td>
-      <td>115.0</td>
+      <td>4 + 2</td>
+      <td>268.0</td>
       <td>1.0</td>
       <td>İstanbul</td>
-      <td>507.0</td>
-      <td>Gaziosmanpaşa</td>
-      <td>509.0</td>
-      <td>Karadeniz</td>
+      <td>682.0</td>
+      <td>Sancaktepe</td>
+      <td>684.0</td>
+      <td>Abdurrahmangazi</td>
     </tr>
     <tr>
-      <th>54773.0</th>
-      <td>20190318</td>
-      <td>1552907050757024</td>
-      <td>69ac0e82545dfbacb2318515f78801d8</td>
+      <th>7728.0</th>
+      <td>20190402</td>
+      <td>1554221841685024</td>
+      <td>1f936ab5b2f5fbb93ef472071eee1228</td>
       <td>ListingView</td>
-      <td>470169.0</td>
-      <td>Rent</td>
+      <td>185904.0</td>
+      <td>Sale</td>
       <td>Daire</td>
       <td>Konut</td>
-      <td>2750.0</td>
+      <td>725000.0</td>
       <td>TRY</td>
       <td>...</td>
-      <td>2.0</td>
+      <td>3.0</td>
       <td>1.0</td>
-      <td>2 + 1</td>
-      <td>85.0</td>
+      <td>3 + 1</td>
+      <td>150.0</td>
       <td>1.0</td>
       <td>İstanbul</td>
-      <td>448.0</td>
-      <td>Fatih</td>
-      <td>461.0</td>
-      <td>Binbirdirek</td>
+      <td>131.0</td>
+      <td>Başakşehir</td>
+      <td>141.0</td>
+      <td>Bahçeşehir 2. Kısım</td>
+    </tr>
+    <tr>
+      <th>7846.0</th>
+      <td>20190313</td>
+      <td>1552462595802024</td>
+      <td>7cf077a7ca8b2f4ea3a5b7209fabcc48</td>
+      <td>ListingView</td>
+      <td>593779.0</td>
+      <td>Sale</td>
+      <td>Rezidans</td>
+      <td>Konut</td>
+      <td>186000.0</td>
+      <td>TRY</td>
+      <td>...</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1 + 1</td>
+      <td>86.0</td>
+      <td>1.0</td>
+      <td>İstanbul</td>
+      <td>394.0</td>
+      <td>Esenyurt</td>
+      <td>410.0</td>
+      <td>Saadetdere</td>
+    </tr>
+    <tr>
+      <th>7846.0</th>
+      <td>20190313</td>
+      <td>1552462630644030</td>
+      <td>7cf077a7ca8b2f4ea3a5b7209fabcc48</td>
+      <td>ListingView</td>
+      <td>593779.0</td>
+      <td>Sale</td>
+      <td>Rezidans</td>
+      <td>Konut</td>
+      <td>186000.0</td>
+      <td>TRY</td>
+      <td>...</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1 + 1</td>
+      <td>86.0</td>
+      <td>1.0</td>
+      <td>İstanbul</td>
+      <td>394.0</td>
+      <td>Esenyurt</td>
+      <td>410.0</td>
+      <td>Saadetdere</td>
+    </tr>
+    <tr>
+      <th>7846.0</th>
+      <td>20190325</td>
+      <td>1553533449504024</td>
+      <td>863d13df28a6e5693c4f4fa713ae117a</td>
+      <td>ListingView</td>
+      <td>593779.0</td>
+      <td>Sale</td>
+      <td>Rezidans</td>
+      <td>Konut</td>
+      <td>186000.0</td>
+      <td>TRY</td>
+      <td>...</td>
+      <td>1.0</td>
+      <td>1.0</td>
+      <td>1 + 1</td>
+      <td>86.0</td>
+      <td>1.0</td>
+      <td>İstanbul</td>
+      <td>394.0</td>
+      <td>Esenyurt</td>
+      <td>410.0</td>
+      <td>Saadetdere</td>
     </tr>
   </tbody>
 </table>
@@ -13527,7 +13528,7 @@ div#notebook {
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">bigDS</span> <span class="o">=</span> <span class="n">kkd</span>
-<span class="n">bigDS</span><span class="p">[</span><span class="s2">&quot;interest&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">bigDS</span><span class="o">.</span><span class="n">cityName</span> <span class="o">+</span> <span class="s2">&quot;_&quot;</span> <span class="o">+</span> <span class="n">bigDS</span><span class="o">.</span><span class="n">countyName</span> <span class="o">+</span> <span class="s2">&quot;_&quot;</span> <span class="o">+</span> <span class="n">bigDS</span><span class="o">.</span><span class="n">districtName</span> <span class="o">+</span> <span class="s2">&quot;_&quot;</span> <span class="o">+</span> <span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">bigDS</span><span class="o">.</span><span class="n">price</span> <span class="o">/</span> <span class="mi">500</span><span class="p">))</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span>
+<span class="n">bigDS</span><span class="p">[</span><span class="s2">&quot;interest&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">bigDS</span><span class="o">.</span><span class="n">cityName</span> <span class="o">+</span> <span class="s2">&quot;_&quot;</span> <span class="o">+</span> <span class="n">bigDS</span><span class="o">.</span><span class="n">countyName</span> <span class="o">+</span> <span class="s2">&quot;_&quot;</span> <span class="o">+</span> <span class="n">bigDS</span><span class="o">.</span><span class="n">districtName</span> <span class="o">+</span> <span class="s2">&quot;_&quot;</span> <span class="o">+</span> <span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">bigDS</span><span class="o">.</span><span class="n">price</span> <span class="o">/</span> <span class="mi">50000</span><span class="p">))</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;_&quot;</span> <span class="o">+</span> <span class="n">bigDS</span><span class="o">.</span><span class="n">type</span> <span class="o">+</span> <span class="s2">&quot;_&quot;</span> <span class="o">+</span> <span class="n">bigDS</span><span class="o">.</span><span class="n">roomSlug</span> <span class="o">+</span> <span class="s2">&quot;_&quot;</span> <span class="o">+</span> <span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">bigDS</span><span class="p">[</span><span class="s2">&quot;size&quot;</span><span class="p">]</span> <span class="o">/</span> <span class="mi">20</span><span class="p">))</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span>
 <span class="n">bigDS</span> <span class="o">=</span> <span class="n">bigDS</span><span class="o">.</span><span class="n">filter</span><span class="p">([</span><span class="s1">&#39;user_pseudo_id&#39;</span><span class="p">,</span> <span class="s1">&#39;interest&#39;</span><span class="p">])</span>
 <span class="n">bigDS</span><span class="p">[</span><span class="s1">&#39;count&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
 <span class="n">ratingDS</span> <span class="o">=</span> <span class="n">bigDS</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;user_pseudo_id&#39;</span><span class="p">,</span> <span class="s1">&#39;interest&#39;</span><span class="p">])[</span><span class="s1">&#39;count&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">count</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
@@ -13576,31 +13577,31 @@ div#notebook {
     <tr>
       <th>0</th>
       <td>00001238ac28333afc87b94a992f0319</td>
-      <td>İstanbul_Pendik_Esenyalı_2.0</td>
+      <td>İstanbul_Tuzla_İçmeler_4.0_Daire_2 + 1_4.0</td>
       <td>1</td>
     </tr>
     <tr>
       <th>1</th>
       <td>00001238ac28333afc87b94a992f0319</td>
-      <td>İstanbul_Tuzla_Aydınlı_2.0</td>
-      <td>2</td>
+      <td>İstanbul_Tuzla_İçmeler_8.0_Daire_3 + 2_7.0</td>
+      <td>1</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>00001238ac28333afc87b94a992f0319</td>
-      <td>İstanbul_Tuzla_Aydıntepe_2.0</td>
+      <td>0001960a98f9d0d716e75ae49cc0df7a</td>
+      <td>İstanbul_Kartal_Cevizli_5.0_Daire_2 + 1_6.0</td>
       <td>1</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>00001238ac28333afc87b94a992f0319</td>
-      <td>İstanbul_Tuzla_Mimar Sinan_2.0</td>
+      <td>0001960a98f9d0d716e75ae49cc0df7a</td>
+      <td>İstanbul_Kartal_Cevizli_6.0_Daire_2 + 1_4.0</td>
       <td>2</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>00001238ac28333afc87b94a992f0319</td>
-      <td>İstanbul_Tuzla_Orta_2.0</td>
+      <td>0001960a98f9d0d716e75ae49cc0df7a</td>
+      <td>İstanbul_Kartal_Cevizli_6.0_Daire_3 + 1_4.0</td>
       <td>1</td>
     </tr>
   </tbody>
@@ -13665,26 +13666,26 @@ div#notebook {
     <tr>
       <th>0</th>
       <td>00001238ac28333afc87b94a992f0319</td>
-      <td>2</td>
+      <td>1</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>00016bc8bc90bad8001f6b4e64b7f43b</td>
-      <td>6</td>
+      <td>0001960a98f9d0d716e75ae49cc0df7a</td>
+      <td>11</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>0001A4ABCCD44496893DD404253E706C</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <th>3</th>
       <td>00031b94b31e128718d3c8da09b113d8</td>
       <td>3</td>
     </tr>
     <tr>
+      <th>3</th>
+      <td>0003e4bd5debe80f65a6de85a8a63595</td>
+      <td>1</td>
+    </tr>
+    <tr>
       <th>4</th>
-      <td>0004B670A01C4D109162BF2C45E10050</td>
+      <td>00079b9e760121c98236bebfe4313db6</td>
       <td>2</td>
     </tr>
   </tbody>
@@ -13753,32 +13754,32 @@ div#notebook {
     <tr>
       <th>0</th>
       <td>00001238ac28333afc87b94a992f0319</td>
-      <td>İstanbul_Pendik_Esenyalı_2.0</td>
-      <td>4.0</td>
+      <td>İstanbul_Tuzla_İçmeler_4.0_Daire_2 + 1_4.0</td>
+      <td>5.0</td>
     </tr>
     <tr>
       <th>1</th>
       <td>00001238ac28333afc87b94a992f0319</td>
-      <td>İstanbul_Tuzla_Aydınlı_2.0</td>
+      <td>İstanbul_Tuzla_İçmeler_8.0_Daire_3 + 2_7.0</td>
       <td>5.0</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>00001238ac28333afc87b94a992f0319</td>
-      <td>İstanbul_Tuzla_Aydıntepe_2.0</td>
-      <td>4.0</td>
+      <td>0001960a98f9d0d716e75ae49cc0df7a</td>
+      <td>İstanbul_Kartal_Cevizli_5.0_Daire_2 + 1_6.0</td>
+      <td>2.0</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>00001238ac28333afc87b94a992f0319</td>
-      <td>İstanbul_Tuzla_Mimar Sinan_2.0</td>
-      <td>5.0</td>
+      <td>0001960a98f9d0d716e75ae49cc0df7a</td>
+      <td>İstanbul_Kartal_Cevizli_6.0_Daire_2 + 1_4.0</td>
+      <td>3.0</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>00001238ac28333afc87b94a992f0319</td>
-      <td>İstanbul_Tuzla_Orta_2.0</td>
-      <td>4.0</td>
+      <td>0001960a98f9d0d716e75ae49cc0df7a</td>
+      <td>İstanbul_Kartal_Cevizli_6.0_Daire_3 + 1_4.0</td>
+      <td>2.0</td>
     </tr>
   </tbody>
 </table>
@@ -13801,96 +13802,6 @@ div#notebook {
 </pre></div>
 
     </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">calculateRMSEForVariousAlghoritms</span><span class="p">(</span><span class="n">data</span><span class="p">):</span>
-    <span class="n">benchmark</span> <span class="o">=</span> <span class="p">[]</span>
-    <span class="c1"># Iterate over all algorithms</span>
-    <span class="k">for</span> <span class="n">algorithm</span> <span class="ow">in</span> <span class="p">[</span><span class="n">SVD</span><span class="p">(),</span> <span class="n">SVDpp</span><span class="p">(),</span> <span class="n">SlopeOne</span><span class="p">(),</span> <span class="n">NMF</span><span class="p">(),</span> <span class="n">NormalPredictor</span><span class="p">(),</span> <span class="n">KNNBaseline</span><span class="p">(),</span> <span class="n">KNNBasic</span><span class="p">(),</span> <span class="n">KNNWithMeans</span><span class="p">(),</span>
-                      <span class="n">KNNWithZScore</span><span class="p">(),</span> <span class="n">BaselineOnly</span><span class="p">(),</span> <span class="n">CoClustering</span><span class="p">()]:</span>
-        <span class="c1"># Perform cross validation</span>
-        <span class="n">results</span> <span class="o">=</span> <span class="n">cross_validate</span><span class="p">(</span><span class="n">algorithm</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">measures</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;RMSE&#39;</span><span class="p">],</span> <span class="n">cv</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
-
-        <span class="c1"># Get results &amp; append algorithm name</span>
-        <span class="n">tmp</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="o">.</span><span class="n">from_dict</span><span class="p">(</span><span class="n">results</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
-        <span class="n">tmp</span> <span class="o">=</span> <span class="n">tmp</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">([</span><span class="nb">str</span><span class="p">(</span><span class="n">algorithm</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39; &#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;.&#39;</span><span class="p">)[</span><span class="o">-</span><span class="mi">1</span><span class="p">]],</span> <span class="n">index</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Algorithm&#39;</span><span class="p">]))</span>
-        <span class="n">benchmark</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">tmp</span><span class="p">)</span>
-
-    <span class="n">surprise_results</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">benchmark</span><span class="p">)</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">&#39;Algorithm&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s1">&#39;test_rmse&#39;</span><span class="p">)</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">surprise_results</span><span class="p">)</span>
-    
-
-<span class="n">calculateRMSEForVariousAlghoritms</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Estimating biases using als...
-Computing the msd similarity matrix...
-Done computing similarity matrix.
-Estimating biases using als...
-Computing the msd similarity matrix...
-Done computing similarity matrix.
-Estimating biases using als...
-Computing the msd similarity matrix...
-Done computing similarity matrix.
-Computing the msd similarity matrix...
-Done computing similarity matrix.
-Computing the msd similarity matrix...
-Done computing similarity matrix.
-Computing the msd similarity matrix...
-Done computing similarity matrix.
-Computing the msd similarity matrix...
-Done computing similarity matrix.
-Computing the msd similarity matrix...
-Done computing similarity matrix.
-Computing the msd similarity matrix...
-Done computing similarity matrix.
-Computing the msd similarity matrix...
-Done computing similarity matrix.
-Computing the msd similarity matrix...
-Done computing similarity matrix.
-Computing the msd similarity matrix...
-Done computing similarity matrix.
-Estimating biases using als...
-Estimating biases using als...
-Estimating biases using als...
-                 test_rmse    fit_time   test_time
-Algorithm                                         
-KNNWithMeans      0.754514  158.044772   33.340491
-SVDpp             0.759857   96.589187    4.972919
-KNNWithZScore     0.763561  167.979510  371.597096
-SlopeOne          0.771902    2.472743    3.944022
-CoClustering      0.787537    9.524724    1.145524
-SVD               0.806143   14.917179    1.302915
-NMF               0.821294   17.903467    1.261682
-KNNBaseline       0.830979  148.581456   33.748952
-BaselineOnly      0.844449    1.299417    1.128553
-KNNBasic          1.019633  294.225111   31.498240
-NormalPredictor   1.496043    0.461029    1.097475
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -13933,10 +13844,10 @@ Done computing similarity matrix.
 Evaluating RMSE, MAE of algorithm KNNWithMeans on 5 split(s).
 
                   Fold 1  Fold 2  Fold 3  Fold 4  Fold 5  Mean    Std     
-RMSE (testset)    0.8229  0.8141  0.8179  0.8214  0.8225  0.8197  0.0033  
-MAE (testset)     0.5941  0.5911  0.5934  0.5938  0.5949  0.5935  0.0013  
-Fit time          188.59  184.82  176.49  187.54  170.10  181.51  7.11    
-Test time         26.23   27.05   25.89   26.59   27.11   26.57   0.47    
+RMSE (testset)    0.6333  0.6349  0.6323  0.6307  0.6349  0.6332  0.0016  
+MAE (testset)     0.4175  0.4194  0.4176  0.4161  0.4195  0.4180  0.0013  
+Fit time          195.08  182.46  206.56  193.65  182.44  192.04  9.02    
+Test time         27.26   18.29   20.50   28.91   28.28   24.65   4.38    
 </pre>
 </div>
 </div>
@@ -13949,18 +13860,18 @@ Test time         26.23   27.05   25.89   26.59   27.11   26.57   0.47
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>{&#39;test_rmse&#39;: array([0.82285093, 0.8141181 , 0.81792143, 0.82136531, 0.82247585]),
- &#39;test_mae&#39;: array([0.59407357, 0.59113891, 0.59338039, 0.59382398, 0.59488737]),
- &#39;fit_time&#39;: (188.59091997146606,
-  184.81939792633057,
-  176.49022603034973,
-  187.54347205162048,
-  170.09996104240417),
- &#39;test_time&#39;: (26.225530862808228,
-  27.045198917388916,
-  25.890068292617798,
-  26.587148189544678,
-  27.1139919757843)}</pre>
+<pre>{&#39;test_rmse&#39;: array([0.63327982, 0.63492913, 0.63225485, 0.63071709, 0.63486894]),
+ &#39;test_mae&#39;: array([0.41749636, 0.4193505 , 0.41755704, 0.41613118, 0.41948107]),
+ &#39;fit_time&#39;: (195.08452892303467,
+  182.46155309677124,
+  206.56131100654602,
+  193.65132188796997,
+  182.43538188934326),
+ &#39;test_time&#39;: (27.2636981010437,
+  18.293599128723145,
+  20.50001096725464,
+  28.913968086242676,
+  28.280850887298584)}</pre>
 </div>
 
 </div>
@@ -14092,8 +14003,8 @@ Computing the msd similarity matrix...
 Done computing similarity matrix.
 Computing the msd similarity matrix...
 Done computing similarity matrix.
-0.8197268579802321
-{&#39;k&#39;: 40, &#39;min_k&#39;: 3}
+0.6158344672262437
+{&#39;k&#39;: 40, &#39;min_k&#39;: 7}
 </pre>
 </div>
 </div>
@@ -14108,7 +14019,7 @@ Done computing similarity matrix.
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">trainset</span><span class="p">,</span> <span class="n">testset</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">test_size</span><span class="o">=</span><span class="mf">0.20</span><span class="p">)</span>
-<span class="n">algo</span> <span class="o">=</span> <span class="n">KNNWithMeans</span><span class="p">(</span><span class="n">k</span><span class="o">=</span><span class="mi">40</span><span class="p">,</span> <span class="n">min_k</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+<span class="n">algo</span> <span class="o">=</span> <span class="n">KNNWithMeans</span><span class="p">(</span><span class="n">k</span><span class="o">=</span><span class="mi">40</span><span class="p">,</span> <span class="n">min_k</span><span class="o">=</span><span class="mi">7</span><span class="p">)</span>
 <span class="n">algo</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">trainset</span><span class="p">)</span>
 <span class="n">predictions</span> <span class="o">=</span> <span class="n">algo</span><span class="o">.</span><span class="n">test</span><span class="p">(</span><span class="n">testset</span><span class="p">)</span>
 <span class="n">accuracy</span><span class="o">.</span><span class="n">rmse</span><span class="p">(</span><span class="n">predictions</span><span class="p">)</span>
@@ -14130,7 +14041,7 @@ Done computing similarity matrix.
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Computing the msd similarity matrix...
 Done computing similarity matrix.
-RMSE: 0.8185
+RMSE: 0.6163
 </pre>
 </div>
 </div>
@@ -14143,7 +14054,7 @@ RMSE: 0.8185
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>0.8185132290568625</pre>
+<pre>0.6163458868016185</pre>
 </div>
 
 </div>
@@ -14157,7 +14068,7 @@ RMSE: 0.8185
 <div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">id</span> <span class="o">=</span> <span class="n">algo</span><span class="o">.</span><span class="n">trainset</span><span class="o">.</span><span class="n">to_inner_iid</span><span class="p">(</span><span class="s1">&#39;İstanbul_Şişli_Meşrutiyet_5.0&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">id</span> <span class="o">=</span> <span class="mi">50</span>
 
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;****&quot;</span> <span class="o">+</span> <span class="n">algo</span><span class="o">.</span><span class="n">trainset</span><span class="o">.</span><span class="n">to_raw_iid</span><span class="p">(</span><span class="nb">id</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;****&quot;</span><span class="p">)</span>
 <span class="n">neighbors</span> <span class="o">=</span> <span class="n">algo</span><span class="o">.</span><span class="n">get_neighbors</span><span class="p">(</span><span class="nb">id</span><span class="p">,</span> <span class="n">k</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
@@ -14181,12 +14092,12 @@ RMSE: 0.8185
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>****İstanbul_Şişli_Meşrutiyet_5.0****
-İstanbul_Bağcılar_Mahmutbey_2.0
-İstanbul_Esenler_Turgut Reis_2.0
-İstanbul_Beyoğlu_Cihangir_2.0
-İstanbul_Ümraniye_Çakmak_8.0
-İstanbul_Kadıköy_Caddebostan_6.0
+<pre>****İstanbul_Ümraniye_Atakent_8.0_Daire_3 + 1_6.0****
+İstanbul_Küçükçekmece_Kanarya_3.0_Daire_1 + 1_3.0
+İstanbul_Esenyurt_Battalgazi_4.0_Daire_3 + 2_9.0
+İstanbul_Üsküdar_Bulgurlu_8.0_Daire_3 + 1_6.0
+İstanbul_Kartal_Kordonboyu_9.0_Daire_1 + 1_3.0
+İstanbul_Çekmeköy_Alemdağ_4.0_Rezidans_1 + 1_3.0
 </pre>
 </div>
 </div>
@@ -14198,178 +14109,6 @@ RMSE: 0.8185
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[16]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">id</span> <span class="o">=</span> <span class="n">algo</span><span class="o">.</span><span class="n">trainset</span><span class="o">.</span><span class="n">to_inner_iid</span><span class="p">(</span><span class="s1">&#39;İstanbul_Üsküdar_Ferah_3.0&#39;</span><span class="p">)</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;****&quot;</span> <span class="o">+</span> <span class="n">algo</span><span class="o">.</span><span class="n">trainset</span><span class="o">.</span><span class="n">to_raw_iid</span><span class="p">(</span><span class="nb">id</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;****&quot;</span><span class="p">)</span>
-<span class="n">neighbors</span> <span class="o">=</span> <span class="n">algo</span><span class="o">.</span><span class="n">get_neighbors</span><span class="p">(</span><span class="nb">id</span><span class="p">,</span> <span class="n">k</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
-<span class="n">neighbors</span> <span class="o">=</span> <span class="p">(</span><span class="n">algo</span><span class="o">.</span><span class="n">trainset</span><span class="o">.</span><span class="n">to_raw_iid</span><span class="p">(</span><span class="nb">id</span><span class="p">)</span> <span class="k">for</span> <span class="nb">id</span> <span class="ow">in</span> <span class="n">neighbors</span><span class="p">)</span>
-
-<span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">neighbors</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>****İstanbul_Üsküdar_Ferah_3.0****
-İstanbul_Bahçelievler_Şirinevler_2.0
-İstanbul_Eyüpsultan_Göktürk Merkez_16.0
-İstanbul_Şişli_19 Mayıs_5.0
-İstanbul_Beşiktaş_Muradiye_5.0
-İstanbul_Ümraniye_Atakent_3.0
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">id</span> <span class="o">=</span> <span class="n">algo</span><span class="o">.</span><span class="n">trainset</span><span class="o">.</span><span class="n">to_inner_iid</span><span class="p">(</span><span class="s1">&#39;İstanbul_Beylikdüzü_Cumhuriyet_4.0&#39;</span><span class="p">)</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;****&quot;</span> <span class="o">+</span> <span class="n">algo</span><span class="o">.</span><span class="n">trainset</span><span class="o">.</span><span class="n">to_raw_iid</span><span class="p">(</span><span class="nb">id</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;****&quot;</span><span class="p">)</span>
-<span class="n">neighbors</span> <span class="o">=</span> <span class="n">algo</span><span class="o">.</span><span class="n">get_neighbors</span><span class="p">(</span><span class="nb">id</span><span class="p">,</span> <span class="n">k</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
-<span class="n">neighbors</span> <span class="o">=</span> <span class="p">(</span><span class="n">algo</span><span class="o">.</span><span class="n">trainset</span><span class="o">.</span><span class="n">to_raw_iid</span><span class="p">(</span><span class="nb">id</span><span class="p">)</span> <span class="k">for</span> <span class="nb">id</span> <span class="ow">in</span> <span class="n">neighbors</span><span class="p">)</span>
-
-<span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">neighbors</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>****İstanbul_Beylikdüzü_Cumhuriyet_4.0****
-İstanbul_Bahçelievler_Soğanlı_1.0
-İstanbul_Eyüpsultan_Göktürk Merkez_16.0
-İstanbul_Şişli_İnönü_2.0
-İstanbul_Kadıköy_Eğitim_3.0
-İstanbul_Büyükçekmece_Pınartepe_3.0
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">id</span> <span class="o">=</span> <span class="n">algo</span><span class="o">.</span><span class="n">trainset</span><span class="o">.</span><span class="n">to_inner_iid</span><span class="p">(</span><span class="s1">&#39;İstanbul_Şişli_Meşrutiyet_3.0&#39;</span><span class="p">)</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;****&quot;</span> <span class="o">+</span> <span class="n">algo</span><span class="o">.</span><span class="n">trainset</span><span class="o">.</span><span class="n">to_raw_iid</span><span class="p">(</span><span class="nb">id</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;****&quot;</span><span class="p">)</span>
-<span class="n">neighbors</span> <span class="o">=</span> <span class="n">algo</span><span class="o">.</span><span class="n">get_neighbors</span><span class="p">(</span><span class="nb">id</span><span class="p">,</span> <span class="n">k</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
-<span class="n">neighbors</span> <span class="o">=</span> <span class="p">(</span><span class="n">algo</span><span class="o">.</span><span class="n">trainset</span><span class="o">.</span><span class="n">to_raw_iid</span><span class="p">(</span><span class="nb">id</span><span class="p">)</span> <span class="k">for</span> <span class="nb">id</span> <span class="ow">in</span> <span class="n">neighbors</span><span class="p">)</span>
-
-<span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">neighbors</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>****İstanbul_Şişli_Meşrutiyet_3.0****
-İstanbul_Beşiktaş_Akat_6.0
-İstanbul_Beylikdüzü_Kavaklı_1.0
-İstanbul_Esenler_Turgut Reis_2.0
-İstanbul_Kağıthane_Çağlayan_2.0
-İstanbul_Esenyurt_Yeşilkent_2.0
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">id</span> <span class="o">=</span> <span class="n">algo</span><span class="o">.</span><span class="n">trainset</span><span class="o">.</span><span class="n">to_inner_iid</span><span class="p">(</span><span class="s1">&#39;İstanbul_Üsküdar_Ferah_2.0&#39;</span><span class="p">)</span>
-
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;****&quot;</span> <span class="o">+</span> <span class="n">algo</span><span class="o">.</span><span class="n">trainset</span><span class="o">.</span><span class="n">to_raw_iid</span><span class="p">(</span><span class="nb">id</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;****&quot;</span><span class="p">)</span>
-<span class="n">neighbors</span> <span class="o">=</span> <span class="n">algo</span><span class="o">.</span><span class="n">get_neighbors</span><span class="p">(</span><span class="nb">id</span><span class="p">,</span> <span class="n">k</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
-<span class="n">neighbors</span> <span class="o">=</span> <span class="p">(</span><span class="n">algo</span><span class="o">.</span><span class="n">trainset</span><span class="o">.</span><span class="n">to_raw_iid</span><span class="p">(</span><span class="nb">id</span><span class="p">)</span> <span class="k">for</span> <span class="nb">id</span> <span class="ow">in</span> <span class="n">neighbors</span><span class="p">)</span>
-
-<span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">neighbors</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>****İstanbul_Üsküdar_Ferah_2.0****
-İstanbul_Üsküdar_Ferah_3.0
-İstanbul_Sarıyer_Zekeriyaköy_6.0
-İstanbul_Beşiktaş_Ulus_10.0
-İstanbul_Sarıyer_Maslak_20.0
-İstanbul_Silivri_Balaban_2.0
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">id</span> <span class="o">=</span> <span class="mi">100</span>
@@ -14396,12 +14135,12 @@ RMSE: 0.8185
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>****İstanbul_Bayrampaşa_Muratpaşa_3.0****
-İstanbul_Bahçelievler_Şirinevler_3.0
-İstanbul_Avcılar_Cihangir_2.0
-İstanbul_Zeytinburnu_Maltepe_3.0
-İstanbul_Kağıthane_Çeliktepe_5.0
-İstanbul_Ümraniye_Esenkent_2.0
+<pre>****İstanbul_Beylikdüzü_Marmara_90.0_Villa_5 + 2_13.0****
+İstanbul_Esenyurt_Gökevler_6.0_Daire_2 + 1_6.0
+İstanbul_Esenyurt_Talatpaşa_2.0_Daire_2 + 1_6.0
+İstanbul_Fatih_Cerrahpaşa_12.0_Daire_3 + 1_6.0
+İstanbul_Bayrampaşa_Yenidoğan_5.0_Daire_2 + 1_4.0
+İstanbul_Ataşehir_İnönü_12.0_Daire_3 + 1_6.0
 </pre>
 </div>
 </div>
@@ -14412,7 +14151,50 @@ RMSE: 0.8185
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">id</span> <span class="o">=</span> <span class="mi">150</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;****&quot;</span> <span class="o">+</span> <span class="n">algo</span><span class="o">.</span><span class="n">trainset</span><span class="o">.</span><span class="n">to_raw_iid</span><span class="p">(</span><span class="nb">id</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;****&quot;</span><span class="p">)</span>
+<span class="n">neighbors</span> <span class="o">=</span> <span class="n">algo</span><span class="o">.</span><span class="n">get_neighbors</span><span class="p">(</span><span class="nb">id</span><span class="p">,</span> <span class="n">k</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+<span class="n">neighbors</span> <span class="o">=</span> <span class="p">(</span><span class="n">algo</span><span class="o">.</span><span class="n">trainset</span><span class="o">.</span><span class="n">to_raw_iid</span><span class="p">(</span><span class="nb">id</span><span class="p">)</span> <span class="k">for</span> <span class="nb">id</span> <span class="ow">in</span> <span class="n">neighbors</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">neighbors</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>****İstanbul_Bayrampaşa_Ortamahalle_13.0_Daire_4 + 2_9.0****
+İstanbul_Eyüpsultan_Merkez_7.0_Daire_2 + 1_4.0
+İstanbul_Arnavutköy_Bolluca_3.0_Daire_1 + 1_3.0
+İstanbul_Kadıköy_Hasanpaşa_6.0_Daire_2 + 1_5.0
+İstanbul_Eyüpsultan_Mimar Sinan_12.0_Daire_3 + 1_6.0
+İstanbul_Adalar_Heybeliada_44.0_Daire_4 + 2_13.0
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">id</span> <span class="o">=</span> <span class="mi">200</span>
@@ -14439,12 +14221,12 @@ RMSE: 0.8185
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>****İstanbul_Kadıköy_Acıbadem_9.0****
-İstanbul_Üsküdar_Salacak_5.0
-İstanbul_Pendik_Orhangazi_2.0
-İstanbul_Üsküdar_Burhaniye_5.0
-İstanbul_Gaziosmanpaşa_Barbaros Hayrettinpaşa_2.0
-İstanbul_Zeytinburnu_Nuripaşa_5.0
+<pre>****İstanbul_Pendik_Kaynarca_18.0_Daire_6 + 2_16.0****
+İstanbul_Güngören_Tozkoparan_8.0_Daire_3 + 1_6.0
+İstanbul_Sancaktepe_Mevlana_6.0_Daire_5 + 1_9.0
+İstanbul_Esenyurt_Yenikent_2.0_Daire_2 + 1_5.0
+İstanbul_Pendik_Güzelyalı_7.0_Daire_3 + 1_6.0
+İstanbul_Beylikdüzü_Adnan Kahveci_6.0_Daire_3 + 2_8.0
 </pre>
 </div>
 </div>
@@ -14455,7 +14237,7 @@ RMSE: 0.8185
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">id</span> <span class="o">=</span> <span class="mi">250</span>
@@ -14482,12 +14264,12 @@ RMSE: 0.8185
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>****İstanbul_Kağıthane_Ortabayır_2.0****
-İstanbul_Kadıköy_Göztepe_5.0
-İstanbul_Maltepe_İdealtepe_3.0
-İstanbul_Beylikdüzü_Gürpınar_3.0
-İstanbul_Bayrampaşa_Yıldırım_6.0
-İstanbul_Esenyurt_Mehmet Akif Ersoy_1.0
+<pre>****İstanbul_Başakşehir_Kayabaşı_5.0_Daire_2 + 1_5.0****
+İstanbul_Büyükçekmece_Karaağaç_70.0_Villa_4 + 1_12.0
+İstanbul_Başakşehir_Bahçeşehir 1. Kısım_30.0_Villa_4 + 1_9.0
+İstanbul_Üsküdar_İcadiye_5.0_Daire_1 + 1_4.0
+İstanbul_Maltepe_Fındıklı_8.0_Daire_3 + 1_6.0
+İstanbul_Ataşehir_Esatpaşa_9.0_Daire_2 + 1_6.0
 </pre>
 </div>
 </div>
@@ -14498,7 +14280,93 @@ RMSE: 0.8185
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">id</span> <span class="o">=</span> <span class="mi">300</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;****&quot;</span> <span class="o">+</span> <span class="n">algo</span><span class="o">.</span><span class="n">trainset</span><span class="o">.</span><span class="n">to_raw_iid</span><span class="p">(</span><span class="nb">id</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;****&quot;</span><span class="p">)</span>
+<span class="n">neighbors</span> <span class="o">=</span> <span class="n">algo</span><span class="o">.</span><span class="n">get_neighbors</span><span class="p">(</span><span class="nb">id</span><span class="p">,</span> <span class="n">k</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+<span class="n">neighbors</span> <span class="o">=</span> <span class="p">(</span><span class="n">algo</span><span class="o">.</span><span class="n">trainset</span><span class="o">.</span><span class="n">to_raw_iid</span><span class="p">(</span><span class="nb">id</span><span class="p">)</span> <span class="k">for</span> <span class="nb">id</span> <span class="ow">in</span> <span class="n">neighbors</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">neighbors</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>****İstanbul_Kadıköy_Dumlupınar_9.0_Daire_1 + 1_3.0****
+İstanbul_Eyüpsultan_Merkez_7.0_Daire_2 + 1_4.0
+İstanbul_Kartal_Topselvi_1.0_Prefabrik Ev_3 + 1_5.0
+İstanbul_Bağcılar_Göztepe_6.0_Daire_3 + 1_6.0
+İstanbul_Esenyurt_Battalgazi_4.0_Daire_3 + 2_9.0
+İstanbul_Sultanbeyli_Mimar Sinan_6.0_Daire_3 + 1_6.0
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">id</span> <span class="o">=</span> <span class="mi">350</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;****&quot;</span> <span class="o">+</span> <span class="n">algo</span><span class="o">.</span><span class="n">trainset</span><span class="o">.</span><span class="n">to_raw_iid</span><span class="p">(</span><span class="nb">id</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;****&quot;</span><span class="p">)</span>
+<span class="n">neighbors</span> <span class="o">=</span> <span class="n">algo</span><span class="o">.</span><span class="n">get_neighbors</span><span class="p">(</span><span class="nb">id</span><span class="p">,</span> <span class="n">k</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+<span class="n">neighbors</span> <span class="o">=</span> <span class="p">(</span><span class="n">algo</span><span class="o">.</span><span class="n">trainset</span><span class="o">.</span><span class="n">to_raw_iid</span><span class="p">(</span><span class="nb">id</span><span class="p">)</span> <span class="k">for</span> <span class="nb">id</span> <span class="ow">in</span> <span class="n">neighbors</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">neighbors</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>****İstanbul_Bahçelievler_Soğanlı_2.0_Daire_1 + 1_3.0****
+İstanbul_Zeytinburnu_Gökalp_10.0_Daire_2 + 1_6.0
+İstanbul_Pendik_Kaynarca_4.0_Daire_2 + 1_4.0
+İstanbul_Arnavutköy_Anadolu_6.0_Daire_4 + 1_10.0
+İstanbul_Silivri_Mimar Sinan_5.0_Daire_2 + 1_6.0
+İstanbul_Eyüpsultan_Merkez_7.0_Daire_2 + 1_4.0
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">id</span> <span class="o">=</span> <span class="mi">400</span>
@@ -14525,12 +14393,12 @@ RMSE: 0.8185
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>****İstanbul_Ümraniye_Necip Fazıl_2.0****
-İstanbul_Ümraniye_Çakmak_8.0
-İstanbul_Bahçelievler_Yenibosna Merkez_2.0
-İstanbul_Tuzla_Aydınlı_2.0
-İstanbul_Sancaktepe_Abdurrahmangazi_2.0
-İstanbul_Kağıthane_Çeliktepe_2.0
+<pre>****İstanbul_Eyüpsultan_Merkez_6.0_Daire_4 + 2_8.0****
+İstanbul_Bahçelievler_Şirinevler_5.0_Daire_2 + 1_5.0
+İstanbul_Bağcılar_Kazım Karabekir_8.0_Daire_2 + 1_6.0
+İstanbul_Esenyurt_Talatpaşa_2.0_Daire_2 + 1_6.0
+İstanbul_Esenyurt_Pınar_2.0_Daire_2 + 1_6.0
+İstanbul_Ümraniye_Çakmak_5.0_Daire_2 + 1_5.0
 </pre>
 </div>
 </div>
@@ -14541,10 +14409,10 @@ RMSE: 0.8185
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">id</span> <span class="o">=</span> <span class="mi">500</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">id</span> <span class="o">=</span> <span class="mi">450</span>
 
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;****&quot;</span> <span class="o">+</span> <span class="n">algo</span><span class="o">.</span><span class="n">trainset</span><span class="o">.</span><span class="n">to_raw_iid</span><span class="p">(</span><span class="nb">id</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;****&quot;</span><span class="p">)</span>
 <span class="n">neighbors</span> <span class="o">=</span> <span class="n">algo</span><span class="o">.</span><span class="n">get_neighbors</span><span class="p">(</span><span class="nb">id</span><span class="p">,</span> <span class="n">k</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
@@ -14568,12 +14436,55 @@ RMSE: 0.8185
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>****İstanbul_Kadıköy_Acıbadem_5.0****
-İstanbul_Eyüpsultan_Göktürk Merkez_10.0
-İstanbul_Beşiktaş_Akat_6.0
-İstanbul_Esenler_Turgut Reis_2.0
-İstanbul_Ümraniye_Namık Kemal_2.0
-İstanbul_Esenler_Havaalanı_4.0
+<pre>****İstanbul_Fatih_Akşemsettin_28.0_Daire_3 + 1_7.0****
+İstanbul_Silivri_Fatih_2.0_Daire_3 + 1_7.0
+İstanbul_Beylikdüzü_Beylikdüzü OSB_4.0_Daire_2 + 1_6.0
+İstanbul_Şile_Çavuş_15.0_Villa_4 + 1_8.0
+İstanbul_Avcılar_Merkez_4.0_Daire_4 + 1_8.0
+İstanbul_Ümraniye_Necip Fazıl_7.0_Daire_2 + 1_5.0
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">id</span> <span class="o">=</span> <span class="mi">103</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;****&quot;</span> <span class="o">+</span> <span class="n">algo</span><span class="o">.</span><span class="n">trainset</span><span class="o">.</span><span class="n">to_raw_iid</span><span class="p">(</span><span class="nb">id</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;****&quot;</span><span class="p">)</span>
+<span class="n">neighbors</span> <span class="o">=</span> <span class="n">algo</span><span class="o">.</span><span class="n">get_neighbors</span><span class="p">(</span><span class="nb">id</span><span class="p">,</span> <span class="n">k</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+<span class="n">neighbors</span> <span class="o">=</span> <span class="p">(</span><span class="n">algo</span><span class="o">.</span><span class="n">trainset</span><span class="o">.</span><span class="n">to_raw_iid</span><span class="p">(</span><span class="nb">id</span><span class="p">)</span> <span class="k">for</span> <span class="nb">id</span> <span class="ow">in</span> <span class="n">neighbors</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">neighbors</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>****İstanbul_Güngören_Haznedar_5.0_Daire_2 + 1_4.0****
+İstanbul_Esenler_Namık Kemal_3.0_Daire_2 + 1_4.0
+İstanbul_Avcılar_Cihangir_7.0_Daire_3 + 1_7.0
+İstanbul_Esenyurt_Pınar_3.0_Daire_2 + 1_4.0
+İstanbul_Maltepe_Bağlarbaşı_12.0_Daire_3 + 1_6.0
+İstanbul_Esenyurt_Balıkyolu_3.0_Daire_2 + 1_6.0
 </pre>
 </div>
 </div>
